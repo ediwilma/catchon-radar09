@@ -47,9 +47,12 @@ jobs:
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/posts.json
+          git add data/posts.json data/last_run.json
           git diff --cached --quiet || git commit -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
           git push
+
+      - name: 檢查有沒有讀到帳號
+        run: python -c "import json,sys; s=json.load(open('data/last_run.json')); print(s); sys.exit(0 if s['ok']>0 else 1)"
 
       - uses: actions/upload-pages-artifact@v3
         with:

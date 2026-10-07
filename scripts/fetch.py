@@ -50,20 +50,21 @@ def main():
     fresh = {}
     names = accounts()
     failed = []
+    errors = []
     for i, name in enumerate(names):
         try:
             bd = discover(name)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")[:300]
             print(f"[skip] {name}: HTTP {e.code} {body}", file=sys.stderr)
-            failed.append(name)
+            failed.append(name); errors.append({"account": name, "error": f"HTTP {e.code} {body}"})
             if '"code":4' in body or '"code":32' in body or "rate limit" in body.lower():
                 print("Rate limited — stopping early, the rest will be read next run.", file=sys.stderr)
                 break
             continue
         except Exception as e:  # network hiccup
             print(f"[skip] {name}: {e}", file=sys.stderr)
-            failed.append(name)
+            failed.append(name); errors.append({"account": name, "error": str(e)[:300]})
             continue
         store["accounts"][name] = {
             "followers": bd.get("followers_count"),
@@ -95,6 +96,9 @@ def main():
                       if datetime.strptime(v["timestamp"], "%Y-%m-%dT%H:%M:%S%z") >= cutoff}
     POSTS.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
     FRESH.write_text(json.dumps(fresh), encoding="utf-8")
+    status = {"time": datetime.now(timezone.utc).isoformat(), "ok": len(names) - len(failed),
+              "total": len(names), "errors": errors[:10]}
+    (ROOT / "data" / "last_run.json").write_text(json.dumps(status, ensure_ascii=False, indent=1).replace(TOKEN, "***"), encoding="utf-8")
     print(f"done: {len(names) - len(failed)}/{len(names)} accounts, {len(store['posts'])} posts kept")
 
 if __name__ == "__main__":
