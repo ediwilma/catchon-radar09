@@ -1,49 +1,16 @@
 {
- "time": "2026-10-07T13:22:10.558209+00:00",
- "ok": 0,
- "waits": 0,
- "usage": {},
+ "time": "2026-10-07T15:40:42.627529+00:00",
+ "ok": 107,
+ "waits": 6,
+ "usage": {
+  "app": "{\"call_count\":21,\"total_cputime\":0,\"total_time\":99}",
+  "buc": null
+ },
  "total": 200,
  "errors": [
   {
-   "account": "ryuniiii",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"APG08pEuSv8ie6x-a00vEoF\"}}"
-  },
-  {
-   "account": "vivian_bob_",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"A-pIYMBWje5Za456or3yq-X\"}}"
-  },
-  {
-   "account": "maybe_sweety",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AShyoxNHtfi1ZXfv8dJNg6O\"}}"
-  },
-  {
-   "account": "cookbly",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AqTRoVontnr01jr0tFzK3Pi\"}}"
-  },
-  {
-   "account": "yoonjiet_",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"ATjgtjhsXjjpK8RON8sp_5x\"}}"
-  },
-  {
-   "account": "its_homes",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AJmpdom14cl75spI-ahCoav\"}}"
-  },
-  {
-   "account": "yak_secret",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"Asvqg29hojgzsWF4r_wCTnC\"}}"
-  },
-  {
-   "account": "mollyjjang",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"ABbtRKeYxeiZTVhf_HkR9LT\"}}"
-  },
-  {
-   "account": "bani.yum",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:53 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AXxsWNU5zBl88QLZohP3f-F\"}}"
-  },
-  {
-   "account": "napool_napool",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 06:00:00 PDT. The current time is Wednesday, 07-Oct-26 06:21:54 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AIHeHIH_cw30kZxk9U8xaZ0\"}}"
+   "account": "sinemarket",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"A28sYyjo4NqHKXeFhgBtnz3\"}}"
   }
  ]
 }
