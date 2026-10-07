@@ -11,6 +11,7 @@ POSTS = ROOT / "data" / "posts.json"
 KST = timezone(timedelta(hours=9))
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5")
 KEY = os.environ["ANTHROPIC_API_KEY"]
+KEYWORDS = ["공구", "공동구매", "오픈", "마감", "구매", "주문", "판매", "리오더", "재입고", "특가", "할인", "링크", "OPEN", "open"]
 CATS = ["food", "kids", "beauty", "tech", "living", "fashion", "interior", "pets", "travel", "none"]
 
 SYSTEM = f"""You read Korean Instagram posts by influencers and extract group-buy (공구 / 공동구매) deals.
@@ -59,7 +60,8 @@ def main():
     todo = [p for p in store["posts"].values() if not p.get("parsed")]
     print(f"{len(todo)} posts to read")
     for i, p in enumerate(todo, 1):
-        if not p["caption"].strip():
+        # cheap pre-filter: posts with no sales words never go to the AI
+        if not p["caption"].strip() or not any(k in p["caption"] for k in KEYWORDS):
             p["deals"], p["parsed"] = [], True
             continue
         try:
