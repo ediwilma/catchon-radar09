@@ -6,7 +6,7 @@ import json, re, pathlib, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ADD_PER_DAY = 10
-MAX_ACCOUNTS = 400
+MAX_ACCOUNTS = 500
 
 def read(path):
     p = ROOT / path
@@ -17,7 +17,7 @@ def read(path):
 def main():
     manual, auto = read("accounts.txt"), read("accounts_auto.txt")
     blocked = set(read("accounts_blocked.txt"))
-    tracked = set(manual) | set(auto)
+    tracked = set(manual) | set(auto) | set(read("accounts_home.txt"))
     if len(tracked) >= MAX_ACCOUNTS:
         print("account list is full"); return
     store = json.loads((ROOT / "data" / "posts.json").read_text(encoding="utf-8"))

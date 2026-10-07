@@ -27,7 +27,7 @@ TOKEN = _m.group(0) if _m else _raw.strip().strip('"\'')
 def accounts():
     out = []
     blocked = set()
-    for fname in ("accounts_blocked.txt", "accounts.txt", "accounts_auto.txt"):
+    for fname in ("accounts_blocked.txt", "accounts_home.txt", "accounts.txt", "accounts_auto.txt"):
         f = ROOT / fname
         if not f.exists():
             continue
@@ -104,7 +104,24 @@ def main():
         print("platform lookup skipped:", e)
     # read the accounts we have waited longest for first, so if Meta cuts us off
     # part-way, the next run picks up where this one stopped
-    names.sort(key=lambda n: (store["accounts"].get(n) or {}).get("updated", ""))
+    home = set()
+    hf = ROOT / "accounts_home.txt"
+    if hf.exists():
+        home = {l.strip().lower() for l in hf.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")}
+    share = {}
+    for p in store["posts"].values():
+        for d in p.get("deals") or []:
+            a = share.setdefault(p["account"], [0, 0]); a[1] += 1
+            if d.get("category") in ("living", "interior"): a[0] += 1
+    def due(n):
+        u = (store["accounts"].get(n) or {}).get("updated", "")
+        if not u: return ""
+        t = datetime.fromisoformat(u)
+        h = share.get(n, [0, 0]); ratio = h[0] / h[1] if h[1] else 0
+        if n in home or ratio >= 0.4:      # you lean to home goods: read these about twice as often
+            t -= timedelta(hours=8)
+        return t.isoformat()
+    names.sort(key=due)
     failed = []
     errors = []
     waits = 0

@@ -251,7 +251,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 </nav>
 
 <script>
-const CAT={food:"食品",kids:"育兒",beauty:"美妝",tech:"3C家電",living:"居家生活",fashion:"服飾",interior:"居家佈置",pets:"寵物",travel:"旅遊",none:"未分類"};
+const CAT={living:"居家生活",interior:"居家佈置",tech:"3C家電",food:"食品",kids:"育兒",beauty:"美妝",fashion:"服飾",pets:"寵物",travel:"旅遊",none:"未分類"};
 const DATA=/*__DATA__*/[];
 const UPDATED=/*__UPDATED__*/"";
 const WATCH=/*__WATCH__*/[];
@@ -277,7 +277,7 @@ items.forEach(it=>{it.isNew=!firstVisit&&!seenSet.has(it.id)});
 function saveSeen(){try{const keep=new Set(items.map(i=>i.id));localStorage.setItem("seenIds",JSON.stringify([...seenSet].filter(x=>keep.has(x))))}catch(e){}}
 if(firstVisit){items.forEach(i=>seenSet.add(i.id));saveSeen()}
 function markSeen(ids){ids.forEach(id=>{seenSet.add(id);const it=items.find(i=>i.id===id);if(it)it.isNew=false});saveSeen()}
-const S={view:"home",status:items.some(i=>i.isNew)?"new":"live",cat:"all",acc:null,q:"",showToday:false};
+const S={view:"home",status:items.some(i=>i.isNew)?"new":"live",cat:(()=>{try{return localStorage.getItem("cat")||"all"}catch(e){return"all"}})(),acc:null,q:"",showToday:false};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 document.getElementById("updated").textContent=UPDATED?"更新於 "+UPDATED:"";
@@ -299,7 +299,7 @@ function match(it,ignore){
     if(s==="closing"&&!it.closing)return false;
     if(["today","soon","ended"].includes(s)&&it.st!==s)return false;
   }
-  if(ignore!=="cat"&&S.cat!=="all"&&it.cat!==S.cat)return false;
+  if(ignore!=="cat"&&S.cat!=="all"&&!(S.cat==="home"?(it.cat==="living"||it.cat==="interior"):it.cat===S.cat))return false;
   if(S.acc&&it.acc!==S.acc)return false;
   const q=S.q.trim().toLowerCase();
   if(q&&!(it.kr+it.zh+it.acc+CAT[it.cat]).toLowerCase().includes(q))return false;
@@ -339,8 +339,8 @@ function render(){
   $("statusChips").innerHTML=STATUS.map(([k,l])=>{const c=items.filter(it=>{const o=S.status;S.status=k;const r=match(it,"");S.status=o;return r}).length;
     if(k==="new"&&!c)return"";return`<button class="chip" id="st-${k}" data-st="${k}" aria-pressed="${S.status===k}">${l}<i>${c}</i></button>`}).join("");
   const cc={};items.filter(it=>match(it,"cat")).forEach(it=>cc[it.cat]=(cc[it.cat]||0)+1);
-  $("catChips").innerHTML=[["all","全部分類"],...Object.entries(CAT)].filter(([k])=>k==="all"||cc[k]||S.cat===k)
-    .map(([k,l])=>`<button class="chip sm" id="cat-${k}" data-cat="${k}" aria-pressed="${S.cat===k}">${l}<i>${k==="all"?Object.values(cc).reduce((a,b)=>a+b,0):cc[k]||0}</i></button>`).join("");
+  $("catChips").innerHTML=[["all","全部分類"],["home","🏠 家居全部"],...Object.entries(CAT)].filter(([k])=>k==="all"||k==="home"||cc[k]||S.cat===k)
+    .map(([k,l])=>`<button class="chip sm" id="cat-${k}" data-cat="${k}" aria-pressed="${S.cat===k}">${l}<i>${k==="all"?Object.values(cc).reduce((a,b)=>a+b,0):k==="home"?(cc.living||0)+(cc.interior||0):cc[k]||0}</i></button>`).join("");
 
   var order={today:0,open:1,soon:2,ended:3};
   const list=items.filter(it=>match(it)).sort((a,b)=>(b.closing-a.closing)||order[a.st]-order[b.st]||(a.st==="soon"?a.open-b.open:b.open-a.open));
@@ -376,7 +376,7 @@ document.addEventListener("click",e=>{
   if(e.target.closest("#toggle-today")){S.showToday=!S.showToday;render();return}
   const h=e.target.closest(".heart");if(h){e.preventDefault();const id=h.dataset.id;fav.has(id)?fav.delete(id):fav.add(id);saveFav();render();return}
   const st=e.target.closest("[data-st]");if(st){S.status=st.dataset.st;render();return}
-  const c=e.target.closest("[data-cat]");if(c){S.cat=c.dataset.cat;render();return}
+  const c=e.target.closest("[data-cat]");if(c){S.cat=c.dataset.cat;try{localStorage.setItem("cat",S.cat)}catch(e){}render();return}
   const a=e.target.closest(".inf");if(a){S.acc=S.acc===a.dataset.acc?null:a.dataset.acc;render();return}
   const v=e.target.closest("#nav button");if(v){S.view=v.dataset.v;render();window.scrollTo({top:0,behavior:"smooth"});return}
 });

@@ -55,6 +55,9 @@ jobs:
       - name: 從貼文的 @提及 擴充帳號名單
         run: python scripts/grow.py
 
+      - name: 加入家居類團購主
+        run: python scripts/discover_home.py || true
+
       - name: 產生網頁
         run: python scripts/build.py
 
@@ -67,7 +70,7 @@ jobs:
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/; git add accounts_auto.txt 2>/dev/null || true
+          git add data/; git add accounts_auto.txt accounts_home.txt 2>/dev/null || true
           git diff --cached --quiet || git commit -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
           git pull --rebase -q origin main && git push
 
