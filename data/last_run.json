@@ -1,16 +1,16 @@
 {
- "time": "2026-10-07T15:40:42.627529+00:00",
- "ok": 107,
- "waits": 6,
+ "time": "2026-10-07T18:55:12.777528+00:00",
+ "ok": 34,
+ "waits": 0,
  "usage": {
-  "app": "{\"call_count\":21,\"total_cputime\":0,\"total_time\":99}",
+  "app": "{\"call_count\":12,\"total_cputime\":0,\"total_time\":97}",
   "buc": null
  },
- "total": 200,
+ "total": 350,
  "errors": [
   {
-   "account": "sinemarket",
-   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"A28sYyjo4NqHKXeFhgBtnz3\"}}"
+   "account": "lovely_sunny_0510",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"A-GecBNnhfr7PDwhADw3PON\"}}"
   }
  ]
 }
