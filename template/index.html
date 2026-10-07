@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="zh-Hant">
+<title>Catch 開起團購雷達</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+<style>
+/* Layout: phone-first app shell — greeting, influencer strip, search pill, chip filters, two-column card wall, floating bottom nav */
+:root{
+  --bg1:#EAF3FB; --bg2:#D3E6F5; --surface:#FFFFFF; --surface-2:#F2F8FA;
+  --ink:#14294A; --muted:#5D6F86; --line:#D5E2EE;
+  --teal:#1F5A9E; --lime:#F6B3C6; --lime-ink:#173E74; --heart:#E5364B;
+  --nav:#173E74; --nav-ink:#FFFFFF;
+  --t-food:#F6D9B8; --t-kids:#CFE6C4; --t-beauty:#F5CFD8; --t-tech:#C9D8F2; --t-living:#D6ECEC;
+  --t-fashion:#E3D3EE; --t-interior:#EFE4C9; --t-pets:#F0DCC8; --t-travel:#CCE3F0; --t-none:#E0E6EA;
+  --f-display:"Anton","Noto Sans TC",Impact,sans-serif;
+  --f-body:"Noto Sans TC","Noto Sans KR",system-ui,-apple-system,sans-serif;
+  --f-kr:"Noto Sans KR","Noto Sans TC",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg1:#0F1A2A; --bg2:#0B1320; --surface:#172539; --surface-2:#1D2E45;
+  --ink:#EAF1FA; --muted:#9AAAC0; --line:#283A54;
+  --teal:#8DB8EC; --lime:#F2A6BD; --lime-ink:#14294A; --heart:#FF6B7D;
+  --nav:#F2A6BD; --nav-ink:#14294A;
+  --t-food:#4A3A28; --t-kids:#2E4430; --t-beauty:#4A2D36; --t-tech:#2A3A55; --t-living:#24403F;
+  --t-fashion:#3C2F4A; --t-interior:#4A4230; --t-pets:#4A3A2E; --t-travel:#23405A; --t-none:#2A363D; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg1:#0F1A2A; --bg2:#0B1320; --surface:#172539; --surface-2:#1D2E45;
+  --ink:#EAF1FA; --muted:#9AAAC0; --line:#283A54;
+  --teal:#8DB8EC; --lime:#F2A6BD; --lime-ink:#14294A; --heart:#FF6B7D;
+  --nav:#F2A6BD; --nav-ink:#14294A;
+  --t-food:#4A3A28; --t-kids:#2E4430; --t-beauty:#4A2D36; --t-tech:#2A3A55; --t-living:#24403F;
+  --t-fashion:#3C2F4A; --t-interior:#4A4230; --t-pets:#4A3A2E; --t-travel:#23405A; --t-none:#2A363D; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;background-color:var(--bg1);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;min-height:100vh}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.app{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:20px 120px;display:flex;flex-direction:column;gap:18px}
+
+.top{display:flex;align-items:center;gap:14px}
+.logo{width:96px;height:auto;flex:none}
+.hello{min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;margin:0;color:var(--teal)}
+.sub{color:var(--muted);font-size:.85rem}
+.sample{flex:none;font-size:.72rem;font-weight:700;background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:4px 10px;white-space:nowrap}
+
+.strip-head{display:flex;justify-content:space-between;align-items:baseline}
+.strip-head h2,.sec h2{font-size:1.1rem;font-weight:900;margin:0}
+.strip-head span{font-size:.8rem;color:var(--muted)}
+.strip{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 4px;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+.inf{flex:none;width:64px;display:flex;flex-direction:column;align-items:center;gap:4px;background:none;border:0;padding:0;cursor:pointer}
+.av{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:1.05rem;color:var(--ink);border:2.5px solid var(--surface);box-shadow:0 0 0 2px var(--teal)}
+.inf[aria-pressed="true"] .av{box-shadow:0 0 0 3px var(--ink)}
+.inf .nm{font-size:.7rem;max-width:64px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.inf .fl{font-size:.65rem;color:var(--muted);margin-top:-4px}
+
+.search{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px 6px 4px 16px;box-shadow:0 6px 20px -12px rgba(14,21,48,.35)}
+.search svg{flex:none;width:18px;height:18px;stroke:var(--muted)}
+.search input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;padding:10px 0;outline:none}
+.search .clear{border:0;background:var(--surface-2);border-radius:999px;padding:6px 12px;font-size:.8rem;cursor:pointer}
+
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-block:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;font-size:.88rem;cursor:pointer;white-space:nowrap}
+.chip.sm{padding:5px 12px;font-size:.8rem}
+.chip i{font-style:normal;opacity:.55;margin-left:4px;font-size:.78em}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg1);border-color:var(--ink)}
+
+.sec{display:flex;flex-direction:column;gap:12px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline}
+.sec-head span{font-size:.82rem;color:var(--muted)}
+.wall{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}
+@media (min-width:640px){.wall{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.card{display:flex;flex-direction:column;gap:6px;min-width:0}
+.day{display:flex;flex-direction:column;gap:10px}
+.day+.day{margin-top:14px}
+.day-h{display:flex;align-items:baseline;gap:8px;border:0;background:none;padding:0;text-align:left;cursor:default}
+.day-h b{font-size:1rem;font-weight:900}
+.day-h span{font-size:.8rem;color:var(--muted)}
+.day-h.tog{cursor:pointer}
+.day-h .more{margin-left:auto;font-size:.8rem;color:var(--teal);font-weight:700}
+.card.ended{opacity:.55}
+.ph{position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/5;display:flex;align-items:center;justify-content:center;padding:14px;text-align:center}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph{text-decoration:none;color:inherit}
+.ko{font-family:var(--f-kr);font-size:.75rem;color:var(--muted);margin-top:-4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ph .kr{font-family:var(--f-kr);font-weight:700;font-size:1.05rem;line-height:1.3;opacity:.85;text-wrap:balance}
+.ph .cat{z-index:2;position:absolute;left:12px;top:12px;font-size:.68rem;font-weight:700;background:rgba(255,255,255,.6);color:#0E1530;border-radius:999px;padding:3px 8px}
+.heart{z-index:2;position:absolute;right:10px;top:10px;width:36px;height:36px;border-radius:50%;border:0;background:var(--surface);display:grid;place-items:center;cursor:pointer;box-shadow:0 4px 12px -6px rgba(0,0,0,.4)}
+.heart svg{width:18px;height:18px;fill:none;stroke:var(--heart);stroke-width:2.2}
+.heart[aria-pressed="true"] svg{fill:var(--heart)}
+.tag{z-index:2;position:absolute;right:10px;bottom:10px;background:var(--lime);color:var(--lime-ink);font-weight:900;font-size:.8rem;border-radius:999px;padding:6px 12px;white-space:nowrap}
+.tag.soon{background:var(--surface);color:var(--ink)}
+.tag.ended{background:var(--surface-2);color:var(--muted)}
+.tag.hot{background:var(--heart);color:#fff}
+.acc{display:flex;align-items:center;gap:6px;font-size:.78rem;color:var(--muted);min-width:0}
+.acc a{color:inherit;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.acc a:hover{color:var(--teal)}
+.dot{flex:none;width:14px;height:14px;border-radius:50%;background:var(--teal);display:grid;place-items:center}
+.dot::after{content:"";width:6px;height:3px;border:solid #fff;border-width:0 0 1.6px 1.6px;transform:rotate(-45deg) translate(1px,-1px)}
+.name{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.name b{font-weight:700;font-size:.95rem;min-width:0}
+.name small{flex:none;font-size:.75rem;color:var(--muted)}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+
+.nav{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px;box-shadow:0 12px 30px -12px rgba(14,21,48,.45);z-index:10}
+.nav button{border:0;background:transparent;border-radius:999px;padding:10px 16px;font-size:.85rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.nav button[aria-pressed="true"]{background:var(--nav);color:var(--nav-ink)}
+.nav .n{font-size:.72rem;background:var(--lime);color:var(--lime-ink);border-radius:999px;padding:0 6px}
+@media (max-width:380px){.nav button{padding:10px 12px}}
+@media (prefers-reduced-motion:no-preference){.card{animation:in .35s ease both}@keyframes in{from{transform:translateY(6px)}to{transform:none}}}
+</style>
+
+<div class="app">
+  <div class="top">
+    <img class="logo" src="logo.webp" alt="Catch 開起">
+    <div class="hello">
+      <h1>今天有什麼<br>好團？</h1>
+      <div class="sub" id="today"></div>
+      <span class="sample" id="updated"></span>
+    </div>
+  </div>
+
+  <div>
+    <div class="strip-head"><h2>追蹤的團購主</h2><span id="infCount"></span></div>
+    <div class="strip" id="strip"></div>
+  </div>
+
+  <label class="search" for="q">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input type="search" id="q" placeholder="搜尋商品、韓文、帳號…">
+    <button class="clear" id="clear" hidden>清除</button>
+  </label>
+
+  <div class="sec">
+    <div class="chips" id="statusChips"></div>
+    <div class="chips" id="catChips"></div>
+  </div>
+
+  <section class="sec">
+    <div class="sec-head"><h2 id="secTitle">全部團購</h2><span id="secCount"></span></div>
+    <div id="wall"></div>
+  </section>
+</div>
+
+<nav class="nav" id="nav">
+  <button id="nav-home" data-v="home" aria-pressed="true">首頁</button>
+  <button id="nav-today" data-v="today">今日開團 <span class="n" id="nToday"></span></button>
+  <button id="nav-fav" data-v="fav">收藏 <span class="n" id="nFav"></span></button>
+</nav>
+
+<script>
+const CAT={food:"食品",kids:"育兒",beauty:"美妝",tech:"3C家電",living:"居家生活",fashion:"服飾",interior:"居家佈置",pets:"寵物",travel:"旅遊",none:"未分類"};
+const DATA=/*__DATA__*/[];
+const UPDATED=/*__UPDATED__*/"";
+const WD="日一二三四五六",DAY=864e5;
+const d=s=>{const[y,m,dd]=s.split("-").map(Number);return new Date(y,m-1,dd)};
+const md=dt=>`${dt.getMonth()+1}/${dt.getDate()}`;
+const n=new Date(),TODAY=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+const items=DATA.map((r,i)=>{
+  const open=d(r.open),close=r.close?d(r.close):null;
+  let st=(close&&TODAY>close)?"ended":TODAY<open?"soon":+TODAY===+open?"today":"open";
+  const left=close?Math.round((close-TODAY)/DAY):null;
+  const closing=(st==="open"||st==="today")&&left!==null&&left<=2;
+  return{...r,i,open,close,st,closing,left};
+});
+let fav=new Set();try{fav=new Set(JSON.parse(localStorage.getItem("fav")||"[]"))}catch(e){}
+const saveFav=()=>{try{localStorage.setItem("fav",JSON.stringify([...fav]))}catch(e){}};
+const S={view:"home",status:"live",cat:"all",acc:null,q:"",showToday:false};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+document.getElementById("updated").textContent=UPDATED?"更新於 "+UPDATED:"";
+$("today").textContent=`${TODAY.getMonth()+1} 月 ${TODAY.getDate()} 日 星期${WD[TODAY.getDay()]}・${items.filter(i=>i.st!=="ended").length} 個團進行中或即將開`;
+
+const accs=[];items.forEach(it=>{if(!accs.find(a=>a.acc===it.acc))accs.push({acc:it.acc,fol:it.fol,cat:it.cat})});
+$("infCount").textContent=`${accs.length} 個帳號`;
+const STATUS=[["live","進行中＋即將開"],["today","今日開團"],["closing","快結束"],["soon","即將開團"],["ended","已結束"],["all","全部"]];
+
+function match(it,ignore){
+  if(S.view==="fav"&&!fav.has(it.id))return false;
+  if(S.view==="today"&&it.st!=="today")return false;
+  if(ignore!=="status"&&S.view==="home"){
+    const s=S.status;
+    if(s==="live"&&it.st==="ended")return false;
+    if(s==="closing"&&!it.closing)return false;
+    if(["today","soon","ended"].includes(s)&&it.st!==s)return false;
+  }
+  if(ignore!=="cat"&&S.cat!=="all"&&it.cat!==S.cat)return false;
+  if(S.acc&&it.acc!==S.acc)return false;
+  const q=S.q.trim().toLowerCase();
+  if(q&&!(it.kr+it.zh+it.acc+CAT[it.cat]).toLowerCase().includes(q))return false;
+  return true;
+}
+function tag(it){
+  if(it.st==="ended")return`<span class="tag ended">已結束</span>`;
+  if(it.st==="soon"){const k=Math.round((it.open-TODAY)/DAY);return`<span class="tag soon">${md(it.open)} 開團・${k} 天後</span>`}
+  if(it.closing)return`<span class="tag hot">${it.left===0?"今天截止":`剩 ${it.left} 天`}</span>`;
+  if(it.st==="today")return`<span class="tag">今天開團</span>`;
+  return`<span class="tag">開團中${it.close?"・至 "+md(it.close):""}</span>`;
+}
+const heartSvg=`<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>`;
+
+function card(it){return`<article class="card${it.st==="ended"?" ended":""}">
+    <a class="ph" href="${esc(it.link||"#")}" target="_blank" rel="noopener" style="background:var(--t-${it.cat})">
+      ${it.img?`<img src="${it.img}" alt="" loading="lazy">`:""}
+      <span class="cat">${CAT[it.cat]}</span>
+      ${it.img?"":`<span class="kr">${esc(it.kr)}</span>`}
+      <button class="heart" id="fav-${it.i}" data-id="${esc(it.id)}" aria-pressed="${fav.has(it.id)}" aria-label="收藏">${heartSvg}</button>
+      ${tag(it)}
+    </a>
+    <div class="acc"><span class="dot"></span><a href="https://www.instagram.com/${encodeURIComponent(it.acc)}/" target="_blank" rel="noopener">@${esc(it.acc)}</a></div>
+    <div class="name"><b>${esc(it.zh||it.kr)}</b><small>${it.fol||""}</small></div>
+    <div class="ko">${esc(it.kr)}${it.openTime?` ・ ${it.openTime} 開`:""}</div>
+  </article>`}
+function render(){
+  $("strip").innerHTML=accs.map((a,k)=>`<button class="inf" id="inf-${k}" data-acc="${esc(a.acc)}" aria-pressed="${S.acc===a.acc}">
+    <span class="av" style="background:var(--t-${a.cat})">${esc(a.acc.replace(/[^a-z]/gi,"").slice(0,2).toUpperCase())}</span>
+    <span class="nm">${esc(a.acc)}</span><span class="fl">${a.fol}</span></button>`).join("");
+
+  const statusOn=S.view==="home";
+  $("statusChips").hidden=!statusOn;
+  $("statusChips").innerHTML=STATUS.map(([k,l])=>{const c=items.filter(it=>{const o=S.status;S.status=k;const r=match(it,"");S.status=o;return r}).length;
+    return`<button class="chip" id="st-${k}" data-st="${k}" aria-pressed="${S.status===k}">${l}<i>${c}</i></button>`}).join("");
+  const cc={};items.filter(it=>match(it,"cat")).forEach(it=>cc[it.cat]=(cc[it.cat]||0)+1);
+  $("catChips").innerHTML=[["all","全部分類"],...Object.entries(CAT)].filter(([k])=>k==="all"||cc[k]||S.cat===k)
+    .map(([k,l])=>`<button class="chip sm" id="cat-${k}" data-cat="${k}" aria-pressed="${S.cat===k}">${l}<i>${k==="all"?Object.values(cc).reduce((a,b)=>a+b,0):cc[k]||0}</i></button>`).join("");
+
+  var order={today:0,open:1,soon:2,ended:3};
+  const list=items.filter(it=>match(it)).sort((a,b)=>(b.closing-a.closing)||order[a.st]-order[b.st]||(a.st==="soon"?a.open-b.open:b.open-a.open));
+  $("secTitle").textContent=S.view==="fav"?"我的收藏":S.view==="today"?"今日開團":S.acc?"@"+S.acc:"團購清單";
+  $("secCount").textContent=`${list.length} 筆`;
+  if(!list.length){$("wall").innerHTML=`<p class="empty">${S.view==="fav"?"還沒有收藏。點卡片右上角的愛心就會出現在這裡。":"沒有符合的團購，換個篩選試試。"}</p>`}
+  else if(S.view!=="home"){$("wall").innerHTML=`<div class="wall">${list.map(card).join("")}</div>`}
+  else{
+    const groups=[],soon=list.filter(i=>i.st==="soon").sort((a,b)=>a.open-b.open);
+    if(soon.length)groups.push({k:"soon",t:"即將開團",s:"開團日由近到遠",items:soon});
+    const byDay={};list.filter(i=>i.st!=="soon").forEach(i=>{(byDay[+i.open]=byDay[+i.open]||[]).push(i)});
+    Object.keys(byDay).map(Number).sort((a,b)=>b-a).forEach(t=>{
+      const dt=new Date(t),ago=Math.round((TODAY-dt)/DAY);
+      const label=ago===0?"今天":ago===1?"昨天":ago+" 天前";
+      groups.push({k:String(t),t:`${md(dt)}（${WD[dt.getDay()]}）開團`,s:label,today:ago===0,items:byDay[t].sort((a,b)=>(b.closing-a.closing)||(order[a.st]-order[b.st]))});
+    });
+    $("wall").innerHTML=groups.map(g=>{
+      const fold=g.today&&!S.showToday;
+      const head=g.today
+        ?`<button class="day-h tog" id="toggle-today" aria-expanded="${!fold}"><b>${g.t}</b><span>${g.s}・${g.items.length} 筆</span><span class="more">${fold?"展開":"收合"}</span></button>`
+        :`<div class="day-h"><b>${g.t}</b><span>${g.s}・${g.items.length} 筆</span></div>`;
+      return`<div class="day">${head}${fold?"":`<div class="wall">${g.items.map(card).join("")}</div>`}</div>`;
+    }).join("");
+  }
+  $("nToday").textContent=items.filter(i=>i.st==="today").length;
+  $("nFav").textContent=fav.size;
+  document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===S.view));
+  $("clear").hidden=!S.q;
+}
+document.addEventListener("click",e=>{
+  if(e.target.closest("#toggle-today")){S.showToday=!S.showToday;render();return}
+  const h=e.target.closest(".heart");if(h){e.preventDefault();const id=h.dataset.id;fav.has(id)?fav.delete(id):fav.add(id);saveFav();render();return}
+  const st=e.target.closest("[data-st]");if(st){S.status=st.dataset.st;render();return}
+  const c=e.target.closest("[data-cat]");if(c){S.cat=c.dataset.cat;render();return}
+  const a=e.target.closest(".inf");if(a){S.acc=S.acc===a.dataset.acc?null:a.dataset.acc;render();return}
+  const v=e.target.closest("#nav button");if(v){S.view=v.dataset.v;render();window.scrollTo({top:0,behavior:"smooth"});return}
+});
+$("q").addEventListener("input",e=>{S.q=e.target.value;render()});
+$("clear").addEventListener("click",e=>{e.preventDefault();S.q="";$("q").value="";render()});
+render();
+</script>
