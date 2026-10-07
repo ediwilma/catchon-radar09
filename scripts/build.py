@@ -81,7 +81,8 @@ def main():
     html = html.replace("/*__DATA__*/[]", json.dumps(out, ensure_ascii=False))
     html = html.replace("/*__UPDATED__*/\"\"", json.dumps(datetime.now(KST).strftime("%m/%d %H:%M")))
     (SITE / "index.html").write_text(html, encoding="utf-8")
-    shutil.copy(ROOT / "template" / "logo.webp", SITE / "logo.webp")
+    for f in ("logo.webp", "manifest.json", "sw.js", "icon-192.png", "icon-512.png"):
+        shutil.copy(ROOT / "template" / f, SITE / f)
     (SITE / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
     print(f"built {len(out)} deals, {sum(1 for d in out if d['img'])} with images")
 

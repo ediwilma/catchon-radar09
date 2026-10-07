@@ -89,6 +89,7 @@ def main():
         if i < len(names) - 1:
             time.sleep(PAUSE)
 
+    POSTS.parent.mkdir(parents=True, exist_ok=True)
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
     store["posts"] = {k: v for k, v in store["posts"].items()
                       if datetime.strptime(v["timestamp"], "%Y-%m-%dT%H:%M:%S%z") >= cutoff}

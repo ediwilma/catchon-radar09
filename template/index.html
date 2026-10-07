@@ -4,6 +4,10 @@
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta charset="utf-8">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#173E74">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
@@ -269,4 +273,5 @@ document.addEventListener("click",e=>{
 $("q").addEventListener("input",e=>{S.q=e.target.value;render()});
 $("clear").addEventListener("click",e=>{e.preventDefault();S.q="";$("q").value="";render()});
 render();
+if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}
 </script>
