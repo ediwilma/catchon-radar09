@@ -1,20 +1,49 @@
 {
- "time": "2026-10-07T11:00:02.227448+00:00",
- "ok": 28,
- "waits": 4,
- "usage": {
-  "app": "{\"call_count\":14,\"total_cputime\":0,\"total_time\":99}",
-  "buc": null
- },
+ "time": "2026-10-07T11:40:28.792316+00:00",
+ "ok": 0,
+ "waits": 0,
+ "usage": {},
  "total": 30,
  "errors": [
   {
-   "account": "bellymom_hi",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 04:00:00 PDT. The current time is Wednesday, 07-Oct-26 04:00:02 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"A7WJNzbjVepeSTZz7bsIGCy\"}}"
+   "account": "ryuniiii",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AQgJsnUzQZIsWiaJs4Ani-Q\"}}"
   },
   {
-   "account": "chun_bong._.bro",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Error validating access token: Session has expired on Wednesday, 07-Oct-26 04:00:00 PDT. The current time is Wednesday, 07-Oct-26 04:00:02 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"A1eQhNRbMRcBc1rtIWjWWqu\"}}"
+   "account": "vivian_bob_",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A-pG8-F9g9MrQDahHnrsMW-\"}}"
+  },
+  {
+   "account": "maybe_sweety",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Av4avByEpM9d6iCQNgxTS5K\"}}"
+  },
+  {
+   "account": "cookbly",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AyJEwCkr4V0YZcifmWC4k39\"}}"
+  },
+  {
+   "account": "yoonjiet_",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A2CcOoGhGAEfGLgiJ8sbw6d\"}}"
+  },
+  {
+   "account": "its_homes",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A5I84tj8w-YoGK4h6y6FiLO\"}}"
+  },
+  {
+   "account": "yak_secret",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Ay4G4bZaVPwEI9pOuaiG34J\"}}"
+  },
+  {
+   "account": "mollyjjang",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A6RFvgb7-IqOhgQu1jcUISB\"}}"
+  },
+  {
+   "account": "bani.yum",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ALdQsXs6leO3EJdq7uWTA2Z\"}}"
+  },
+  {
+   "account": "napool_napool",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AKoGOsKSd5qNuvdbEjjqOPv\"}}"
   }
  ]
 }
