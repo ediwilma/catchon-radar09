@@ -1,0 +1,11 @@
+{
+ "time": "2026-10-07T10:10:29.360504+00:00",
+ "ok": 29,
+ "total": 30,
+ "errors": [
+  {
+   "account": "ryuniiii",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"AN56kcKa17SO09k84UdJ6Cd\"}}"
+  }
+ ]
+}
