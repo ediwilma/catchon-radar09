@@ -13,6 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 KST = timezone(timedelta(hours=9))
 TODAY = datetime.now(KST).date().isoformat()
+LIVE = "https://ediwilma.github.io/catchon-radar09"  # reuse images already on the site when IG urls are missing
 
 def norm(s):
     return re.sub(r"[\s\W_]+", "", s or "").lower()[:10]
@@ -64,7 +65,7 @@ def main():
         ended = d["close"] and d["close"] < TODAY
         d["fol"] = fmt_followers((acc_info.get(d["acc"]) or {}).get("followers"))
         d["img"] = None
-        url = fresh.get(d["post"])
+        url = fresh.get(d["post"]) or (None if ended else f"{LIVE}/img/{d['post']}.webp")
         if not ended and url:
             try:
                 with urllib.request.urlopen(url, timeout=30) as r:
@@ -74,7 +75,8 @@ def main():
                 im.save(SITE / name, "WEBP", quality=72, method=6)
                 d["img"] = name
             except Exception as e:
-                print(f"[img] {d['acc']} {d['kr']}: {e}")
+                if "github.io" not in url:
+                    print(f"[img] {d['acc']} {d['kr']}: {e}")
         del d["post"]
         out.append(d)
     out.sort(key=lambda d: d["posted"], reverse=True)
