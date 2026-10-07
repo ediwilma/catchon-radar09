@@ -63,10 +63,45 @@ def cover_url(m):
                 return u
     return m.get("media_url") or m.get("thumbnail_url")
 
+PLAT_FILE = ROOT / "data" / "platforms.json"   # resolved {platform: handle}
+
+def resolve_platforms():
+    """Find each shopping platform's real IG account once (highest-follower candidate wins)."""
+    if PLAT_FILE.exists():
+        return json.loads(PLAT_FILE.read_text(encoding="utf-8"))
+    cands = json.loads((ROOT / "scripts" / "platforms.json").read_text(encoding="utf-8"))
+    out = {}
+    for plat, handles in cands.items():
+        best = None
+        for h in handles:
+            try:
+                q = urllib.parse.urlencode({"fields": f"business_discovery.username({h}){{username,followers_count}}", "access_token": TOKEN})
+                with urllib.request.urlopen(f"{API}/{IG_USER_ID}?{q}", timeout=60) as r:
+                    bd = json.load(r)["business_discovery"]
+                if not best or (bd.get("followers_count") or 0) > best[1]:
+                    best = (h, bd.get("followers_count") or 0)
+            except Exception:
+                pass
+            time.sleep(3)
+        if best and best[1] >= 5000:
+            out[plat] = best[0]
+            print(f"[platform] {plat} -> @{best[0]} ({best[1]} followers)")
+        else:
+            print(f"[platform] {plat}: no official account found")
+    PLAT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PLAT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    return out
+
 def main():
     store = json.loads(POSTS.read_text(encoding="utf-8")) if POSTS.exists() else {"accounts": {}, "posts": {}}
     fresh = json.loads(FRESH.read_text()) if FRESH.exists() else {}
     names = accounts()
+    try:
+        for h in resolve_platforms().values():
+            if h not in names:
+                names.append(h)
+    except Exception as e:
+        print("platform lookup skipped:", e)
     # read the accounts we have waited longest for first, so if Meta cuts us off
     # part-way, the next run picks up where this one stopped
     names.sort(key=lambda n: (store["accounts"].get(n) or {}).get("updated", ""))

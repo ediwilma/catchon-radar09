@@ -1,0 +1,13 @@
+{
+  "G마켓": ["gmarket_official", "gmarket.official", "gmarket"],
+  "옥션": ["auction_official", "auction.official", "auctionkorea"],
+  "11번가": ["11st_official", "11st.official", "11st"],
+  "쿠팡": ["coupang", "coupang_official", "coupang.official"],
+  "올리브영": ["oliveyoung_official", "oliveyoung"],
+  "29CM": ["29cm.official", "29cm_official", "29cm"],
+  "GS샵": ["gsshop_official", "gsshop", "gs_shop"],
+  "롯데온": ["lotteon_official", "lotteon.official", "lotte_on", "lotteon"],
+  "롯데홈쇼핑": ["lottehomeshopping", "lotte_homeshopping", "lotteimall"],
+  "롯데백화점": ["lottedepartmentstore", "lotte_department_store", "lottedept"],
+  "롯데면세점": ["lottedutyfree", "lotte_dutyfree"]
+}

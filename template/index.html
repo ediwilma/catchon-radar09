@@ -111,6 +111,15 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 .name b{font-weight:700;font-size:.95rem;min-width:0}
 .name small{flex:none;font-size:.75rem;color:var(--muted)}
 .empty{text-align:center;color:var(--muted);padding:40px 0}
+.sales{display:flex;gap:10px;overflow-x:auto;padding:6px 2px 4px;scrollbar-width:none}
+.sales::-webkit-scrollbar{display:none}
+.sale{flex:none;width:min(78vw,280px);background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink)}
+.sale .pf{font-size:.72rem;font-weight:900;color:var(--teal);letter-spacing:.03em}
+.sale b{font-size:1rem;font-family:var(--f-kr);line-height:1.3}
+.sale .hl{font-size:.82rem;color:var(--ink)}
+.sale .dt{font-size:.75rem;color:var(--muted)}
+.sale .live{display:inline-block;background:var(--heart);color:#fff;border-radius:999px;padding:1px 8px;font-size:.7rem;font-weight:700;margin-left:6px;vertical-align:middle}
+
 .newdot{color:var(--heart);font-weight:900;letter-spacing:.03em}
 .doneall{align-self:center;margin-top:8px}
 .wpanel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:10px}
@@ -172,6 +181,11 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
     <div class="strip" id="strip"></div>
   </div>
 
+  <div id="salesBox" hidden>
+    <div class="strip-head"><h2>電商大促</h2><span id="salesCount"></span></div>
+    <div class="sales" id="sales"></div>
+  </div>
+
   <label class="search" for="q">
     <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
     <input type="search" id="q" placeholder="搜尋商品、韓文、帳號…">
@@ -231,13 +245,15 @@ const WD="日一二三四五六",DAY=864e5;
 const d=s=>{const[y,m,dd]=s.split("-").map(Number);return new Date(y,m-1,dd)};
 const md=dt=>`${dt.getMonth()+1}/${dt.getDate()}`;
 const n=new Date(),TODAY=new Date(n.getFullYear(),n.getMonth(),n.getDate());
-const items=DATA.map((r,i)=>{
+const ALL=DATA.map((r,i)=>{
   const open=d(r.open),close=r.close?d(r.close):null;
   let st=(close&&TODAY>close)?"ended":TODAY<open?"soon":+TODAY===+open?"today":"open";
   const left=close?Math.round((close-TODAY)/DAY):null;
   const closing=(st==="open"||st==="today")&&left!==null&&left<=2;
   return{...r,i,open,close,st,closing,left};
 });
+const SALES=ALL.filter(x=>x.cat==="sale"&&x.st!=="ended").sort((a,b)=>a.open-b.open);
+const items=ALL.filter(x=>x.cat!=="sale").map((x,k)=>Object.assign(x,{i:k}));
 let fav=new Set();try{fav=new Set(JSON.parse(localStorage.getItem("fav")||"[]"))}catch(e){}
 const saveFav=()=>{try{localStorage.setItem("fav",JSON.stringify([...fav]))}catch(e){}};
 let seenStore=null;try{seenStore=JSON.parse(localStorage.getItem("seenIds")||"null")}catch(e){}
@@ -419,6 +435,14 @@ $("wTokClose").addEventListener("click",()=>{$("wTok").hidden=true});
 $("wTok").addEventListener("click",e=>{if(e.target.id==="wTok")$("wTok").hidden=true});
 $("wTokSave").addEventListener("click",()=>{const v=$("wToken").value.trim();if(!v)return;try{localStorage.setItem("gh_token",v)}catch(e){}
   $("wToken").value="";$("wTok").hidden=true;wmsg("連線設定已儲存，現在可以加入或刪除商品了。","ok");setTimeout(()=>wmsg(""),4000)});
+
+function renderSales(){
+  $("salesBox").hidden=!SALES.length;if(!SALES.length)return;
+  $("salesCount").textContent=SALES.length+" 個活動";
+  $("sales").innerHTML=SALES.map(x=>{const on=x.st!=="soon";
+    return`<a class="sale" href="${esc(x.link||"#")}" target="_blank" rel="noopener"><span class="pf">${esc(x.plat||"@"+x.acc)}${on?'<span class="live">進行中</span>':""}</span><b>${esc(x.zh||x.kr)}</b>${x.hl?`<span class="hl">${esc(x.hl)}</span>`:""}<span class="dt">${md(x.open)}${x.close?" ～ "+md(x.close):""}${!on?`・${Math.round((x.open-TODAY)/DAY)} 天後開始`:""}</span></a>`}).join("");
+}
+renderSales();
 window.__wready=true;
 applyWatch();render();
 loadWatch();

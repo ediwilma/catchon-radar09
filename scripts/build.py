@@ -3,7 +3,7 @@
 - downloads a small cover image only for deals that have not ended
 - writes site/index.html (data embedded) + site/img/*.webp
 """
-import json, re, io, shutil, pathlib, urllib.request
+import json, os, re, io, shutil, pathlib, urllib.request
 from datetime import datetime, timezone, timedelta
 from PIL import Image
 import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -13,7 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 KST = timezone(timedelta(hours=9))
 TODAY = datetime.now(KST).date().isoformat()
-LIVE = "https://ediwilma.github.io/catchon-radar09"  # reuse images already on the site when IG urls are missing
+LIVE = os.environ.get("LIVE_SITE", "https://ediwilma.github.io/catchon-radar09")  # reuse images already on the site when IG urls are missing
 
 def norm(s):
     return re.sub(r"[\s\W_]+", "", s or "").lower()[:10]
@@ -37,7 +37,8 @@ def main():
                 cur = deals[key] = {
                     "id": key, "acc": p["account"], "kr": d["product_ko"], "zh": d.get("product_zh") or "",
                     "cat": d.get("category") if d.get("category") in
-                           ("food","kids","beauty","tech","living","fashion","interior","pets","travel") else "none",
+                           ("food","kids","beauty","tech","living","fashion","interior","pets","travel","sale") else "none",
+                    "hl": d.get("highlight_zh") or "",
                     "open": open_, "openTime": d.get("open_time"),
                     "close": d.get("close"), "closeTime": d.get("close_time"),
                 }
@@ -51,11 +52,16 @@ def main():
                 if d.get("close"):
                     cur["close"], cur["closeTime"] = d["close"], d.get("close_time")
                 if d.get("product_zh"): cur["zh"] = d["product_zh"]
+                if d.get("highlight_zh"): cur["hl"] = d["highlight_zh"]
             cur["link"] = p.get("permalink")
             cur["post"] = p["id"]
             cur["posted"] = posted.isoformat(timespec="minutes")
 
     acc_info = store.get("accounts", {})
+    try:
+        plat_by_handle = {h: n for n, h in json.loads((ROOT / "data" / "platforms.json").read_text(encoding="utf-8")).items()}
+    except Exception:
+        plat_by_handle = {}
     out = []
     if SITE.exists(): shutil.rmtree(SITE)
     (SITE / "img").mkdir(parents=True)
@@ -63,9 +69,10 @@ def main():
         if not d["open"]:
             d["open"] = d["posted"][:10]
         ended = d["close"] and d["close"] < TODAY
+        d["plat"] = plat_by_handle.get(d["acc"])
         d["fol"] = fmt_followers((acc_info.get(d["acc"]) or {}).get("followers"))
         d["img"] = None
-        url = fresh.get(d["post"]) or (None if ended else f"{LIVE}/img/{d['post']}.webp")
+        url = fresh.get(d["post"]) or (None if ended or not LIVE else f"{LIVE}/img/{d['post']}.webp")
         if not ended and url:
             try:
                 with urllib.request.urlopen(url, timeout=30) as r:

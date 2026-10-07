@@ -31,11 +31,28 @@ Rules: resolve dates using the post time given (Korea time, year inferred from i
 A post listing several upcoming deals → several entries. Cooking classes, giveaways-only events and recipes are NOT deals.
 """
 
+SALE_SYSTEM = """You read Instagram posts from Korean shopping platforms (Gmarket, 11st, Coupang, Olive Young, 29CM, GS SHOP, Lotte ON, Lotte department store/duty free, ...).
+Extract only BIG platform-wide sale events (e.g. 빅스마일데이, 그랜드십일절, 올영세일, 이구위크, 블랙프라이데이, 브랜드위크, 쇼핑 축제) — not single-product ads.
+Return ONLY JSON: {"deals": [...]} (empty list if none). Each item:
+- "product_ko": event name in Korean as written (max ~25 chars)
+- "product_zh": event name in Traditional Chinese (Taiwan), short
+- "category": "sale"
+- "open": start date "YYYY-MM-DD" or null; "open_time": "HH:MM" or null
+- "close": end date "YYYY-MM-DD" or null; "close_time": "HH:MM" or null
+- "kind": "open" or "preview"
+- "highlight_zh": one short Traditional Chinese line with the key discounts/coupons (max ~40 chars)
+Resolve dates using the post time given (Korea time)."""
+PLATFORMS = set()
+try:
+    PLATFORMS = set(json.loads((ROOT / "data" / "platforms.json").read_text(encoding="utf-8")).values())
+except Exception:
+    pass
+
 def ask(post):
     ts = datetime.strptime(post["timestamp"], "%Y-%m-%dT%H:%M:%S%z").astimezone(KST)
     user = f"Post time (Korea): {ts:%Y-%m-%d %H:%M} ({'월화수목금토일'[ts.weekday()]})\nAccount: @{post['account']}\n\nCaption:\n{post['caption'][:6000]}"
     body = json.dumps({
-        "model": MODEL, "max_tokens": 1200, "system": SYSTEM,
+        "model": MODEL, "max_tokens": 1200, "system": SALE_SYSTEM if post["account"] in PLATFORMS else SYSTEM,
         "messages": [{"role": "user", "content": user}],
     }).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
@@ -66,7 +83,7 @@ def main():
     print(f"{len(todo)} posts to read")
     for i, p in enumerate(todo, 1):
         # cheap pre-filter: posts with no sales words never go to the AI
-        if not p["caption"].strip() or not any(k in p["caption"] for k in KEYWORDS):
+        if not p["caption"].strip() or (p["account"] not in PLATFORMS and not any(k in p["caption"] for k in KEYWORDS)):
             p["deals"], p["parsed"] = [], True
             continue
         try:
