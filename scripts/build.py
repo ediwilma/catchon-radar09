@@ -95,6 +95,8 @@ def main():
 
     html = (ROOT / "template" / "index.html").read_text(encoding="utf-8")
     html = html.replace("/*__DATA__*/[]", json.dumps(out, ensure_ascii=False))
+    tf = ROOT / "data" / "trends.json"
+    html = html.replace("/*__TRENDS__*/[]", json.dumps(json.loads(tf.read_text(encoding="utf-8"))["items"] if tf.exists() else [], ensure_ascii=False))
     html = html.replace("/*__WATCH__*/[]", json.dumps([w["label"] for w in watches], ensure_ascii=False))
     html = html.replace("/*__UPDATED__*/\"\"", json.dumps(datetime.now(KST).strftime("%m/%d %H:%M")))
     (SITE / "index.html").write_text(html, encoding="utf-8")

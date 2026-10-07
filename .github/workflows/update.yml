@@ -47,6 +47,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/parse.py
 
+      - name: 韓國熱門商品（一天一次）
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/trends.py
+
       - name: 從貼文的 @提及 擴充帳號名單
         run: python scripts/grow.py
 
