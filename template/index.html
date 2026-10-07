@@ -155,6 +155,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 <nav class="nav" id="nav">
   <button id="nav-home" data-v="home" aria-pressed="true">首頁</button>
   <button id="nav-today" data-v="today">今日開團 <span class="n" id="nToday"></span></button>
+  <button id="nav-watch" data-v="watch">追蹤 <span class="n" id="nWatch"></span></button>
   <button id="nav-fav" data-v="fav">收藏 <span class="n" id="nFav"></span></button>
 </nav>
 
@@ -162,6 +163,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 const CAT={food:"食品",kids:"育兒",beauty:"美妝",tech:"3C家電",living:"居家生活",fashion:"服飾",interior:"居家佈置",pets:"寵物",travel:"旅遊",none:"未分類"};
 const DATA=/*__DATA__*/[];
 const UPDATED=/*__UPDATED__*/"";
+const WATCH=/*__WATCH__*/[];
 const WD="日一二三四五六",DAY=864e5;
 const d=s=>{const[y,m,dd]=s.split("-").map(Number);return new Date(y,m-1,dd)};
 const md=dt=>`${dt.getMonth()+1}/${dt.getDate()}`;
@@ -188,6 +190,7 @@ const STATUS=[["live","進行中＋即將開"],["today","今日開團"],["closin
 function match(it,ignore){
   if(S.view==="fav"&&!fav.has(it.id))return false;
   if(S.view==="today"&&it.st!=="today")return false;
+  if(S.view==="watch"&&!it.watch)return false;
   if(ignore!=="status"&&S.view==="home"){
     const s=S.status;
     if(s==="live"&&it.st==="ended")return false;
@@ -212,7 +215,7 @@ const heartSvg=`<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7
 function card(it){return`<article class="card${it.st==="ended"?" ended":""}">
     <a class="ph" href="${esc(it.link||"#")}" target="_blank" rel="noopener" style="background:var(--t-${it.cat})">
       ${it.img?`<img src="${it.img}" alt="" loading="lazy">`:""}
-      <span class="cat">${CAT[it.cat]}</span>
+      <span class="cat">${it.watch?"🔔 追蹤中":CAT[it.cat]}</span>
       ${it.img?"":`<span class="kr">${esc(it.kr)}</span>`}
       <button class="heart" id="fav-${it.i}" data-id="${esc(it.id)}" aria-pressed="${fav.has(it.id)}" aria-label="收藏">${heartSvg}</button>
       ${tag(it)}
@@ -236,9 +239,9 @@ function render(){
 
   var order={today:0,open:1,soon:2,ended:3};
   const list=items.filter(it=>match(it)).sort((a,b)=>(b.closing-a.closing)||order[a.st]-order[b.st]||(a.st==="soon"?a.open-b.open:b.open-a.open));
-  $("secTitle").textContent=S.view==="fav"?"我的收藏":S.view==="today"?"今日開團":S.acc?"@"+S.acc:"團購清單";
+  $("secTitle").textContent=S.view==="watch"?"追蹤商品的團":S.view==="fav"?"我的收藏":S.view==="today"?"今日開團":S.acc?"@"+S.acc:"團購清單";
   $("secCount").textContent=`${list.length} 筆`;
-  if(!list.length){$("wall").innerHTML=`<p class="empty">${S.view==="fav"?"還沒有收藏。點卡片右上角的愛心就會出現在這裡。":"沒有符合的團購，換個篩選試試。"}</p>`}
+  if(!list.length){$("wall").innerHTML=`<p class="empty">${S.view==="watch"?(WATCH.length?`你追蹤的 ${WATCH.length} 個商品（${WATCH.map(esc).join("、")}）目前沒有人開團。有人開團會通知你。`:"還沒有追蹤商品。把想追的商品名稱告訴 Claude，或編輯 GitHub 上的 watchlist.txt。"):S.view==="fav"?"還沒有收藏。點卡片右上角的愛心就會出現在這裡。":"沒有符合的團購，換個篩選試試。"}</p>`}
   else if(S.view!=="home"){$("wall").innerHTML=`<div class="wall">${list.map(card).join("")}</div>`}
   else{
     const groups=[],soon=list.filter(i=>i.st==="soon").sort((a,b)=>a.open-b.open);
@@ -259,6 +262,7 @@ function render(){
   }
   $("nToday").textContent=items.filter(i=>i.st==="today").length;
   $("nFav").textContent=fav.size;
+  $("nWatch").textContent=items.filter(i=>i.watch&&i.st!=="ended").length;
   document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===S.view));
   $("clear").hidden=!S.q;
 }

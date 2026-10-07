@@ -46,11 +46,16 @@ jobs:
       - name: 產生網頁
         run: python scripts/build.py
 
+      - name: 追蹤商品開團通知
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/notify.py
+
       - name: 保存資料
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/posts.json data/last_run.json accounts_auto.txt 2>/dev/null || git add data/posts.json data/last_run.json
+          git add data/posts.json data/last_run.json data/notified.json; git add accounts_auto.txt 2>/dev/null || true
           git diff --cached --quiet || git commit -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
           git pull --rebase -q origin main && git push
 

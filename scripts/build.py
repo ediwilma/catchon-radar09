@@ -6,6 +6,8 @@
 import json, re, io, shutil, pathlib, urllib.request
 from datetime import datetime, timezone, timedelta
 from PIL import Image
+import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from watch import load as load_watch, matches as watch_matches
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
@@ -76,9 +78,15 @@ def main():
         del d["post"]
         out.append(d)
     out.sort(key=lambda d: d["posted"], reverse=True)
+    watches = load_watch()
+    for d in out:
+        d["ended"] = bool(d["close"] and d["close"] < TODAY)
+        d["watch"] = next((w["label"] for w in watches if watch_matches(w, d["kr"], d["zh"])), None)
+    (SITE / "deals.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
 
     html = (ROOT / "template" / "index.html").read_text(encoding="utf-8")
     html = html.replace("/*__DATA__*/[]", json.dumps(out, ensure_ascii=False))
+    html = html.replace("/*__WATCH__*/[]", json.dumps([w["label"] for w in watches], ensure_ascii=False))
     html = html.replace("/*__UPDATED__*/\"\"", json.dumps(datetime.now(KST).strftime("%m/%d %H:%M")))
     (SITE / "index.html").write_text(html, encoding="utf-8")
     for f in ("logo.webp", "manifest.json", "sw.js", "icon-192.png", "icon-512.png"):
