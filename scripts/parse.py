@@ -10,7 +10,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 POSTS = ROOT / "data" / "posts.json"
 KST = timezone(timedelta(hours=9))
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5")
-KEY = os.environ["ANTHROPIC_API_KEY"]
+KEY = os.environ["ANTHROPIC_API_KEY"].strip().strip('"\'')
 KEYWORDS = ["공구", "공동구매", "오픈", "마감", "구매", "주문", "판매", "리오더", "재입고", "특가", "할인", "링크", "OPEN", "open"]
 CATS = ["food", "kids", "beauty", "tech", "living", "fashion", "interior", "pets", "travel", "none"]
 
@@ -57,6 +57,11 @@ def ask(post):
 
 def main():
     store = json.loads(POSTS.read_text(encoding="utf-8"))
+    # posts older than 14 days are almost always about finished deals: skip them to save AI cost
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%dT%H:%M:%S")
+    for p in store["posts"].values():
+        if not p.get("parsed") and p["timestamp"][:19] < cutoff:
+            p["deals"], p["parsed"] = [], True
     todo = [p for p in store["posts"].values() if not p.get("parsed")]
     print(f"{len(todo)} posts to read")
     for i, p in enumerate(todo, 1):

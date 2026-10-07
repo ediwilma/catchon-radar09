@@ -40,6 +40,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/parse.py
 
+      - name: 從貼文的 @提及 擴充帳號名單
+        run: python scripts/grow.py
+
       - name: 產生網頁
         run: python scripts/build.py
 
@@ -47,9 +50,9 @@ jobs:
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/posts.json data/last_run.json
+          git add data/posts.json data/last_run.json accounts_auto.txt 2>/dev/null || git add data/posts.json data/last_run.json
           git diff --cached --quiet || git commit -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
-          git push
+          git pull --rebase -q origin main && git push
 
       - name: 檢查有沒有讀到帳號
         run: python -c "import json,sys; s=json.load(open('data/last_run.json')); print(s); sys.exit(0 if s['ok']>0 else 1)"

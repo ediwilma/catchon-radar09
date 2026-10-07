@@ -12,20 +12,33 @@ FRESH = ROOT / "data" / "fresh_media.json"   # media urls from this run only (no
 API = "https://graph.facebook.com/v26.0"
 KEEP_DAYS = 45            # drop posts older than this
 PER_ACCOUNT = 12          # newest posts to read per account
-PAUSE = float(os.environ.get("PAUSE_SECONDS", "15"))  # stay under ~200 calls/hour
+PAUSE = float(os.environ.get("PAUSE_SECONDS", "20"))  # stay under ~200 calls/hour
 
 USAGE = {}
 RATE_WAIT = 600      # seconds to wait when Meta says "slow down"
 RATE_TRIES = 6       # give up after ~1 hour of waiting
-IG_USER_ID = os.environ["IG_USER_ID"]
-TOKEN = os.environ["FB_TOKEN"]
+import re as _re
+IG_USER_ID = _re.sub(r"\D", "", os.environ["IG_USER_ID"])
+# tolerate stray spaces, line breaks or quotes around the pasted token
+_raw = os.environ["FB_TOKEN"]
+_m = _re.search(r"EA[A-Za-z0-9]{20,}", _raw)
+TOKEN = _m.group(0) if _m else _raw.strip().strip('"\'')
 
 def accounts():
     out = []
-    for line in (ROOT / "accounts.txt").read_text(encoding="utf-8").splitlines():
-        line = line.strip().lstrip("@")
-        if line and not line.startswith("#") and line not in out:
-            out.append(line)
+    blocked = set()
+    for fname in ("accounts_blocked.txt", "accounts.txt", "accounts_auto.txt"):
+        f = ROOT / fname
+        if not f.exists():
+            continue
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip().lstrip("@").lower()
+            if not line or line.startswith("#"):
+                continue
+            if fname == "accounts_blocked.txt":
+                blocked.add(line)
+            elif line not in out and line not in blocked:
+                out.append(line)
     return out
 
 def discover(username):
