@@ -1,16 +1,13 @@
 {
- "time": "2026-10-07T18:55:12.777528+00:00",
- "ok": 34,
+ "time": "2026-10-07T19:17:59.658096+00:00",
+ "ok": 0,
  "waits": 0,
- "usage": {
-  "app": "{\"call_count\":12,\"total_cputime\":0,\"total_time\":97}",
-  "buc": null
- },
+ "usage": {},
  "total": 350,
  "errors": [
   {
    "account": "lovely_sunny_0510",
-   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"A-GecBNnhfr7PDwhADw3PON\"}}"
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"ALRxgL-O6LbTisgY1vTPr3b\"}}"
   }
  ]
 }
