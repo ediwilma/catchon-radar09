@@ -126,7 +126,8 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 .witem i{font-style:normal;font-size:.72rem;background:var(--lime);color:var(--lime-ink);border-radius:999px;padding:1px 7px}
 .witem button{border:0;background:transparent;cursor:pointer;width:24px;height:24px;border-radius:50%;color:var(--muted);font-size:1rem;line-height:1}
 .witem button:hover{background:var(--line)}
-.wmsg{font-size:.8rem;min-height:1.2em}
+.wmsg{font-size:.8rem}
+.wmsg:empty{display:none}
 .wmsg.err{color:var(--heart)} .wmsg.ok{color:var(--teal)}
 .wtok{display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--line);padding-top:10px}
 .wtok ol{margin:0;padding-left:1.2em;font-size:.8rem;color:var(--muted);display:flex;flex-direction:column;gap:2px}
@@ -170,7 +171,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 
   <section class="wpanel" id="wpanel" hidden>
     <h3>我的追蹤清單</h3>
-    <p>每天更新時，只要有人開這些商品的團，就會推播通知你。同一個商品有不同叫法可以用 | 隔開。</p>
+    <p>只要有人開這些商品的團，就會出現在這個分頁。同一個商品有不同叫法可以用 | 隔開。</p>
     <div class="wadd">
       <input id="wInput" placeholder="例：쿠첸 압력밥솥 | Cuchen 壓力鍋" autocomplete="off">
       <button class="btn" id="wAdd">加入</button>
@@ -371,13 +372,15 @@ async function saveWatch(newLines,doneMsg){
     const body=(head?head+"\n":"")+newLines.join("\n")+"\n";
     const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${WFILE}`,{method:"PUT",headers:{Accept:"application/vnd.github+json",Authorization:"Bearer "+tok()},
       body:JSON.stringify({message:"App 更新追蹤清單",content:b64e(body),sha})});
+    if(r.status===401||r.status===403){$("wTokToggle").hidden=false;$("wTok").hidden=false;}
     if(r.status===401||r.status===403)throw new Error("GitHub 金鑰無效或沒有寫入權限，請到連線設定重新貼一次。");
     if(!r.ok)throw new Error("儲存失敗（"+r.status+"），請稍後再試。");
-    wLines=newLines;watches=wLines.map(parseLine);applyWatch();render();wmsg(doneMsg,"ok");return true;
+    wLines=newLines;watches=wLines.map(parseLine);applyWatch();render();wmsg(doneMsg,"ok");setTimeout(()=>wmsg(""),4000);return true;
   }catch(e){wmsg(e.message,"err");return false}
 }
 function renderWatchPanel(){
   $("wpanel").hidden=S.view!=="watch";
+  $("wTokToggle").hidden=!!tok();
   if(S.view!=="watch")return;
   const lines=wLines.length?wLines:watches.map(w=>w.line);
   $("wList").innerHTML=lines.length?lines.map((l,k)=>{const w=parseLine(l);const n=items.filter(i=>i.watch===w.label&&i.st!=="ended").length;
@@ -396,7 +399,7 @@ document.addEventListener("click",async e=>{
 });
 $("wTokToggle").addEventListener("click",()=>{$("wTok").hidden=!$("wTok").hidden});
 $("wTokSave").addEventListener("click",()=>{const v=$("wToken").value.trim();if(!v)return;try{localStorage.setItem("gh_token",v)}catch(e){}
-  $("wToken").value="";$("wTok").hidden=true;wmsg("連線設定已儲存，現在可以加入或刪除商品了。","ok")});
+  $("wToken").value="";$("wTok").hidden=true;$("wTokToggle").hidden=true;wmsg("連線設定已儲存，現在可以加入或刪除商品了。","ok");setTimeout(()=>wmsg(""),4000)});
 window.__wready=true;
 applyWatch();render();
 loadWatch();
