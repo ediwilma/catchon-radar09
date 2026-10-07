@@ -126,6 +126,20 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 .witem i{font-style:normal;font-size:.72rem;background:var(--lime);color:var(--lime-ink);border-radius:999px;padding:1px 7px}
 .witem button{border:0;background:transparent;cursor:pointer;width:24px;height:24px;border-radius:50%;color:var(--muted);font-size:1rem;line-height:1}
 .witem button:hover{background:var(--line)}
+
+.whead{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.gear{border:0;background:transparent;color:var(--muted);width:32px;height:32px;border-radius:50%;display:grid;place-items:center;cursor:pointer;flex:none;font-size:1rem}
+.gear:hover{background:var(--surface-2);color:var(--ink)}
+.gear svg{width:18px;height:18px}
+.sheet-bg{position:fixed;inset:0;background:rgba(14,21,48,.35);z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.sheet-bg[hidden]{display:none!important}
+.sheet{background:var(--surface);color:var(--ink);width:100%;max-width:560px;border-radius:24px 24px 0 0;padding:18px 18px calc(22px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px;box-shadow:0 -10px 30px -10px rgba(0,0,0,.3)}
+.sheet-h{display:flex;justify-content:space-between;align-items:center}
+.sheet h3{margin:0;font-size:1.05rem;font-weight:900}
+.sheet p{margin:0;font-size:.85rem;color:var(--muted)}
+.sheet ol{margin:0;padding-left:1.2em;font-size:.82rem;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+.sheet .row{display:flex;gap:8px}
+.sheet input{flex:1;min-width:0;font:inherit;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
 .wmsg{font-size:.8rem}
 .wmsg:empty{display:none}
 .wmsg.err{color:var(--heart)} .wmsg.ok{color:var(--teal)}
@@ -170,7 +184,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
   </div>
 
   <section class="wpanel" id="wpanel" hidden>
-    <h3>我的追蹤清單</h3>
+    <div class="whead"><h3>我的追蹤清單</h3><button class="gear" id="wTokToggle" aria-label="連線設定" title="連線設定"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button></div>
     <p>只要有人開這些商品的團，就會出現在這個分頁。同一個商品有不同叫法可以用 | 隔開。</p>
     <div class="wadd">
       <input id="wInput" placeholder="例：쿠첸 압력밥솥 | Cuchen 壓力鍋" autocomplete="off">
@@ -178,18 +192,6 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
     </div>
     <div class="wlist" id="wList"></div>
     <div class="wmsg" id="wMsg"></div>
-    <button class="linkbtn" id="wTokToggle">連線設定</button>
-    <div class="wtok" id="wTok" hidden>
-      <p>第一次使用需要一把 GitHub 金鑰，讓 App 能把清單存回你的專案。只會存在這支手機裡。</p>
-      <ol>
-        <li>打開 github.com/settings/personal-access-tokens/new</li>
-        <li>名稱隨意，Expiration 選 No expiration</li>
-        <li>Repository access 選 Only select repositories → catchon-radar09</li>
-        <li>Permissions → Contents 選 Read and write</li>
-        <li>按 Generate token，複製貼到下面</li>
-      </ol>
-      <div class="row"><input id="wToken" type="password" placeholder="github_pat_…" autocomplete="off"><button class="btn ghost" id="wTokSave">儲存</button></div>
-    </div>
   </section>
 
   <section class="sec">
@@ -199,6 +201,20 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
   </section>
 </div>
 
+<div class="sheet-bg" id="wTok" hidden>
+  <div class="sheet" role="dialog" aria-labelledby="wTokTitle">
+    <div class="sheet-h"><h3 id="wTokTitle">連線設定</h3><button class="gear" id="wTokClose" aria-label="關閉">✕</button></div>
+    <p id="wTokState"></p>
+    <ol>
+      <li>打開 github.com/settings/personal-access-tokens/new</li>
+      <li>名稱隨意，Expiration 選 No expiration</li>
+      <li>Repository access 選 Only select repositories → catchon-radar09</li>
+      <li>Add permissions → Contents，改成 Read and write</li>
+      <li>按 Generate token，複製貼到下面</li>
+    </ol>
+    <div class="row"><input id="wToken" type="password" placeholder="github_pat_…" autocomplete="off"><button class="btn" id="wTokSave">儲存</button></div>
+  </div>
+</div>
 <nav class="nav" id="nav">
   <button id="nav-home" data-v="home" aria-pressed="true">首頁</button>
   <button id="nav-today" data-v="today">今日開團 <span class="n" id="nToday"></span></button>
@@ -365,22 +381,21 @@ async function loadWatch(){
   catch(e){wLines=watches.map(w=>w.line);}
 }
 async function saveWatch(newLines,doneMsg){
-  if(!tok()){$("wTok").hidden=false;wmsg("請先完成下方的連線設定，才能儲存。","err");return false}
+  if(!tok()){openTok();wmsg("請先完成連線設定，才能儲存。","err");return false}
   wmsg("儲存中…");
   try{
     const{sha,text}=await ghGet();const head=splitFile(text).head||wHeader;
     const body=(head?head+"\n":"")+newLines.join("\n")+"\n";
     const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${WFILE}`,{method:"PUT",headers:{Accept:"application/vnd.github+json",Authorization:"Bearer "+tok()},
       body:JSON.stringify({message:"App 更新追蹤清單",content:b64e(body),sha})});
-    if(r.status===401||r.status===403){$("wTokToggle").hidden=false;$("wTok").hidden=false;}
-    if(r.status===401||r.status===403)throw new Error("GitHub 金鑰無效或沒有寫入權限，請到連線設定重新貼一次。");
+    if(r.status===401||r.status===403){openTok()}
+    if(r.status===401||r.status===403)throw new Error("GitHub 金鑰無效或沒有寫入權限，請在連線設定重新貼一次。");
     if(!r.ok)throw new Error("儲存失敗（"+r.status+"），請稍後再試。");
     wLines=newLines;watches=wLines.map(parseLine);applyWatch();render();wmsg(doneMsg,"ok");setTimeout(()=>wmsg(""),4000);return true;
   }catch(e){wmsg(e.message,"err");return false}
 }
 function renderWatchPanel(){
   $("wpanel").hidden=S.view!=="watch";
-  $("wTokToggle").hidden=!!tok();
   if(S.view!=="watch")return;
   const lines=wLines.length?wLines:watches.map(w=>w.line);
   $("wList").innerHTML=lines.length?lines.map((l,k)=>{const w=parseLine(l);const n=items.filter(i=>i.watch===w.label&&i.st!=="ended").length;
@@ -397,9 +412,12 @@ document.addEventListener("click",async e=>{
   const lines=(wLines.length?wLines:watches.map(w=>w.line)).slice();const [rm]=lines.splice(+d.dataset.wdel,1);
   await saveWatch(lines,`已移除「${parseLine(rm).label}」。`);
 });
-$("wTokToggle").addEventListener("click",()=>{$("wTok").hidden=!$("wTok").hidden});
+function openTok(){$("wTokState").textContent=tok()?"已連線。若加入商品時出現錯誤，可以在這裡重新貼一把金鑰。":"第一次使用需要一把 GitHub 金鑰，讓 App 能把清單存回你的專案。只會存在這支手機裡。";$("wTok").hidden=false}
+$("wTokToggle").addEventListener("click",openTok);
+$("wTokClose").addEventListener("click",()=>{$("wTok").hidden=true});
+$("wTok").addEventListener("click",e=>{if(e.target.id==="wTok")$("wTok").hidden=true});
 $("wTokSave").addEventListener("click",()=>{const v=$("wToken").value.trim();if(!v)return;try{localStorage.setItem("gh_token",v)}catch(e){}
-  $("wToken").value="";$("wTok").hidden=true;$("wTokToggle").hidden=true;wmsg("連線設定已儲存，現在可以加入或刪除商品了。","ok");setTimeout(()=>wmsg(""),4000)});
+  $("wToken").value="";$("wTok").hidden=true;wmsg("連線設定已儲存，現在可以加入或刪除商品了。","ok");setTimeout(()=>wmsg(""),4000)});
 window.__wready=true;
 applyWatch();render();
 loadWatch();
