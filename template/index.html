@@ -111,6 +111,26 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 .name b{font-weight:700;font-size:.95rem;min-width:0}
 .name small{flex:none;font-size:.75rem;color:var(--muted)}
 .empty{text-align:center;color:var(--muted);padding:40px 0}
+.wpanel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.wpanel h3{margin:0;font-size:1rem;font-weight:900}
+.wpanel p{margin:0;font-size:.8rem;color:var(--muted)}
+.wadd{display:flex;gap:8px}
+.wadd input,.wtok input{flex:1;min-width:0;font:inherit;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
+.btn{border:0;border-radius:999px;padding:10px 16px;font-weight:700;cursor:pointer;background:var(--nav);color:var(--nav-ink);white-space:nowrap}
+.btn.ghost{background:var(--surface-2);color:var(--ink)}
+.wlist{display:flex;flex-wrap:wrap;gap:8px}
+.witem{display:flex;align-items:center;gap:6px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:6px 6px 6px 12px;font-size:.85rem;max-width:100%}
+.witem span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--f-kr)}
+.witem i{font-style:normal;font-size:.72rem;background:var(--lime);color:var(--lime-ink);border-radius:999px;padding:1px 7px}
+.witem button{border:0;background:transparent;cursor:pointer;width:24px;height:24px;border-radius:50%;color:var(--muted);font-size:1rem;line-height:1}
+.witem button:hover{background:var(--line)}
+.wmsg{font-size:.8rem;min-height:1.2em}
+.wmsg.err{color:var(--heart)} .wmsg.ok{color:var(--teal)}
+.wtok{display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--line);padding-top:10px}
+.wtok ol{margin:0;padding-left:1.2em;font-size:.8rem;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.wtok .row{display:flex;gap:8px}
+.linkbtn{border:0;background:none;color:var(--teal);font-size:.8rem;cursor:pointer;padding:0;align-self:flex-start}
+
 
 .nav{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px;box-shadow:0 12px 30px -12px rgba(14,21,48,.45);z-index:10}
 .nav button{border:0;background:transparent;border-radius:999px;padding:10px 16px;font-size:.85rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap}
@@ -145,6 +165,29 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
     <div class="chips" id="statusChips"></div>
     <div class="chips" id="catChips"></div>
   </div>
+
+  <section class="wpanel" id="wpanel" hidden>
+    <h3>我的追蹤清單</h3>
+    <p>每天更新時，只要有人開這些商品的團，就會推播通知你。同一個商品有不同叫法可以用 | 隔開。</p>
+    <div class="wadd">
+      <input id="wInput" placeholder="例：쿠첸 압력밥솥 | Cuchen 壓力鍋" autocomplete="off">
+      <button class="btn" id="wAdd">加入</button>
+    </div>
+    <div class="wlist" id="wList"></div>
+    <div class="wmsg" id="wMsg"></div>
+    <button class="linkbtn" id="wTokToggle">連線設定</button>
+    <div class="wtok" id="wTok" hidden>
+      <p>第一次使用需要一把 GitHub 金鑰，讓 App 能把清單存回你的專案。只會存在這支手機裡。</p>
+      <ol>
+        <li>打開 github.com/settings/personal-access-tokens/new</li>
+        <li>名稱隨意，Expiration 選 No expiration</li>
+        <li>Repository access 選 Only select repositories → catchon-radar09</li>
+        <li>Permissions → Contents 選 Read and write</li>
+        <li>按 Generate token，複製貼到下面</li>
+      </ol>
+      <div class="row"><input id="wToken" type="password" placeholder="github_pat_…" autocomplete="off"><button class="btn ghost" id="wTokSave">儲存</button></div>
+    </div>
+  </section>
 
   <section class="sec">
     <div class="sec-head"><h2 id="secTitle">全部團購</h2><span id="secCount"></span></div>
@@ -225,6 +268,7 @@ function card(it){return`<article class="card${it.st==="ended"?" ended":""}">
     <div class="ko">${esc(it.kr)}${it.openTime?` ・ ${it.openTime} 開`:""}</div>
   </article>`}
 function render(){
+  if(window.__wready)renderWatchPanel();
   $("strip").innerHTML=accs.map((a,k)=>`<button class="inf" id="inf-${k}" data-acc="${esc(a.acc)}" aria-pressed="${S.acc===a.acc}">
     <span class="av" style="background:var(--t-${a.cat})">${esc(a.acc.replace(/[^a-z]/gi,"").slice(0,2).toUpperCase())}</span>
     <span class="nm">${esc(a.acc)}</span><span class="fl">${a.fol}</span></button>`).join("");
@@ -241,7 +285,7 @@ function render(){
   const list=items.filter(it=>match(it)).sort((a,b)=>(b.closing-a.closing)||order[a.st]-order[b.st]||(a.st==="soon"?a.open-b.open:b.open-a.open));
   $("secTitle").textContent=S.view==="watch"?"追蹤商品的團":S.view==="fav"?"我的收藏":S.view==="today"?"今日開團":S.acc?"@"+S.acc:"團購清單";
   $("secCount").textContent=`${list.length} 筆`;
-  if(!list.length){$("wall").innerHTML=`<p class="empty">${S.view==="watch"?(WATCH.length?`你追蹤的 ${WATCH.length} 個商品（${WATCH.map(esc).join("、")}）目前沒有人開團。有人開團會通知你。`:"還沒有追蹤商品。把想追的商品名稱告訴 Claude，或編輯 GitHub 上的 watchlist.txt。"):S.view==="fav"?"還沒有收藏。點卡片右上角的愛心就會出現在這裡。":"沒有符合的團購，換個篩選試試。"}</p>`}
+  if(!list.length){$("wall").innerHTML=`<p class="empty">${S.view==="watch"?(WATCH.length?`你追蹤的 ${WATCH.length} 個商品（${WATCH.map(esc).join("、")}）目前沒有人開團。有人開團會通知你。`:"還沒有追蹤商品，在上面輸入商品名稱加入第一個。"):S.view==="fav"?"還沒有收藏。點卡片右上角的愛心就會出現在這裡。":"沒有符合的團購，換個篩選試試。"}</p>`}
   else if(S.view!=="home"){$("wall").innerHTML=`<div class="wall">${list.map(card).join("")}</div>`}
   else{
     const groups=[],soon=list.filter(i=>i.st==="soon").sort((a,b)=>a.open-b.open);
@@ -277,5 +321,69 @@ document.addEventListener("click",e=>{
 $("q").addEventListener("input",e=>{S.q=e.target.value;render()});
 $("clear").addEventListener("click",e=>{e.preventDefault();S.q="";$("q").value="";render()});
 render();
+// ---- 追蹤清單：在 App 裡直接編輯，存回 GitHub 的 watchlist.txt ----
+const REPO="ediwilma/catchon-radar09", WFILE="watchlist.txt";
+const wnorm=s=>(s||"").toLowerCase().replace(/\s+/g,"");
+const parseLine=l=>{const a=l.split("|").map(x=>x.trim()).filter(Boolean);return{label:a[0],line:l.trim(),aliases:a.map(x=>x.toLowerCase().split(/\s+/))}};
+let wHeader="", wLines=[];
+let watches=WATCH.map(x=>parseLine(typeof x==="string"?x:x.line||x.label));
+function applyWatch(){
+  items.forEach(it=>{const blob=wnorm(it.kr+" "+(it.zh||""));const w=watches.find(w=>w.aliases.some(ws=>ws.every(t=>blob.includes(wnorm(t)))));it.watch=w?w.label:null});
+}
+const tok=()=>{try{return localStorage.getItem("gh_token")||""}catch(e){return""}};
+const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+function wmsg(t,cls){const m=$("wMsg");m.textContent=t;m.className="wmsg "+(cls||"")}
+async function ghGet(){
+  const h={Accept:"application/vnd.github+json"};if(tok())h.Authorization="Bearer "+tok();
+  const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${WFILE}?t=${Date.now()}`,{headers:h,cache:"no-store"});
+  if(!r.ok)throw new Error("讀取清單失敗（"+r.status+"）");
+  const j=await r.json();return{sha:j.sha,text:b64d(j.content)};
+}
+function splitFile(text){
+  const lines=text.split("\n");const head=[],body=[];
+  lines.forEach(l=>{const t=l.trim();if(!t)return;(t.startsWith("#")?head:body).push(t)});
+  return{head:head.join("\n"),body};
+}
+async function loadWatch(){
+  try{const{text}=await ghGet();const f=splitFile(text);wHeader=f.head;wLines=f.body;watches=wLines.map(parseLine);applyWatch();render();}
+  catch(e){wLines=watches.map(w=>w.line);}
+}
+async function saveWatch(newLines,doneMsg){
+  if(!tok()){$("wTok").hidden=false;wmsg("請先完成下方的連線設定，才能儲存。","err");return false}
+  wmsg("儲存中…");
+  try{
+    const{sha,text}=await ghGet();const head=splitFile(text).head||wHeader;
+    const body=(head?head+"\n":"")+newLines.join("\n")+"\n";
+    const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${WFILE}`,{method:"PUT",headers:{Accept:"application/vnd.github+json",Authorization:"Bearer "+tok()},
+      body:JSON.stringify({message:"App 更新追蹤清單",content:b64e(body),sha})});
+    if(r.status===401||r.status===403)throw new Error("GitHub 金鑰無效或沒有寫入權限，請到連線設定重新貼一次。");
+    if(!r.ok)throw new Error("儲存失敗（"+r.status+"），請稍後再試。");
+    wLines=newLines;watches=wLines.map(parseLine);applyWatch();render();wmsg(doneMsg,"ok");return true;
+  }catch(e){wmsg(e.message,"err");return false}
+}
+function renderWatchPanel(){
+  $("wpanel").hidden=S.view!=="watch";
+  if(S.view!=="watch")return;
+  const lines=wLines.length?wLines:watches.map(w=>w.line);
+  $("wList").innerHTML=lines.length?lines.map((l,k)=>{const w=parseLine(l);const n=items.filter(i=>i.watch===w.label&&i.st!=="ended").length;
+    return`<span class="witem" title="${esc(l)}"><span>${esc(w.label)}${w.aliases.length>1?` +${w.aliases.length-1}`:""}</span>${n?`<i>${n} 團</i>`:""}<button id="wdel-${k}" data-wdel="${k}" aria-label="刪除 ${esc(w.label)}">×</button></span>`}).join(""):`<p>還沒有追蹤的商品，從上面加入第一個吧。</p>`;
+}
+$("wAdd").addEventListener("click",async()=>{
+  const v=$("wInput").value.trim();if(!v)return;
+  const lines=(wLines.length?wLines:watches.map(w=>w.line)).concat([v]);
+  if(await saveWatch(lines,`已加入「${parseLine(v).label}」，下次更新開始追蹤。`))$("wInput").value="";
+});
+$("wInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();$("wAdd").click()}});
+document.addEventListener("click",async e=>{
+  const d=e.target.closest("[data-wdel]");if(!d)return;
+  const lines=(wLines.length?wLines:watches.map(w=>w.line)).slice();const [rm]=lines.splice(+d.dataset.wdel,1);
+  await saveWatch(lines,`已移除「${parseLine(rm).label}」。`);
+});
+$("wTokToggle").addEventListener("click",()=>{$("wTok").hidden=!$("wTok").hidden});
+$("wTokSave").addEventListener("click",()=>{const v=$("wToken").value.trim();if(!v)return;try{localStorage.setItem("gh_token",v)}catch(e){}
+  $("wToken").value="";$("wTok").hidden=true;wmsg("連線設定已儲存，現在可以加入或刪除商品了。","ok")});
+window.__wready=true;
+applyWatch();render();
+loadWatch();
 if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}
 </script>
