@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: "50 13 * * *"   # 每天 21:50 台灣時間（凌晨 01:00 前更新完，給你看前一天的團）
     - cron: "40 2 * * *"    # 每天 10:40 台灣時間（抓韓國早上 10 點開團的）
-  workflow_dispatch: {}      # 也可以在 Actions 頁面手動按「Run workflow」
+  workflow_dispatch:          # 也可以在 Actions 頁面手動按「Run workflow」
+    inputs:
+      build_only:
+        description: "只重新產生網頁（不讀 IG、不跑 AI）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,12 +35,14 @@ jobs:
       - run: pip install pillow
 
       - name: 讀取 IG 貼文
+        if: ${{ !inputs.build_only }}
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           FB_TOKEN: ${{ secrets.FB_TOKEN }}
         run: python scripts/fetch.py
 
       - name: AI 整理團購資訊
+        if: ${{ !inputs.build_only }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/parse.py
@@ -55,7 +62,7 @@ jobs:
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/posts.json data/last_run.json data/notified.json; git add accounts_auto.txt 2>/dev/null || true
+          git add data/posts.json data/last_run.json data/notified.json data/fresh_media.json; git add accounts_auto.txt 2>/dev/null || true
           git diff --cached --quiet || git commit -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
           git pull --rebase -q origin main && git push
 

@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 POSTS = ROOT / "data" / "posts.json"
-FRESH = ROOT / "data" / "fresh_media.json"   # media urls from this run only (not committed)
+FRESH = ROOT / "data" / "fresh_media.json"   # latest cover image url per post
 API = "https://graph.facebook.com/v26.0"
 KEEP_DAYS = 45            # drop posts older than this
 PER_ACCOUNT = 12          # newest posts to read per account
@@ -65,7 +65,7 @@ def cover_url(m):
 
 def main():
     store = json.loads(POSTS.read_text(encoding="utf-8")) if POSTS.exists() else {"accounts": {}, "posts": {}}
-    fresh = {}
+    fresh = json.loads(FRESH.read_text()) if FRESH.exists() else {}
     names = accounts()
     # read the accounts we have waited longest for first, so if Meta cuts us off
     # part-way, the next run picks up where this one stopped
@@ -133,6 +133,7 @@ def main():
     store["posts"] = {k: v for k, v in store["posts"].items()
                       if datetime.strptime(v["timestamp"], "%Y-%m-%dT%H:%M:%S%z") >= cutoff}
     POSTS.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+    fresh = {k: v for k, v in fresh.items() if k in store["posts"]}
     FRESH.write_text(json.dumps(fresh), encoding="utf-8")
     status = {"time": datetime.now(timezone.utc).isoformat(), "ok": ok, "waits": waits, "usage": USAGE,
               "total": len(names), "errors": errors[:10]}
