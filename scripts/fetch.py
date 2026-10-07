@@ -16,7 +16,7 @@ PAUSE = float(os.environ.get("PAUSE_SECONDS", "20"))  # stay under ~200 calls/ho
 
 USAGE = {}
 RATE_WAIT = 600      # seconds to wait when Meta says "slow down"
-RATE_TRIES = 6       # give up after ~1 hour of waiting
+RATE_TRIES = int(os.environ.get("RATE_TRIES", "1"))  # wait once, then leave the rest for the next run
 import re as _re
 IG_USER_ID = _re.sub(r"\D", "", os.environ["IG_USER_ID"])
 # tolerate stray spaces, line breaks or quotes around the pasted token
@@ -67,6 +67,9 @@ def main():
     store = json.loads(POSTS.read_text(encoding="utf-8")) if POSTS.exists() else {"accounts": {}, "posts": {}}
     fresh = {}
     names = accounts()
+    # read the accounts we have waited longest for first, so if Meta cuts us off
+    # part-way, the next run picks up where this one stopped
+    names.sort(key=lambda n: (store["accounts"].get(n) or {}).get("updated", ""))
     failed = []
     errors = []
     waits = 0
