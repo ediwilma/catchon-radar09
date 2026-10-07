@@ -16,7 +16,7 @@ PAUSE = float(os.environ.get("PAUSE_SECONDS", "20"))  # stay under ~200 calls/ho
 
 USAGE = {}
 RATE_WAIT = 600      # seconds to wait when Meta says "slow down"
-RATE_TRIES = int(os.environ.get("RATE_TRIES", "1"))  # wait once, then leave the rest for the next run
+RATE_TRIES = int(os.environ.get("RATE_TRIES", "0"))  # wait once, then leave the rest for the next run
 import re as _re
 IG_USER_ID = _re.sub(r"\D", "", os.environ["IG_USER_ID"])
 # tolerate stray spaces, line breaks or quotes around the pasted token

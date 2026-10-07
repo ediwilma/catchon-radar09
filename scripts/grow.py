@@ -6,7 +6,7 @@ import json, re, pathlib, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ADD_PER_DAY = 10
-MAX_ACCOUNTS = 250
+MAX_ACCOUNTS = 400
 
 def read(path):
     p = ROOT / path

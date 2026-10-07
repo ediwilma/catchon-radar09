@@ -254,7 +254,7 @@ $("today").textContent=`${TODAY.getMonth()+1} 月 ${TODAY.getDate()} 日 星期$
 
 const accs=[];items.forEach(it=>{if(!accs.find(a=>a.acc===it.acc))accs.push({acc:it.acc,fol:it.fol,cat:it.cat})});
 $("infCount").textContent=`${accs.length} 個帳號`;
-const STATUS=[["new","沒看過"],["live","進行中＋即將開"],["today","今日開團"],["closing","快結束"],["soon","即將開團"],["ended","已結束"],["all","全部"]];
+const STATUS=[["new","沒看過"],["yday","昨天開團"],["live","進行中＋即將開"],["today","今日開團"],["closing","快結束"],["soon","即將開團"],["ended","已結束"],["all","全部"]];
 
 function match(it,ignore){
   if(S.view==="fav"&&!fav.has(it.id))return false;
@@ -263,6 +263,7 @@ function match(it,ignore){
   if(ignore!=="status"&&S.view==="home"){
     const s=S.status;
     if(s==="new"&&!it.isNew)return false;
+    if(s==="yday"&&+it.open!==+TODAY-DAY)return false;
     if(s==="live"&&it.st==="ended")return false;
     if(s==="closing"&&!it.closing)return false;
     if(["today","soon","ended"].includes(s)&&it.st!==s)return false;
