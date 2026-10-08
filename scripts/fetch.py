@@ -11,7 +11,7 @@ POSTS = ROOT / "data" / "posts.json"
 FRESH = ROOT / "data" / "fresh_media.json"   # latest cover image url per post
 API = "https://graph.facebook.com/v26.0"
 KEEP_DAYS = 45            # drop posts older than this
-PER_ACCOUNT = 12          # newest posts to read per account
+PER_ACCOUNT = 8           # newest posts to read per account (fewer = cheaper for Meta, more accounts per run)
 PAUSE = float(os.environ.get("PAUSE_SECONDS", "20"))  # stay under ~200 calls/hour
 
 USAGE = {}
@@ -45,8 +45,7 @@ def discover(username):
     fields = (f"business_discovery.username({username})"
               "{username,name,followers_count,profile_picture_url,"
               f"media.limit({PER_ACCOUNT})"
-              "{id,caption,timestamp,permalink,media_type,media_url,thumbnail_url,"
-              "children{media_type,media_url,thumbnail_url}}}")
+              "{id,caption,timestamp,permalink,media_type,media_url,thumbnail_url}}")
     q = urllib.parse.urlencode({"fields": fields, "access_token": TOKEN})
     with urllib.request.urlopen(f"{API}/{IG_USER_ID}?{q}", timeout=60) as r:
         USAGE["app"] = r.headers.get("X-App-Usage") or USAGE.get("app")

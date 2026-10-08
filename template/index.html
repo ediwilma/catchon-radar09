@@ -245,7 +245,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 </div>
 <nav class="nav" id="nav">
   <button id="nav-home" data-v="home" aria-pressed="true">首頁</button>
-  <button id="nav-today" data-v="today">今日開團 <span class="n" id="nToday"></span></button>
+  <button id="nav-today" data-v="today">最近開團 <span class="n" id="nToday"></span></button>
   <button id="nav-watch" data-v="watch">追蹤 <span class="n" id="nWatch"></span></button>
   <button id="nav-fav" data-v="fav">收藏 <span class="n" id="nFav"></span></button>
 </nav>
@@ -289,7 +289,7 @@ const STATUS=[["new","沒看過"],["yday","昨天開團"],["live","進行中＋�
 
 function match(it,ignore){
   if(S.view==="fav"&&!fav.has(it.id))return false;
-  if(S.view==="today"&&it.st!=="today")return false;
+  if(S.view==="today"&&!(+it.open===+TODAY||+it.open===+TODAY-DAY))return false;
   if(S.view==="watch"&&!it.watch)return false;
   if(ignore!=="status"&&S.view==="home"){
     const s=S.status;
@@ -344,9 +344,14 @@ function render(){
 
   var order={today:0,open:1,soon:2,ended:3};
   const list=items.filter(it=>match(it)).sort((a,b)=>(b.closing-a.closing)||order[a.st]-order[b.st]||(a.st==="soon"?a.open-b.open:b.open-a.open));
-  $("secTitle").textContent=S.view==="watch"?"追蹤商品的團":S.view==="fav"?"我的收藏":S.view==="today"?"今日開團":S.acc?"@"+S.acc:"團購清單";
+  $("secTitle").textContent=S.view==="watch"?"追蹤商品的團":S.view==="fav"?"我的收藏":S.view==="today"?"昨天＋今天開團":S.acc?"@"+S.acc:"團購清單";
   $("secCount").textContent=`${list.length} 筆`;
   if(!list.length){$("wall").innerHTML=`<p class="empty">${S.view==="watch"?(WATCH.length?`你追蹤的 ${WATCH.length} 個商品（${WATCH.map(esc).join("、")}）目前沒有人開團。有人開團會通知你。`:"還沒有追蹤商品，在上面輸入商品名稱加入第一個。"):S.view==="fav"?"還沒有收藏。點卡片右上角的愛心就會出現在這裡。":"沒有符合的團購，換個篩選試試。"}</p>`}
+  else if(S.view==="today"){
+    const sec=(t,arr)=>arr.length?`<div class="day"><div class="day-h"><b>${t}</b><span>${arr.length} 筆</span></div><div class="wall">${arr.map(card).join("")}</div></div>`:"";
+    const y=list.filter(i=>+i.open===+TODAY-DAY),t=list.filter(i=>+i.open===+TODAY);
+    $("wall").innerHTML=sec(`昨天 ${md(new Date(+TODAY-DAY))} 開團`,y)+sec(`今天 ${md(TODAY)} 開團`,t);
+  }
   else if(S.view!=="home"){$("wall").innerHTML=`<div class="wall">${list.map(card).join("")}</div>`}
   else{
     const groups=[],soon=list.filter(i=>i.st==="soon").sort((a,b)=>a.open-b.open);
@@ -365,7 +370,7 @@ function render(){
       return`<div class="day">${head}${fold?"":`<div class="wall">${g.items.map(card).join("")}</div>`}</div>`;
     }).join("");
   }
-  $("nToday").textContent=items.filter(i=>i.st==="today").length;
+  $("nToday").textContent=items.filter(i=>+i.open===+TODAY||+i.open===+TODAY-DAY).length;
   $("nFav").textContent=fav.size;
   $("nWatch").textContent=items.filter(i=>i.watch&&i.st!=="ended").length;
   document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===S.view));
