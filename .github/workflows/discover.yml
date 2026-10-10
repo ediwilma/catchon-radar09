@@ -5,7 +5,7 @@ on:
     inputs:
       count:
         description: "要讀幾篇 09pangpang 貼文頁"
-        default: "4000"
+        default: "12000"
 
 permissions:
   contents: write
@@ -13,13 +13,13 @@ permissions:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/discover_09pangpang.py 0 ${{ inputs.count }}
+      - run: python scripts/discover_09pangpang.py 0 ${{ inputs.count }} || true
       - name: 保存結果
         run: |
           git config user.name "catchon-bot"

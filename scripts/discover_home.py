@@ -8,7 +8,7 @@ CATS = ["home-living", "interior", "furniture", "fabric", "lighting", "decor", "
         "living-goods", "kitchen-goods", "bedding-fabric", "cleaning-detergent", "tableware",
         "cleaning-appliances", "kitchen-appliances", "home-appliances", "seasonal-appliances"]
 SKIP = {"p", "reel", "reels", "explore", "accounts", "stories", "tv", "direct", "09pangpang"}
-MAX_TOTAL = 500
+MAX_TOTAL = 1200
 UA = {"User-Agent": "Mozilla/5.0 (personal list builder; contact via github.com/ediwilma)"}
 
 def read(name):

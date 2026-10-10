@@ -2,7 +2,7 @@ name: 每日更新團購
 
 on:
   schedule:
-    - cron: "10 */2 * * *"  # 每 2 小時一次；每次讀最久沒更新的約 100 個帳號（Meta 每小時上限）
+    - cron: "10 */2 * * *"  # 每 2 小時一次；每次讀最久沒更新的帳號，碰到 Meta 上限就留給下一次
   workflow_dispatch:          # 也可以在 Actions 頁面手動按「Run workflow」
     inputs:
       build_only:
@@ -67,12 +67,18 @@ jobs:
         run: python scripts/notify.py
 
       - name: 保存資料
+        continue-on-error: true
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/; git add accounts_auto.txt accounts_home.txt 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
-          git pull --rebase -q origin main && git push
+          git diff --cached --quiet || git commit -q -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash -X theirs -q origin main && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i*10))
+          done
+          exit 1
 
       - name: 檢查有沒有讀到帳號
         run: python -c "import json,sys; s=json.load(open('data/last_run.json')); print(s); lim=all('code\":4' in e['error'] or 'limit' in e['error'] for e in s['errors']); sys.exit(0 if s['ok']>0 or lim else 1)"

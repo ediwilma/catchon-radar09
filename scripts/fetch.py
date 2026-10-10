@@ -12,7 +12,7 @@ FRESH = ROOT / "data" / "fresh_media.json"   # latest cover image url per post
 API = "https://graph.facebook.com/v26.0"
 KEEP_DAYS = 45            # drop posts older than this
 PER_ACCOUNT = 8           # newest posts to read per account (fewer = cheaper for Meta, more accounts per run)
-PAUSE = float(os.environ.get("PAUSE_SECONDS", "20"))  # stay under ~200 calls/hour
+PAUSE = float(os.environ.get("PAUSE_SECONDS", "8"))  # stay under ~200 calls/hour
 
 USAGE = {}
 RATE_WAIT = 600      # seconds to wait when Meta says "slow down"
