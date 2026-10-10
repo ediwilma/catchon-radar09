@@ -129,6 +129,7 @@ h1{font-family:var(--f-body);font-weight:900;font-size:1.6rem;line-height:1.2;ma
 .sale .dt{font-size:.75rem;color:var(--muted)}
 .sale .live{display:inline-block;background:var(--heart);color:#fff;border-radius:999px;padding:1px 8px;font-size:.7rem;font-weight:700;margin-left:6px;vertical-align:middle}
 
+.card.opened .ph{outline:3px solid var(--line);outline-offset:-3px}
 .newdot{color:var(--heart);font-weight:900;letter-spacing:.03em}
 .doneall{align-self:center;margin-top:8px}
 .wpanel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:10px}
@@ -277,6 +278,7 @@ items.forEach(it=>{it.isNew=!firstVisit&&!seenSet.has(it.id)});
 function saveSeen(){try{const keep=new Set(items.map(i=>i.id));localStorage.setItem("seenIds",JSON.stringify([...seenSet].filter(x=>keep.has(x))))}catch(e){}}
 if(firstVisit){items.forEach(i=>seenSet.add(i.id));saveSeen()}
 function markSeen(ids){ids.forEach(id=>{seenSet.add(id);const it=items.find(i=>i.id===id);if(it)it.isNew=false});saveSeen()}
+const keepShown=new Set(); // cards opened this visit stay in the list until the app is reopened
 const S={view:"home",status:items.some(i=>i.isNew)?"new":"live",cat:(()=>{try{return localStorage.getItem("cat")||"all"}catch(e){return"all"}})(),acc:null,q:"",showToday:false};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
@@ -293,7 +295,7 @@ function match(it,ignore){
   if(S.view==="watch"&&!it.watch)return false;
   if(ignore!=="status"&&S.view==="home"){
     const s=S.status;
-    if(s==="new"&&!it.isNew)return false;
+    if(s==="new"&&!it.isNew&&!keepShown.has(it.id))return false;
     if(s==="yday"&&+it.open!==+TODAY-DAY)return false;
     if(s==="live"&&it.st==="ended")return false;
     if(s==="closing"&&!it.closing)return false;
@@ -328,7 +330,7 @@ function card(it){return`<article class="card${it.st==="ended"?" ended":""}">
   </article>`}
 function render(){
   const nNew=items.filter(i=>i.isNew).length;
-  if(S.status==="new"&&!nNew&&S.view==="home")S.status="live";
+  if(S.status==="new"&&!nNew&&!keepShown.size&&S.view==="home")S.status="live";
   if(window.__wready)renderWatchPanel();
   $("strip").innerHTML=accs.map((a,k)=>`<button class="inf" id="inf-${k}" data-acc="${esc(a.acc)}" aria-pressed="${S.acc===a.acc}">
     <span class="av" style="background:var(--t-${a.cat})">${esc(a.acc.replace(/[^a-z]/gi,"").slice(0,2).toUpperCase())}</span>
@@ -388,7 +390,7 @@ document.addEventListener("click",e=>{
 });
 $("q").addEventListener("input",e=>{S.q=e.target.value;render()});
 $("doneAll").addEventListener("click",()=>{markSeen(items.filter(i=>i.isNew).map(i=>i.id));S.status="live";render();window.scrollTo({top:0,behavior:"smooth"})});
-document.addEventListener("click",e=>{const a=e.target.closest("a.ph[data-sid]");if(a&&!e.target.closest(".heart")){markSeen([a.dataset.sid]);setTimeout(render,300)}});
+document.addEventListener("click",e=>{const a=e.target.closest("a.ph[data-sid]");if(a&&!e.target.closest(".heart")){const id=a.dataset.sid;keepShown.add(id);markSeen([id]);const nd=a.querySelector(".newdot");if(nd)nd.remove();a.closest(".card")&&a.closest(".card").classList.add("opened")}});
 $("clear").addEventListener("click",e=>{e.preventDefault();S.q="";$("q").value="";render()});
 render();
 // ---- 追蹤清單：在 App 裡直接編輯，存回 GitHub 的 watchlist.txt ----
