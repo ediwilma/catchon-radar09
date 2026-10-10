@@ -71,7 +71,7 @@ jobs:
         run: |
           git config user.name "catchon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/; git add accounts_auto.txt accounts_home.txt 2>/dev/null || true
+          git add data/ accounts.txt; git add accounts_auto.txt accounts_home.txt 2>/dev/null || true
           git diff --cached --quiet || git commit -q -m "更新團購資料 $(TZ=Asia/Seoul date '+%m/%d %H:%M')"
           for i in 1 2 3 4; do
             git pull --rebase --autostash -X theirs -q origin main && git push -q && exit 0

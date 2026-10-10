@@ -37,6 +37,17 @@ def main():
         with f.open("a", encoding="utf-8") as fh:
             fh.write(head + "".join(u + "\n" for u in new))
     print(f"added {len(new)}: {new}")
+    # also pick up accounts found by the 09pangpang search that are not tracked yet
+    disc = ROOT / "data" / "discovered_09pangpang.json"
+    if disc.exists():
+        tracked |= set(new)
+        found = json.loads(disc.read_text(encoding="utf-8"))
+        extra = [u for u, c in sorted(found.items(), key=lambda x: -x[1]) if u not in tracked and u not in blocked]
+        extra = extra[:max(0, MAX_ACCOUNTS - len(tracked))]
+        if extra:
+            with (ROOT / "accounts.txt").open("a", encoding="utf-8") as fh:
+                fh.write("# --- 自動加入：09pangpang 新找到的帳號 ---\n" + "".join(u + "\n" for u in extra))
+        print(f"added from 09pangpang: {len(extra)}")
 
 if __name__ == "__main__":
     main()
