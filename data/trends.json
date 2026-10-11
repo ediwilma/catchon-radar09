@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-10T12:29:06.471276+00:00",
+ "updated": "2026-10-11T10:56:47.163743+00:00",
  "items": [
   {
    "name_ko": "한정선 찹쌀떡",
-   "name_zh": "限定款糯米年糕",
-   "brand": "GS25 x 로로멜로",
-   "why_zh": "首款售出70萬個引發品缺潮，第二彈皮斯塔契奧口味上市再掀熱潮",
+   "name_zh": "韓定線糯米糕",
+   "brand": "GS25",
+   "why_zh": "首款售出70萬個，第二彈皮斯塔奇口味引發排隊熱潮，全國便利商店缺貨",
    "category": "food",
    "keyword": "한정선 찹쌀떡",
    "news": [
@@ -29,19 +29,15 @@
   },
   {
    "name_ko": "피자설기",
-   "name_zh": "披薩雪糕",
-   "brand": "편의점/피자헛",
-   "why_zh": "新型年糕甜點，開賣秒殺，引發全國便利商店和食品業者跟風推出",
+   "name_zh": "披薩蒸糕",
+   "brand": "Pizza Hut、CU",
+   "why_zh": "SNS爆紅的新型甜點，便利商店和披薩業者推出，引發排隊購買風潮",
    "category": "food",
    "keyword": "피자설기",
    "news": [
     {
-     "title": "'오픈런' 피자설기 열풍, 피자헛도 참전...3900원 컵 디저트로 낸다 - 머니투데이 - 머니투데이",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lMk9hdFZsbFgxMmVDbG1CRTVKU2d5WjJWX0V0dV9Ta2VOVnVBWjdSQ3ZmWDA2NXUxVnBxYVNqak1oVWk3NjRhb1VTenJNSzVmODdGSzFLUlNVSlVHc3p5X1Q0ZmhmbFA4SkHSAW9BVV95cUxPUDRnQ0pWVjRxTWxsY2JfRS02VlI0YTJBYVVBNElTLUFJeW1Ub0dRa01GN25rS0o1UVIzbllqalBZZFI3ZE9HU2owc1YxRDQyMVVLMG1lOXlBUHVIRUgtb2ZBVkZ3SGxZd0VaTjUwNFE?oc=5"
-    },
-    {
-     "title": "[오늘의신상]'떡지순례' 부른 피자설기…CU는 '피자절편' 내놨다 - 아시아경제",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZE9VR3djWldQMFA4N1Jldm8tTkhVeFRfMkdSc1VtQWYwYzRscFNqM0lkbldrck1Nc3dnMnI0dlpOZ2pMZFhyeGRpdTR6UDFYbzRCMXRMWjBsb3A4c3RQU0hIbHdDZ1ZzZzltX1BQaVJlVjFKYU9qdHdyUDBrU29EVTJn?oc=5"
+     "title": "요거트 찹쌀떡·피자설기…떡은 어떻게 대박템이 됐을까 [푸드360] - 헤럴드경제 미주판",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5la1E3aWE2ZlhnYmo3dEppdnQzTWwzdTVwdmVaczZDd1Z1Y0lsb21UcmVfT2gxU0VjLXRvWXMtaGR2YzRtd3p6bWtGZzJXbWxxNkpCdG1KVUFNU08wX1lJXw?oc=5"
     },
     {
      "title": "피자설기 이어 피자절편까지…이색 떡 열풍 확산하나 - 농민신문",
@@ -50,16 +46,20 @@
     {
      "title": "‘떡지순례’ 열풍 편의점으로…CU·GS25, 피자설기·한정선 찹쌀떡 등장 - 마이데일리",
      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15TjZ4a0NDR0lwQVIxNlBIekVzaTNQNGl6S2VocU1YVlp1cHFMaEFEek9PQk1NaUVUNmRaQ3VpV1dlTUF4T2Z0SV8tb1FydWJpLUN5VmxGVVQybnAwaTlLaQ?oc=5"
+    },
+    {
+     "title": "피자헛도 떡지순례 참전…3900원 ‘피자설기’ 출시 - 이데일리",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVGhFU3dOTk5BSUdIWHhiTHBlUEZMeDNEMTh3czZ5Mi0wSEg5dWlIVXdoWnRDMlpOWHFOeTJrTXFReEVxZTRQdUhwNnRXM0hsM0NqUTNENnRfTGtYU1kwSTZOa2VyZmVkZlFZXzZUZzF5eXphbnFBUHoxNVN2QVphaA?oc=5"
     }
    ]
   },
   {
-   "name_ko": "오리온 맛꾸 (초코칩쿠키·마이구미·미쯔)",
-   "name_zh": "樂天 味구 (巧克力晶片餅乾·麥芽糖軟糖·米滋)",
-   "brand": "오리온",
-   "why_zh": "MZ世代流行新吃法（浸牛奶、灑糖、混著吃），老品牌銷售增長30%",
+   "name_ko": "오리온 초코칩쿠키 '맛꾸'",
+   "name_zh": "歐瑞恩巧克力豆餅乾「味玩」",
+   "brand": "Orion",
+   "why_zh": "因吃法創新（泡牛奶、撒糖等）在年輕世代爆紅，銷售增長30%",
    "category": "food",
-   "keyword": "맛꾸 먹는법",
+   "keyword": "초코칩쿠키 맛꾸",
    "news": [
     {
      "title": "오리온 \"초코칩쿠키·마이구미·미쯔, '맛꾸' 열풍에 인기\" - 연합뉴스",
@@ -70,20 +70,20 @@
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4VnNEZFdkczZsVVJxNlVUVFRGdjhkLTAtbU1uMlBSX194ckRpby1KSnk3UXhHdFNQSnVrbUxTWlBTYTRRbFpTTzd0VktvZVJ0QjNCMzNpd2RKSElPVFZ2OVlELWxlb3dNQWJDaVo0MkpQZ9IBckFVX3lxTFB4VnNEZFdkczZsVVJxNlVUVFRGdjhkLTAtbU1uMlBSX194ckRpby1KSnk3UXhHdFNQSnVrbUxTWlBTYTRRbFpTTzd0VktvZVJ0QjNCMzNpd2RKSElPVFZ2OVlELWxlb3dNQWJDaVo0MkpQZw?oc=5"
     },
     {
-     "title": "오리온 \"초코칩쿠키·마이구미·미쯔, '맛꾸' 열풍에 인기\" - 문화투데이",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KUDltZTA2TUNpQWNBYmgydlduRnI3cWp3X0Njb0JDQWxlRXNkcmNISC03UGZBVng2WFlUcktjdVRreVRHNnhaQ1ZXZWZYSC01cTdjSWtCcWtiUlJ6dDY4djliMzVEa0ZN?oc=5"
-    },
-    {
      "title": "젤리 얼리고 과자 우유에 말고…초코칩쿠키 매출 30% 증가, ‘맛꾸’ 열풍 - 창원특례신문",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UMzlDRFQwakQ5T3JvbmtIb3htUzREZFJaSlpERnVVMkYxSWFFV245NklhbG0wWVlDOWlXbFRYTUI3cms5cFZJNHNHZnhPaVlWMEM2ZUg1S0w1OUxDekc0cW5IYTU0a2ZPdVdB0gFrQVVfeXFMTVQzOUNEVDBqRDlPcm9ua0hveG1TNERkUlpKWkRGdVUyRjFJYUVXbjk2SWFsbTBZWUM5aVdsVFhNQjdyazlwVkk0c0dmeE9pWVYwQzZlSDVLTDU5TEN6RzRxbkhhNTRrZk91V0E?oc=5"
+    },
+    {
+     "title": "\"제발 그냥 먹지 마세요\"…매출 30% 폭증시킨 과자 먹는 법[지금사는방식] - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SMW5aS3ExQVg0TVN6RFVBbTRPTVhaTDZibXE0NlRIQVd4Y1AwTnU3VnNHNG9TWFZwd2pwSWMwSVFxNTBtYXJDNHZMRDRCblRqRk1TSzR1UDhEREh2cU04eA?oc=5"
     }
    ]
   },
   {
    "name_ko": "파바 초코츄러스",
-   "name_zh": "Pava 巧克力吉拿棒",
-   "brand": "파바",
-   "why_zh": "2900韓元，上午11點30分40個全部秒售，引發排隊潮",
+   "name_zh": "Pava巧克力吉拿棒",
+   "brand": "편의점",
+   "why_zh": "2900元新品，11點半限量40個立刻售完，引發購買熱潮",
    "category": "food",
    "keyword": "파바 초코츄러스",
    "news": [
@@ -98,39 +98,101 @@
    ]
   },
   {
-   "name_ko": "다이소 양말",
-   "name_zh": "大創襪子",
-   "brand": "다이소",
-   "why_zh": "3000韓元必買品，因藝人穿著引發品缺潮，社群瘋傳",
-   "category": "living",
-   "keyword": "다이소 양말",
+   "name_ko": "윤남노 복담주",
+   "name_zh": "尹南路福談酒",
+   "brand": "CU",
+   "why_zh": "20萬瓶完銷，便利商店新推出的酒精飲品",
+   "category": "food",
+   "keyword": "복담주",
    "news": [
     {
-     "title": "품절되기 전에 보세요…안 사면 100% 후회하는 다이소 3000원 '필수템' - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85dzZwRmhSNmJjUWpIcEQxbDN3MXE2ODBUT3g3ZnE3VWRpNFBxZDVMcXJMUXB2bHdkZnBEZGFYTUZGVEVJQzNoTzEwUF83cnI5a2dVYi1n?oc=5"
-    },
-    {
-     "title": "“아저씨 양말이라 놀렸는데”… 다이소 품절대란 일으킨 ‘이것’ - 뉴스와",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmNTJlV00xZ2VRX3kxV2c5Z3pBWnI0Nkp5YmNiUHh4NlAtclpaY1UxbnJqMlc2Q0VsY0tLQUJrQmxjODI5ZmJyQTVmN1hpa2RXWjRaVEFuRzlfSEpTVURnYXNKT1hjSWVBbC1hVGdNUVZFUEhSbEE?oc=5"
-    },
-    {
-     "title": "\"등산 가던 아저씨 옷인데\"…제니·주우재 입자 '품절 대란' [트렌드+] - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NMFlVMmJKVUpXbVh3aTk4MS1OVlIwcjBjczJMNkNxZGc5RVFGOFVBRlI0R0pWOU9lLVVSMEtMTi1vMkhlVUIwb1pPMnBLNmRWLWprQjU0cWdvQQ?oc=5"
+     "title": "[오늘의신상]윤남노 복담주 20만병 완판…세븐일레븐, 이번엔 토마토 막걸리 - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82OHA3RGpLYTJ5OEktdVU5SEFUMG1ZTWVEWmd4Sk9HWC11TVRKQzFEQjRjb0FOa243MkhQYnlQWkx5YUt4SnVPZGRlR0xvaG43YmVsYTZLT1Vtc0tLNHdtWA?oc=5"
     }
    ]
   },
   {
-   "name_ko": "다이소 물광 제품",
-   "name_zh": "大創水光護膚產品",
-   "brand": "다이소",
-   "why_zh": "1000韓元內就能打造水光肌，頻繁補貨熱銷",
-   "category": "beauty",
-   "keyword": "다이소 물광",
+   "name_ko": "세븐일레븐 토마토 막걸리",
+   "name_zh": "7-ELEVEN番茄馬格利酒",
+   "brand": "7-ELEVEN",
+   "why_zh": "便利商店新推出的創新口味酒精飲品",
+   "category": "food",
+   "keyword": "토마토 막걸리",
    "news": [
     {
-     "title": "드디어 재입고…다이소서 단돈 1000원으로 물광 만들어주는 '이 상품' - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WRW1CZ2ZraGZaQVVVOG1DVmxwOWg2ZWJnM19SODlRalZpd3hHRC1uS2QxN3FuRE1rSFlWY0VIb0c4LWF3dUhRcU4wSklHaHVHOUxFeHJn?oc=5"
+     "title": "[오늘의신상]윤남노 복담주 20만병 완판…세븐일레븐, 이번엔 토마토 막걸리 - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82OHA3RGpLYTJ5OEktdVU5SEFUMG1ZTWVEWmd4Sk9HWC11TVRKQzFEQjRjb0FOa243MkhQYnlQWkx5YUt4SnVPZGRlR0xvaG43YmVsYTZLT1Vtc0tLNHdtWA?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "무알코올 맥주",
+   "name_zh": "無酒精啤酒",
+   "brand": "편의점",
+   "why_zh": "소버 큐리어스 열풍에 따른 무알코올 음료 시장 확대",
+   "category": "food",
+   "keyword": "무알코올 맥주",
+   "news": [
+    {
+     "title": "야장서도 `무알코올 맥주`…`소버 큐리어스` 열풍 타고 시장 확대 - 디지털데일리",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVc0N2bXdCRHJYU3NCdXRpbmpFZVkyRENqN2Y0TEItSGIxVDZXNDNSRXpoQkdVSFdyZklPZmhSRmhQOGl6ejlMMms3TWhOM0NERjZiS09JNVpIdjlQempETWF1MGI?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "농심 너구링",
+   "name_zh": "農心浣熊蝦餅",
+   "brand": "Nongshim",
+   "why_zh": "SNS人氣食譜正式推出商品化",
+   "category": "food",
+   "keyword": "너구링",
+   "news": [
+    {
+     "title": "SNS레시피가 제품으로…농심 스낵 ‘너구링’ 선봬 - 국제신문",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTkdNTjA5QVp2V3dxVjliVnJadXFEeVJtcDI4SGFhaVdNTVByeFZwa24zMjlJMVZGUkVmMDhUQjllX3VvMG5HNTg1MXNtckJ5V09URFNHRkRjb3R2NkEtV3JEbUo2V2YxTUlkX1QtVzhXbl8tdXVXOThOSnJoS1hvWmJBZEo1T0FNOXZTVFVR?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "BHC 콰삭모짜킹",
+   "name_zh": "BHC起司馬蕉雞",
+   "brand": "BHC",
+   "why_zh": "因美食短片和直播熱潮銷售火爆，接近20萬個銷售量",
+   "category": "food",
+   "keyword": "콰삭모짜킹",
+   "news": [
+    {
+     "title": "\"먹방·숏폼 열풍에 판매 속도 가파르다\"…bhc, '콰삭모짜킹' 20만개 돌파 직전 - 더페어",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VcUZXSkJrR2dRQmw3d1U5Vm9pcGRJV2I2LUNadjViaHdhelVhRzlmSjA5QXVsc1FFZHRSdi04V2dqTlFXWWhYN0NtM3MyZHFtNnJzSUVHLU1yTk1SQnZwWDJSVVk0MEhwNWphZ2RKZzI?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "편의점 신상 빵",
+   "name_zh": "便利商店新品麵包",
+   "brand": "편의점",
+   "why_zh": "四天內售出10萬個，附贈禮物的新品麵包引發熱購",
+   "category": "food",
+   "keyword": "신상 빵",
+   "news": [
+    {
+     "title": "\"뜯는 재미가 쏠쏠하네\" 나흘 만에 10만개 팔린 '편의점 빵'의 정체[지금사는방식] - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iTHB2VU16T2lHV2hpTm1sWl9YNFZEZUV6MDRmSklPc05zUG1qTGwzeDM4RjZKNzBPSEFUYVNQVERNVWtJbVlzdHpGTHN6VjljRllYcmx0bjJOMlN0UzJoRQ?oc=5"
     },
+    {
+     "title": "\"빵 사면 '이것' 준다고?\"…나흘 만에 10만개 팔렸다[지금사는방식] - Daum",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OYlhxcmQwVDV5ZEFLRjZWX19lbVRaZGZQNkRPSFRJd1dQelVzOWF2VWd6U1BnZXlLLWJQQW9EZmRwY2hjQ0lndzM1V3JlU3M?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "다이소 뷰티 제품",
+   "name_zh": "Daiso美妝產品",
+   "brand": "Daiso",
+   "why_zh": "百貨公司售5萬元的高端美妝品牌進駐千元以下價位，CP值驚人",
+   "category": "beauty",
+   "keyword": "다이소 뷰티",
+   "news": [
     {
      "title": "“이게 다이소 거라고?”…천 원대부터 유명 브랜드까지, 다이소 뷰티가 달라졌다 - 시빅뉴스",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUT0czWTdHLVhFcUtGa3IyRXRuM0s4NjB6czhzbW8zeHptTGV2ZndLeGJOV3IwMUtPN0VzMVZSNS1HM01KSmh2ZGRNaDNVUkhvMjFBT1lDTXA3RXVFd0w0NzFBbjhzalpLVGV3?oc=5"
@@ -142,114 +204,12 @@
    ]
   },
   {
-   "name_ko": "제주 빵집 시식 빵",
-   "name_zh": "濟州麵包店試吃麵包",
-   "brand": "제주 빵집",
-   "why_zh": "藝人試吃引發品缺風波，引發關注",
-   "category": "food",
-   "keyword": "제주 빵",
-   "news": [
-    {
-     "title": "유리, 시식 한 번 했더니 품절 대란…제주 빵집 \"어디길래…\" - 머니투데이 - 머니투데이",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiS2E5a2pDdHhzZkVhSHpiSnNlb091QXVjck9MNVdFSGdPLTBTemlhVzNZSUU0Uzl6b3Jjak1pZ3J0U3FFUVY3bnlUSDRORldENEJ4OXlxMzNMby00aTc4U1p6VlJxVFNPNE0zOWhlQnppUXfSAXhBVV95cUxOQUoxeE0wd0hPZkZpeTQ1cDZTWU5lUzdkbmg3ZlJadHpscFVLb20ySjN6emIyeFpTVGVlLUF6OFhsQkhHQTYwdUluTHlpUlBJMENpc2V3RzlhaC1scHFfS1puSFRkQlZ4cmxXWjNCNGZ1MjdidzRvRHg?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "한글과자 칼파벳",
-   "name_zh": "韓文字母糖果",
-   "brand": "칼파벳",
-   "why_zh": "先前品缺熱銷商品，韓文날9日推出特別行事",
-   "category": "food",
-   "keyword": "한글과자",
-   "news": [
-    {
-     "title": "'품절 대란' 한글과자, 성수에서 만난다…칼파벳, 9일 한글날 특별 행사 개최 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56ZmtLdHBndVNCR1V2ZmtJQ3hRTHBLLXRhNEJTaEkyZFF1M0pFUDk2NGNYelMwVmhxZ1JydUhCQnhhZl9uWlN4aXNjVk5iQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "요거트 찹쌀떡",
-   "name_zh": "優格糯米年糕",
-   "brand": "편의점",
-   "why_zh": "創意年糕新口味，帶動떡지순례熱潮",
-   "category": "food",
-   "keyword": "요거트 찹쌀떡",
-   "news": [
-    {
-     "title": "요거트 찹쌀떡·피자설기…떡은 어떻게 대박템이 됐을까 [푸드360] - 헤럴드경제",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WamlfVDQzTjY3eFVzWlhQZ2FYZC1jX1JqTVBGWnlCOFQ2YWY2YnNtTk9pWm5raHUtSzgwRmRSSDlzMUItWjFOQVNTenJEZm5GbnBqdEpR?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "오트리 안경",
-   "name_zh": "OTRII眼鏡",
-   "brand": "오트리",
-   "why_zh": "藝人이선민在JTBC節目配戴引發關注",
-   "category": "fashion",
-   "keyword": "오트리 안경",
-   "news": [
-    {
-     "title": "대세 이선민, 최애 안경으로 ‘오트리’ 픽! 유퀴즈 촬영때 착용 눈길 - fn아이포커스",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wSmI5bzRFMzJ5MEpZVThVQjF0SUdfNUF4alZycjF6anRnME0yV2htQWdVSjBKR3lUTTlSZFRCeF81LUZ4X3RmbU9XNjNrdEh1djZnd0tsMWdab28wTllNUXZvN1RCUldsNVlFWA?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "피자절편",
-   "name_zh": "披薩年糕片",
-   "brand": "CU",
-   "why_zh": "跟風피자설기熱潮的新型年糕甜點",
-   "category": "food",
-   "keyword": "피자절편",
-   "news": [
-    {
-     "title": "[오늘의신상]'떡지순례' 부른 피자설기…CU는 '피자절편' 내놨다 - 아시아경제",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZE9VR3djWldQMFA4N1Jldm8tTkhVeFRfMkdSc1VtQWYwYzRscFNqM0lkbldrck1Nc3dnMnI0dlpOZ2pMZFhyeGRpdTR6UDFYbzRCMXRMWjBsb3A4c3RQU0hIbHdDZ1ZzZzltX1BQaVJlVjFKYU9qdHdyUDBrU29EVTJn?oc=5"
-    },
-    {
-     "title": "피자설기 이어 피자절편까지…이색 떡 열풍 확산하나 - 농민신문",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9veG5uWVFhd0RtN2xYNG5aa0lqNU5CMTBWOG1BM3E1S2NLM0FCSmpIeTk4VVQ3Ul9lMm5ta2JzM3RyRFFVTEp5QmcwT2t3bjZLMFN0Rm1mNWN4UQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "아크룩스 베이 (화이트와인)",
-   "name_zh": "Acruks Bay 白酒",
-   "brand": "롯데칠성",
-   "why_zh": "紐西蘭白酒新品上市",
-   "category": "other",
-   "keyword": "아크룩스 베이",
-   "news": [
-    {
-     "title": "롯데칠성, 뉴질랜드 화이트와인 '아크룩스 베이' 출시 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9pc1dral9MMjR4RWlNanhPeHUzSnhWMFFTQWhyeFBNXzZjQXhKalhtd1ZENk1yd2xyWUF2TTV5dHYtTjR2Q2Fpelp6cG1HQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "고디바 떡",
-   "name_zh": "Godiva 年糕",
-   "brand": "고디바",
-   "why_zh": "高級品牌加入떡지순례熱潮",
-   "category": "food",
-   "keyword": "고디바 떡",
-   "news": [
-    {
-     "title": "한정선 다음은 고디바… MZ ‘떡픈런’ 더 뜨거워졌다 - 한경매거진&북",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4UWpCb3duREZjdGE0Z0J2ZlpWcWxHVUphZEZBZnh3R0puZkQyd2VKV1I3NUc4V1F3MXp2VV81bGQta0pORldQSXZrTDB1RkstVmlMYlA2aVc4bHVyZ0poZDBHX1RrYkZibEVieg?oc=5"
-    }
-   ]
-  },
-  {
    "name_ko": "어뮤즈 누 세럼 볼륨 글로우업 쿠션",
-   "name_zh": "Amuse Nu Serum Volume Glow Up氣墊",
-   "brand": "어뮤즈",
-   "why_zh": "業界首款精華液膏狀粉底，新品上市",
+   "name_zh": "Amuse新精華體積發光提升氣墊",
+   "brand": "Amuse",
+   "why_zh": "業界首創精華液膏狀質地氣墊產品",
    "category": "beauty",
-   "keyword": "어뮤즈 쿠션",
+   "keyword": "누 세럼 쿠션",
    "news": [
     {
      "title": "어뮤즈, 업계 최초 세럼 도우 제형 개발, ‘누 세럼 볼륨 글로우업 쿠션’ 출시 - 신세계그룹 뉴스룸",
@@ -258,16 +218,44 @@
    ]
   },
   {
+   "name_ko": "아이소이X히나쿠우 쿠숑 콜라보",
+   "name_zh": "ISOI×HinakuuCousin聯名氣墊",
+   "brand": "ISOI",
+   "why_zh": "人氣品牌聯名產品，持續受關注",
+   "category": "beauty",
+   "keyword": "아이소이 콜라보",
+   "news": [
+    {
+     "title": "‘아이소이X히나쿠우 쿠숭이 콜라보’ 인기 입증 - 주간신문씨엠엔",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xWEdNM0hyQS1oeGNPUmt0ZGlhSzFhc0NXUzBRRXpYQW83dHJmSXJLYTZJbklmZ293eUpFZ0RDUmZ2ZXFKZFdyck5xU19RWXNfWG0xWTlEMjdWNElGU20yN25KUi1nZw?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "다이소 밀폐 용기",
-   "name_zh": "大創密封容器",
-   "brand": "아성다이소",
-   "why_zh": "真空及耐熱玻璃容器等30多款新產品上市",
+   "name_zh": "Daiso密閉容器",
+   "brand": "Daiso",
+   "why_zh": "推出30多種真空和內熱玻璃製品，生活用品新系列",
    "category": "living",
    "keyword": "다이소 밀폐용기",
    "news": [
     {
      "title": "아성다이소, 밀폐 용기 30여 종 선보여…진공·내열 유리 제품 구성 - 뉴스핌",
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iMFFuMmt3Szd3NEtNRElRTU9SczNZRjBmcFVIaWpHTmhSTHd4MVhlRXFLN05Da0RxUmNuXzFYVVFiNWYwUG5MRFZSNVN6YVFuTlR4dmhaOTlHa3la?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "오트리 안경",
+   "name_zh": "OTREE眼鏡",
+   "brand": "OTREY",
+   "why_zh": "藝人李善民在綜藝節目配戴引發關注",
+   "category": "fashion",
+   "keyword": "오트리 안경",
+   "news": [
+    {
+     "title": "대세 이선민, 최애 안경으로 ‘오트리’ 픽! 유퀴즈 촬영때 착용 눈길 - fn아이포커스",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wSmI5bzRFMzJ5MEpZVThVQjF0SUdfNUF4alZycjF6anRnME0yV2htQWdVSjBKR3lUTTlSZFRCeF81LUZ4X3RmbU9XNjNrdEh1djZnd0tsMWdab28wTllNUXZvN1RCUldsNVlFWA?oc=5"
     }
    ]
   }
