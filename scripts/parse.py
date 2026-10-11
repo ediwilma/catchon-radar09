@@ -22,7 +22,7 @@ API = "https://api.anthropic.com/v1"
 HDR = {"x-api-key": KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"}
 KEYWORDS = ["공구", "공동구매", "오픈", "마감", "구매", "주문", "판매", "리오더", "재입고", "특가", "할인", "링크", "OPEN", "open"]
 CATS = ["food", "kids", "beauty", "tech", "living", "fashion", "interior", "pets", "travel", "none"]
-GROUP = 8              # posts per request
+GROUP = 15             # posts per request (instructions are sent once per group)
 MAX_CHARS = 3000       # longest caption part we send (90% of posts are under 1,300 chars)
 WAIT_MIN = int(os.environ.get("BATCH_WAIT_MIN", "25"))
 
