@@ -1,37 +1,51 @@
 {
- "updated": "2026-10-12T07:13:13.328337+00:00",
+ "updated": "2026-10-13T05:03:37.261676+00:00",
  "items": [
   {
+   "name_ko": "디올 x 리모와 '디올 오블리크' 캐리어",
+   "name_zh": "迪奧 x 里莫瓦 「迪奧斜紋」行李箱",
+   "brand": "Dior x Rimowa",
+   "why_zh": "曾引發缺貨潮的熱門商品重新上市，冬季前引發關注",
+   "category": "fashion",
+   "keyword": "디올 캐리어 리모와",
+   "news": [
+    {
+     "title": "품절 대란을 일으켰던 디올 x 리모와 '디올 오블리크' 캐리어 재출시 - Hypebeast.KR",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN3NxRmVuYUtDd2N6dFBSOUVxb1FVX2ZmZC1mR0VkU1A1SWEySXpyRmZWbDFwbGtMOWh3TFlQT3pHSU5vX2Y1VmRNR2V4b2dzMTlIQmQtRV9LcXdkNXY3TVM3ZWR2aWpoVzU3dnRNY1phRk5fV2NfVHdsMWsyVFFkUW1mbHRJVXBYM3hrREI0NDR6ZjdrVGxDSXdyZWtiZFl5QnhWR21zdDl5NzJa?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "한정선 찹쌀떡",
-   "name_zh": "한정선 糯米餅",
-   "brand": "GS25",
-   "why_zh": "第一彈銷售70萬個，第二彈皮斯塔齊奧味限定版開賣秒殺，掀起「떡지순례」風潮",
+   "name_zh": "HaeNulSun 糯米年糕",
+   "brand": "HaeNulSon x GS25",
+   "why_zh": "便利店限定商品開賣半天售完，引發開店排隊熱潮",
    "category": "food",
    "keyword": "한정선 찹쌀떡",
    "news": [
     {
-     "title": "GS25, 로로멜로와 ‘한정선 찹쌀떡’ 2탄 출시… ‘떡지순례 열풍 이어간다’ - 미디어데일",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HYlZuUTlQVFBKZHpjMUtiMmhPLWVqb3d3RjJzSTJLdkpjcTVBMzBjNDFrMEs2aFVlNW15NFVya01mMFVoZ1E2dDlpTGdlYk9GM2E5X2ZCX01iQl9LLVNpTl9QU3ZQZWRXdkY0?oc=5"
+     "title": "'품절 대란' 한글과자, 성수에서 만난다…칼파벳, 9일 한글날 특별 행사 개최 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56ZmtLdHBndVNCR1V2ZmtJQ3hRTHBLLXRhNEJTaEkyZFF1M0pFUDk2NGNYelMwVmhxZ1JydUhCQnhhZl9uWlN4aXNjVk5iQQ?oc=5"
     },
     {
      "title": "GS25, ‘한정선 피스타치오 찹쌀떡’ 사전예약 예고... 일정·판매처는? - 금강일보",
      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNVlBVLWswZ3l2UjJ0VFNrWTlWREphWU1KRG5ZZDVEMHloclBVR3VDblg0NzAtazUwUGhoQ2k5VnMxNTNvcXhPREhDUlY5Y0VnckdHeDRDMXVmUDlBbnM0TFFOWWl6TURXc2c?oc=5"
     },
     {
-     "title": "GS25, 70만개 팔린 한정선 찹쌀떡 2탄 출시... 이번엔 피스타치오 - 인사이트",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MR3NTSG1JZFpQdWdqczFOYmRqdUl4NFVHS3FHd18zWHVac2VUcVRzXzRfTWFRQmdwNWR0ckJXSEVjY0tfTGFzRXhMTHYwUQ?oc=5"
-    },
-    {
      "title": "한정선 오픈런 놓쳤다면? 신상 찹쌀떡 맛집 4ㅣ마리끌레르 - 마리끌레르 코리아",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVENDcXNMWnBERjlVbHRYenVqNFpRYzV3YU5tbUFwV0VQTWd0aXN0bHFkOTBCdG02dlBzSmduczVoTUZ4bnpkSmxtOHlybzRMNXc0bjNrUFV3OW94bE54UWg5QndEdk0yZDJZT3RtRnRhOTNCdEJfclRCc1lNbkJjcDV3?oc=5"
+    },
+    {
+     "title": "'떡지순례 열풍', 한정선 찹쌀떡을 GS25에서 - 뉴스1",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5zYVdUbnExTGoybHdKQlRPcGJrWlphNy1FVU9wTncta3UzaVBUc3BZRVJqSlp1b2FmVDVEQTZScnJGamV3Q3NpWnl6QQ?oc=5"
     }
    ]
   },
   {
    "name_ko": "피자설기",
-   "name_zh": "披薩年糕",
-   "brand": "피자헛/CU/GS25",
-   "why_zh": "人氣甜點新品，SNS爆紅後進入便利商店，掀起排隊搶購熱潮",
+   "name_zh": "披薩年糕片",
+   "brand": "Pizza Hut",
+   "why_zh": "新型態餐點在便利店及披薩連鎖店推出，掀起甜點風潮",
    "category": "food",
    "keyword": "피자설기",
    "news": [
@@ -48,37 +62,23 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVGhFU3dOTk5BSUdIWHhiTHBlUEZMeDNEMTh3czZ5Mi0wSEg5dWlIVXdoWnRDMlpOWHFOeTJrTXFReEVxZTRQdUhwNnRXM0hsM0NqUTNENnRfTGtYU1kwSTZOa2VyZmVkZlFZXzZUZzF5eXphbnFBUHoxNVN2QVphaA?oc=5"
     },
     {
-     "title": "‘떡지순례’ 열풍 편의점으로…CU·GS25, 피자설기·한정선 찹쌀떡 등장 - 마이데일리",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15TjZ4a0NDR0lwQVIxNlBIekVzaTNQNGl6S2VocU1YVlp1cHFMaEFEek9PQk1NaUVUNmRaQ3VpV1dlTUF4T2Z0SV8tb1FydWJpLUN5VmxGVVQybnAwaTlLaQ?oc=5"
+     "title": "MK Pick | 줄 서서 사 먹던 ‘피자설기’, 이제 오픈런 없이 피자헛에서 즐긴다 - 매일경제",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5idlV1ZWhGWXdYbEZsX2t4RTN5SGpHZ1FleEZWZWVQR0N3N2RveERPS2ZkMF9PNHZqRUVZLTJycnlLQ0hHYkdCY1F3VU1JdEZn?oc=5"
     }
    ]
   },
   {
-   "name_ko": "Dior x Rimowa 디올 오블리크 캐리어",
-   "name_zh": "Dior x Rimowa 迪奧斜紋行李箱",
-   "brand": "Dior/Rimowa",
-   "why_zh": "造成品缺風波的聯名款重新上市，冬季來臨前引發搶購熱潮",
-   "category": "fashion",
-   "keyword": "디올 오블리크 캐리어",
-   "news": [
-    {
-     "title": "품절 대란 '1분컷' 핫템 돌아왔다…겨울 앞두고 '관심 폭발' [트렌드+] - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuMGNNWC13TDI5a3VxM2p0clZJcHVBM094RW90ZFQtM0VTVkt5OThXQktabmVlYnBUVjNBMENpbkVpc3Z2OXZlcGNnVUkycFZzdHZrcnhrZG13dw?oc=5"
-    },
-    {
-     "title": "품절 대란을 일으켰던 디올 x 리모와 '디올 오블리크' 캐리어 재출시 - Hypebeast.KR",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN3NxRmVuYUtDd2N6dFBSOUVxb1FVX2ZmZC1mR0VkU1A1SWEySXpyRmZWbDFwbGtMOWh3TFlQT3pHSU5vX2Y1VmRNR2V4b2dzMTlIQmQtRV9LcXdkNXY3TVM3ZWR2aWpoVzU3dnRNY1phRk5fV2NfVHdsMWsyVFFkUW1mbHRJVXBYM3hrREI0NDR6ZjdrVGxDSXdyZWtiZFl5QnhWR21zdDl5NzJa?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 10월 뷰티 신상",
-   "name_zh": "Daiso 10月美妝新品",
-   "brand": "다이소몰",
-   "why_zh": "推出330多款美妝新品，從髮質到肌膚全方位覆蓋，掀起開跑搶購潮",
+   "name_ko": "다이소몰 10월 뷰티 신상 330여종",
+   "name_zh": "Daiso Mall 10月美妝新品330多種",
+   "brand": "Daiso",
+   "why_zh": "推出330多款美妝新品促銷活動，被譽為「逆天級行事」",
    "category": "beauty",
    "keyword": "다이소 뷰티 신상",
    "news": [
+    {
+     "title": "다이소몰, 뷰티 신상 330여 종 ‘Daiso-DAY’ 개최…더마·헤어케어 앞세운다 - 비즈트리뷴",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mVkJXdzZRMmE3QkZKWUdzN1lKMDJ2U3VqbDIybVZlMFhfU2NBb1NFay1LNThFa2o4LVNINnhCd2drOVNSWWRzZVB0TnNvbjVxc2M5TktNZm1kMWI2NGc4dlRuNDVJZl9nUDF4NG1YRkE?oc=5"
+    },
     {
      "title": "다이소몰, 10월 뷰티 신상 프로모션 전개…오픈런 이벤트부터 포토리뷰 혜택까지 - 파이낸셜투데이",
      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpSFRKZ1BiUmlZbFhHTjAtTlMwaV9xTWdZdEhGbGRscGxOQ05UN0plU0JSN0FoTlkwbmt2bmFOYnNwaVozOGNrOGUzY2l6NzRMSFBJb3VibnQ5VGplODUyOGdZRkNxR2ZIT1HSAW5BVV95cUxOWWdLZ0o0TllWNUZvbGxwWC00LWlJYmQ3c08xY1JUY0ZYU3g5cXE0R3NvcUYtTG5HZDhRajgyWlZVUEJEX18zQVVCZWpfcUVYUllKNzJmMXpOdUNOMTZRWWFWa05ia1d0WXY1X1BrQQ?oc=5"
@@ -90,61 +90,46 @@
     {
      "title": "다이소몰, 10월 뷰티 신상 330종 선보여 - 중소기업신문",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmTGtsUGlyYVJZQkJnNXVvMzFfOExHRGcyUkR0czFhQU9GTUlobUJJaUFWZElUREEyYk1FcDhhU29IeUNLMEFobmhZMDRmb3ZINkN2YmhPMGpIaHFCME9Yc29hNjNiMjB1RXc2dQ?oc=5"
-    },
-    {
-     "title": "\"백화점 안 가도 되겠네\"…신상 보따리 푼 다이소 '또 일냈다' - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KMXlsLVprbFptQ3czTl9IZjJEMm5QUDhOb1BfakZpclpaZ2RvU244Sndmdk5xN25UQUpfZlJaVjdtWngyU0lxOUtWYmNfYkl1QVdHd2hDdHgzZw?oc=5"
     }
    ]
   },
   {
-   "name_ko": "파바 초코츄러스",
-   "name_zh": "Pava 巧克力吉拿棒",
-   "why_zh": "2900韓元新品甜點，11點半開賣40個馬上售完，引發排隊搶購",
-   "category": "food",
-   "keyword": "파바 초코츄러스",
+   "name_ko": "다이소 물광 팩",
+   "name_zh": "Daiso 水光面膜",
+   "brand": "Daiso",
+   "why_zh": "售價1000韓元的美妝品重新補貨，引發搶購",
+   "category": "beauty",
+   "keyword": "다이소 물광",
    "news": [
     {
-     "title": "“11시 반에 40개 풀었는데 다 나갔어요”…2900원 파바 초코츄러스, 왜 인기일까 [밀착취재] - 세계일보",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uZ2FvaTBjcWhuT2x5UWV3ZjBid0paTUpJMkNxOU5XcnJ4TkVvYXlDUjgtS0ZHbjV0aE9DQ0xteXNGV3AtbTlMTXRNX2FFQTRZZUtYNUNTY3XSAVRBVV95cUxORHFfc00xUFd2NWtCLUlySHNyak9lTVFCaUE5SF9OOFJJZzRUMThuS2s3OHVtaWpTU3hfNlVoaW1UQVdVazBOTUJtd1ZDOTV5ZGIybkM?oc=5"
-    },
-    {
-     "title": "\"11시 반에 40개 풀었는데 다 나갔어요\"…파바 초코츄러스, 왜 인기일까 [밀착취재] - 네이트",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12T2JEUXo5R0FMTXBpUzRtRDMtYTR5LXJRVFpiaDF6SkFnYm1zcVluZTZ6MEpoT2Fvdk9mYzNrMjQySHpndzFzZ05PeG1FOU5WMTRB?oc=5"
+     "title": "드디어 재입고…다이소서 단돈 1000원으로 물광 만들어주는 '이 상품' - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WRW1CZ2ZraGZaQVVVOG1DVmxwOWg2ZWJnM19SODlRalZpd3hHRC1uS2QxN3FuRE1rSFlWY0VIb0c4LWF3dUhRcU4wSklHaHVHOUxFeHJn?oc=5"
     }
    ]
   },
   {
-   "name_ko": "맛꾸 열풍 (초코칩쿠키·마이구미·미쯔)",
-   "name_zh": "맛꾸風潮 (巧克力晶片餅乾·軟糖·巧克力)",
-   "brand": "오리온",
-   "why_zh": "MZ世代掀起「맛꾸」（獨特吃法）熱風，傳統零食因創意吃法重新走紅",
-   "category": "food",
-   "keyword": "맛꾸",
+   "name_ko": "치이카와 굿즈",
+   "name_zh": "奇異小夥伴周邊商品",
+   "brand": "Official",
+   "why_zh": "電影上映後引發周邊商品缺貨熱潮",
+   "category": "other",
+   "keyword": "치이카와 굿즈",
    "news": [
     {
-     "title": "오리온 \"초코칩쿠키·마이구미·미쯔, '맛꾸' 열풍에 인기\" - 연합뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nSHpqaWJKdVJEQ3l0WHFjZDlBaEJlY1FwdGI3SHNSWE95WWxzT2ZDVlY3WGlHRjJCdUdyeV9YYy13bkFQb3FVRmZndVNfZ3Q4aUlYR0taNl9ic2_SAWBBVV95cUxPOW5GZDlTUTFBLXM1X2JSdnlpYTVHUmdzSXlzREN4LWJKZkpjMi1OaWZRdHlVQ1Vyc1AwUXRFbkVsVzdTaUhzR21hS1NBZUtlNHBpRlJsNTc3ek5iTlktN3Q?oc=5"
+     "title": "영화 보고 입덕했는데 굿즈는 ‘텅텅’…치이카와 품절 대란 [트렌디깅] - 동아일보",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQT1RzVXVBMW5EWVkzQUN4cFo4Nl8tY1lyd1FkSVVhMnlFdVVrMGJWUEZHcFNRT29HRUN5Ry11cnhjOFVtUW43V0lzZHc4d04tZWdpN0k4TTBqQWpPZGh2TFNvVGp4Z9IBZkFVX3lxTFBQT1RzVXVBMW5EWVkzQUN4cFo4Nl8tY1lyd1FkSVVhMnlFdVVrMGJWUEZHcFNRT29HRUN5Ry11cnhjOFVtUW43V0lzZHc4d04tZWdpN0k4TTBqQWpPZGh2TFNvVGp4Zw?oc=5"
     },
     {
-     "title": "오리온 스테디셀러, MZ세대 ‘맛꾸’ 열풍 타고 재조명 - 메가경제",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4VnNEZFdkczZsVVJxNlVUVFRGdjhkLTAtbU1uMlBSX194ckRpby1KSnk3UXhHdFNQSnVrbUxTWlBTYTRRbFpTTzd0VktvZVJ0QjNCMzNpd2RKSElPVFZ2OVlELWxlb3dNQWJDaVo0MkpQZ9IBckFVX3lxTFB4VnNEZFdkczZsVVJxNlVUVFRGdjhkLTAtbU1uMlBSX194ckRpby1KSnk3UXhHdFNQSnVrbUxTWlBTYTRRbFpTTzd0VktvZVJ0QjNCMzNpd2RKSElPVFZ2OVlELWxlb3dNQWJDaVo0MkpQZw?oc=5"
-    },
-    {
-     "title": "“과자는 우유에 말고, 젤리는 ‘얼먹’”…내 맘대로 먹는 ‘맛꾸’ 열풍 - 매일경제",
-     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1VanFuSjB4MzlVNlVYcDRwd0NPUlBZcnUtZEMzYkEwWGhxUEJVY1JER3U3aXhlelFDVHVEcWZyWXl4T0hZX2c?oc=5"
-    },
-    {
-     "title": "\"제발 그냥 먹지 마세요\"…매출 30% 폭증시킨 과자 먹는 법[지금사는방식] - 아시아경제",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SMW5aS3ExQVg0TVN6RFVBbTRPTVhaTDZibXE0NlRIQVd4Y1AwTnU3VnNHNG9TWFZwd2pwSWMwSVFxNTBtYXJDNHZMRDRCblRqRk1TSzR1UDhEREh2cU04eA?oc=5"
+     "title": "“밤샘 대기에 5배 웃돈까지”… ‘치이카와’ 열풍이 남긴 키덜트 경제 명암 - 이코노미톡뉴스",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZaDNwOTBkUXpFb25BUTFpSThfMmVoUVhGWEh1WFQ0NEZDaHR3SnFndF9jZ2JJekdCRzY5WWpxNzFISDlxTXRUTVNOWDN2bndWZnUyd2tsUzNwRW41aXd0eTFkT1BPTTFEQ0RSYw?oc=5"
     }
    ]
   },
   {
    "name_ko": "로보락 S10 MaxV Ultra Steam",
-   "name_zh": "Roborock S10 MaxV Ultra Steam 掃地機器人",
-   "brand": "로보락",
-   "why_zh": "韓國特化新品上市，搭載110度蒸汽殺菌功能，掀起機器人吸�塵器衛生大戰",
+   "name_zh": "石頭掃地機器人 S10 MaxV Ultra Steam",
+   "brand": "Roborock",
+   "why_zh": "韓國特化新機型搭載110度蒸汽功能，掃地機衛生競爭升溫",
    "category": "tech",
    "keyword": "로보락 S10",
    "news": [
@@ -163,99 +148,58 @@
    ]
   },
   {
-   "name_ko": "너구링",
-   "name_zh": "너구링 (洋蔥圈+浣熊風味餅)",
-   "brand": "농심",
-   "why_zh": "根據消費者魔改食譜推出的新產品，洋蔥圈+浣熊風味創意組合",
+   "name_ko": "GEN-Z 키캡 열풍",
+   "name_zh": "GEN-Z鍵帽熱潮",
+   "brand": "Appco",
+   "why_zh": "瞄準Z世代消費群推出大王鍵帽及鍵帽裝飾品",
+   "category": "tech",
+   "keyword": "키캡 ACH01",
+   "news": [
+    {
+     "title": "GEN-Z 키캡 열풍 겨냥한 앱코...대왕 키캡 스위치 'ACH01'·인테리어 소품 '키캡 액자 명화' - 디지털포스트",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZcjVpUmE5azVKXzJrUnZkel8xRjJ4TWV1TGRyR1ZFZ2JwT21PUUFPUmpPVGdJZnNKaFpoVE9iTU90elU5YUtOMVcweXhuNE4wX3dwR1dwbjBiSUE4ajVWNm15MDRiS251UzQw?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "파바 초코츄러스",
+   "name_zh": "PAVA 巧克力吉拿棒",
+   "brand": "PAVA",
+   "why_zh": "2900韓元新品甜點，上午11時半上架40個全數完售",
    "category": "food",
-   "keyword": "너구링",
+   "keyword": "파바 초코츄러스",
    "news": [
     {
-     "title": "농심, ‘양파링+너구리’ 모디슈머 레시피 제품화…‘너구링’ 출시 - 나눔경제뉴스",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IbXo4cnpuSXFJeW93R3NUQVg0clFFcFZJUGZ6cWNScUZySDB3MGdCUkhkUlhDQ0dFQWMwYmFjMmZMeHR6LU45YjE1NkdfNC1QdmU0dTFqdTlnR1hIZVpzNHZUYlFMS1dzcVdHVQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "무알코올 맥주",
-   "name_zh": "無酒精啤酒",
-   "why_zh": "隨著「清醒好奇」(Sober Curious)風潮，無酒精啤酒市場持續擴大",
-   "category": "food",
-   "keyword": "무알코올 맥주",
-   "news": [
-    {
-     "title": "야장서도 `무알코올 맥주`…`소버 큐리어스` 열풍 타고 시장 확대 - 디지털데일리",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVc0N2bXdCRHJYU3NCdXRpbmpFZVkyRENqN2Y0TEItSGIxVDZXNDNSRXpoQkdVSFdyZklPZmhSRmhQOGl6ejlMMms3TWhOM0NERjZiS09JNVpIdjlQempETWF1MGI?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "누 세럼 볼륨 글로우업 쿠션",
-   "name_zh": "Nu 精華妝感蓬鬆光澤唇膏",
-   "brand": "어뮤즈",
-   "why_zh": "業界首創精華液粉霜劑型，新概念美妝產品上市",
-   "category": "beauty",
-   "keyword": "누 세럼 쿠션",
-   "news": [
-    {
-     "title": "어뮤즈, 업계 최초 세럼 도우 제형 개발, ‘누 세럼 볼륨 글로우업 쿠션’ 출시 - 신세계그룹 뉴스룸",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeTRQSDhoMTNQbDJTX3VNNnk0LW11V3RkclRnNU5WYXJTLUJ3WmxTMVpqRXJsZVh3eVc1VURGT3g5TmZlSXVjQUhnOUZsdl9ieW5jODRWTURXNld2ZTNTNVR5dnk4MU8yODBGUUNWZExUYkltMkc4b2pKem5hQmxLcTZnaGVOSHBlR2Nr?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "헤브블루",
-   "name_zh": "Hev Blue",
-   "brand": "코스멘토코리아",
-   "why_zh": "透過專業內容行銷，年銷售額成長至120億韓元",
-   "category": "beauty",
-   "keyword": "헤브블루",
-   "news": [
-    {
-     "title": "광고보다 재구매에 집중… 코스멘토코리아 헤브블루, 매출 120억원으로 성장 - Daum",
-     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1OSy12cGNmRE1YMmV0aE9PdlVLT1k5N2xtczF2RjBjeEJJSXBqOVRqTkFwdGhKam5wVTJ2Vng0Y244dWp4TjVVVzFpRzd0WTg?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 아우터",
-   "name_zh": "Daiso 外套",
-   "brand": "다이소",
-   "why_zh": "5千韓元內價格卻有高質感，打動百貨店客層，掀起秋冬季外套搶購潮",
-   "category": "fashion",
-   "keyword": "다이소 아우터",
-   "news": [
-    {
-     "title": "“마네킹 그대로 사도 3만원”…다이소, 간절기 아우터 시장도 흔든다 - 쿠키뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSWnE4RGltNjZPTWRtTzNhekFfUWlaMWpYdGlGVDNobG9xdDhwWDJLRGNxY1FpSlZ6TThieEhNMkliTklnR3JaUFdtbDkyaUQzbTBnSWhrWEh1ZFV5ZUZsNVZiRQ?oc=5"
+     "title": "“11시 반에 40개 풀었는데 다 나갔어요”…2900원 파바 초코츄러스, 왜 인기일까 [밀착취재] - 세계일보",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uZ2FvaTBjcWhuT2x5UWV3ZjBid0paTUpJMkNxOU5XcnJ4TkVvYXlDUjgtS0ZHbjV0aE9DQ0xteXNGV3AtbTlMTXRNX2FFQTRZZUtYNUNTY3XSAVRBVV95cUxORHFfc00xUFd2NWtCLUlySHNyak9lTVFCaUE5SF9OOFJJZzRUMThuS2s3OHVtaWpTU3hfNlVoaW1UQVdVazBOTUJtd1ZDOTV5ZGIybkM?oc=5"
     },
     {
-     "title": "“백화점선 5만원인데…” 다이소 5천원 내의, 만져보니 ‘뜻밖의 품질’ - 뉴스와",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96VHYzRG94SEpPYUxjekxZLUNnWVAwUUFMLUVIWFVDMmZMRl9sOWI3SHVGY2htX2hoTkV2Mm56ejItVXRWN21yYjBTenJUTEhZSXVkTTlOMDVjaW8yczF0aWw3dlJ3bHluTzRkWG01V0F3TklqUms2aU40Yw?oc=5"
+     "title": "\"11시 반에 40개 풀었는데 다 나갔어요\"…파바 초코츄러스, 왜 인기일까 [밀착취재] - 네이트",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12T2JEUXo5R0FMTXBpUzRtRDMtYTR5LXJRVFpiaDF6SkFnYm1zcVluZTZ6MEpoT2Fvdk9mYzNrMjQySHpndzFzZ05PeG1FOU5WMTRB?oc=5"
     }
    ]
   },
   {
-   "name_ko": "다이소 밀폐 용기",
-   "name_zh": "Daiso 密封保鮮盒",
-   "brand": "다이소",
-   "why_zh": "推出30多款真空及耐熱玻璃密封容器，廚房收納新選擇",
-   "category": "living",
-   "keyword": "다이소 밀폐 용기",
+   "name_ko": "짜파게티 요리사 대회 1등 레시피",
+   "name_zh": "炸醬麵廚師大賽冠軍食譜",
+   "brand": "農心",
+   "why_zh": "SNS熱議的食譜推出袋裝麵版本",
+   "category": "food",
+   "keyword": "짜파게티 요리",
    "news": [
     {
-     "title": "아성다이소, 밀폐 용기 30여 종 선보여…진공·내열 유리 제품 구성 - 뉴스핌",
-     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iMFFuMmt3Szd3NEtNRElRTU9SczNZRjBmcFVIaWpHTmhSTHd4MVhlRXFLN05Da0RxUmNuXzFYVVFiNWYwUG5MRFZSNVN6YVFuTlR4dmhaOTlHa3la?oc=5"
+     "title": "SNS서 화제 '짜파게티 요리사 대회 1등' 레시피…봉지면으로 나온다 - 더팩트",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CV1k0YXUxRjZwdjZSS0xPdEdzRDNJMkNMcUtzQ2pjYlRyb1JlTHpOTVcyWHRLVTcwRDBuOUZENnlTT2Q0YzZzM3phY2xhRHE5Uy1VX2szeVZXUdIBVEFVX3lxTE8zdjJpNmZYblhHcGVicUNqTTdjT2ExdXc0ZmZudnJ0ck95X3BBMEZLdEZVclpvZUhlS21EUnNhZHI1bHhQOWtpRi1nMmkweVF2RzFuSg?oc=5"
     }
    ]
   },
   {
-   "name_ko": "고디바 한정상품",
-   "name_zh": "Godiva 限定商品",
-   "brand": "고디바",
-   "why_zh": "接續「떡픈런」風潮，推出限定商品掀起開跑搶購",
+   "name_ko": "고디바 신제품",
+   "name_zh": "歌帝梵新品",
+   "brand": "Godiva",
+   "why_zh": "繼漢糕風潮後，推出新款巧克力甜點掀起排隊採購",
    "category": "food",
-   "keyword": "고디바 한정",
+   "keyword": "고디바 떡",
    "news": [
     {
      "title": "한정선 다음은 고디바… MZ ‘떡픈런’ 더 뜨거워졌다 - 한경매거진&북",
@@ -264,16 +208,62 @@
    ]
   },
   {
-   "name_ko": "토마토 막걸리",
-   "name_zh": "番茄馬格利酒",
-   "brand": "세븐일레븐",
-   "why_zh": "新品上市，接續複合酒類熱潮，便利商店新飲品選擇",
+   "name_ko": "세븐일레븐 토마토 막걸리",
+   "name_zh": "GS25 番茄馬格利",
+   "brand": "GS25",
+   "why_zh": "新推出的限定酒類商品",
    "category": "food",
    "keyword": "토마토 막걸리",
    "news": [
     {
      "title": "[오늘의신상]윤남노 복담주 20만병 완판…세븐일레븐, 이번엔 토마토 막걸리 - 아시아경제",
      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82OHA3RGpLYTJ5OEktdVU5SEFUMG1ZTWVEWmd4Sk9HWC11TVRKQzFEQjRjb0FOa243MkhQYnlQWkx5YUt4SnVPZGRlR0xvaG43YmVsYTZLT1Vtc0tLNHdtWA?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "개리야스 반려견 의류",
+   "name_zh": "Garicyas 寵物衣服",
+   "brand": "BYC",
+   "why_zh": "推出復古感寵物服飾新品系列",
+   "category": "kids",
+   "keyword": "개리야스 반려견",
+   "news": [
+    {
+     "title": "BYC, 레트로 감성 반려견 의류 '개리야스' 신제품 출시 - 뉴스1",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55ZE8zeWpZd3RGenQ0eUlNNDh5ZlhUTG9nMHp0d2VfRFdjVnBoMjYtcXB2RmNNWDJtOXQ4akJQcUluemVMOWlVZDkzakpKQk5McGFXQ2V2Vm8xQWhWdnJr?oc=5"
+    },
+    {
+     "title": "[MD패션뷰티] 댕댕이 겨울 의류도 ‘개리야스’…BYC, 가을·겨울 신제품 출시 - 마이데일리",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TeS1JZmRBUngtc2dlbVlMVEZFcVh4aWJTdHczQmprVF93UWs2WTMzVEFoNVlBS29IeWprb3dvQmRFSVNadWFoSTBUZWhLRGYzR2M5VmdPZmJ6eUJLNmF2UA?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "하림 더미식 햅쌀밥",
+   "name_zh": "Harim 新米便當飯",
+   "brand": "Harim",
+   "why_zh": "今年新米首次上市的便利商店新品",
+   "category": "food",
+   "keyword": "하림 햅쌀밥",
+   "news": [
+    {
+     "title": "[오늘의신상]\"올해 첫 수확 햅쌀맛\"… 하림, '더미식 햅쌀밥' - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2cDRSRFBWZkI0b19BdDVKQllyblZQNmpka2hzMVRnMXZ4VzJNTTJTSGxKQ1dDMUpzbUo2QmRFb09seHNRanM3U2wxRWZWUEwwd25jVm1qN19MT0RRNVJvWg?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "토니모리 비타민C 신제품",
+   "name_zh": "Tonymoly 維生素C新品",
+   "brand": "Tonymory",
+   "why_zh": "推出以維生素C為主的彩妝及底妝新品10種，基於人氣美白安瓶",
+   "category": "beauty",
+   "keyword": "토니모리 비타민C",
+   "news": [
+    {
+     "title": "‘다이소 1위 미백 앰플’ 토니모리 본셉, 비타민C 담은 색조·베이스 신제품 10종 출시 - 매일경제",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CbGNscUpJdjh4NzdLb0ZRV3k3VHkwVVFzc0VRXzJuMjVTT0I2YURkOHM4NW1qU0lYQW9pbHA4QXBDS3FNaXFvUHFiUEQyaGph?oc=5"
     }
    ]
   }
