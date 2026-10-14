@@ -1,13 +1,39 @@
 {
- "updated": "2026-10-14T01:34:43.193507+00:00",
+ "updated": "2026-10-14T21:36:35.601228+00:00",
  "items": [
   {
+   "name_ko": "치이카와 굿즈",
+   "name_zh": "奇怪小隊周邊商品",
+   "brand": "便利商店/百貨",
+   "why_zh": "日本角色商品引發全國排隊搶購，多次出現開店前排隊、開賣即售完的品缺現象",
+   "category": "other",
+   "keyword": "치이카와 굿즈",
+   "news": [
+    {
+     "title": "스치기만 해도 '품절 대란'…日 캐릭터에 대한민국이 들썩 - 한국경제",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02SVk0ZE1ibFhjcHZkZHlJdklYRzBxLW1YQmpjMEE1RENlOVI5dHp4cjJQa1FTNUxrVkxOdkdRVFNSc2w3UFMxSlhOVl9fVFlqVmxOdEVpVFl0QQ?oc=5"
+    },
+    {
+     "title": "영화 보고 입덕했는데 굿즈는 ‘텅텅’…치이카와 품절 대란 [트렌디깅] - 동아일보",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQT1RzVXVBMW5EWVkzQUN4cFo4Nl8tY1lyd1FkSVVhMnlFdVVrMGJWUEZHcFNRT29HRUN5Ry11cnhjOFVtUW43V0lzZHc4d04tZWdpN0k4TTBqQWpPZGh2TFNvVGp4Z9IBZkFVX3lxTFBQT1RzVXVBMW5EWVkzQUN4cFo4Nl8tY1lyd1FkSVVhMnlFdVVrMGJWUEZHcFNRT29HRUN5Ry11cnhjOFVtUW43V0lzZHc4d04tZWdpN0k4TTBqQWpPZGh2TFNvVGp4Zw?oc=5"
+    },
+    {
+     "title": "\"전날 밤 줄 서야 겨우 입장\"…품절대란에 중고거래 10배 폭증 [덕질경제학] - 한국경제",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1acDVPVENjTG04UV9SRUJ6d1ZEbjhwenEwclBvY2huUXYxNkJkZVpDM1ZyS2RVSW9OZ2ZDdndZME9QaDN2NHFvU2RBMmRid2dJeE5SU0NZUlVIUQ?oc=5"
+    },
+    {
+     "title": "스크린·유통가 휩쓴 ‘치이카와’… 귀여움 넘은 ‘생존 공감’, 2030 사로잡다 - 스포츠동아",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zVmpWaUZtM0lPZ0o4bThUZlhSd2dnb1pSQnpuU09Zd0pDamVReXNkeFZMVkhsdEFzUU5yU1IwOU16VVRacHRwMWlEZ0d6YVVIelpKRXlOU09DZ01vWVNCVlU4Z2FLYmpWeXJjLWRR?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "한정선 찹쌀떡",
-   "name_zh": "韓定線糯米糕",
+   "name_zh": "韓定線年糕（限定款）",
    "brand": "GS25",
-   "why_zh": "便利商店限定新品，累積銷售70萬個，引發開店排隊熱潮",
+   "why_zh": "便利商店限定新品掀起「年糕巡禮」熱潮，累積銷售70萬個，多地缺貨",
    "category": "food",
-   "keyword": "떡지순례",
+   "keyword": "찹쌀떡",
    "news": [
     {
      "title": "GS25, '한정선 찹쌀떡' 2탄 피스타치오 출시...누적 70만개 '떡지순례' 열풍 - https://www.trend-korea.co.kr/",
@@ -29,9 +55,9 @@
   },
   {
    "name_ko": "피자설기",
-   "name_zh": "披薩雪糕",
-   "brand": "피자헛",
-   "why_zh": "新款融合披薩與傳統設基的限定甜點，引發排隊風潮，現已便利商店販售",
+   "name_zh": "披薩蒸糕",
+   "brand": "피자헣",
+   "why_zh": "融合披薩和韓式傳統甜點的新商品，掀起排隊風潮，已成為便利商店販售",
    "category": "food",
    "keyword": "피자설기",
    "news": [
@@ -40,94 +66,118 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVGhFU3dOTk5BSUdIWHhiTHBlUEZMeDNEMTh3czZ5Mi0wSEg5dWlIVXdoWnRDMlpOWHFOeTJrTXFReEVxZTRQdUhwNnRXM0hsM0NqUTNENnRfTGtYU1kwSTZOa2VyZmVkZlFZXzZUZzF5eXphbnFBUHoxNVN2QVphaA?oc=5"
     },
     {
-     "title": "[화제의맛] 피자헛의 41년 피자 노하우를 국내산 설기 위에 펼치다 - 식품외식경영",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQRjJ0bTVIWGJveGFSZmlLYU1nLVFmaUpCSWlOdVlmcklsOFkwNHlRTTJjREhqWmkwQTFtc2pwVFljMzlCNjdWX3F5MnhhbVAxME5wbGQwTWs3cTQwZ2U0?oc=5"
+     "title": "두쫀쿠·버터떡 이어 피자설기까지…피자헛도 뛰어든 ‘디저트 유행’[똑똑! 스마슈머] - 서울경제",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jVGduUjY2bVV1SWZBaW9zRmx3MTJIWkFJTmRCVTNxNWtoM3c2c1BYU1FGemVpYzJ5OEJWY19XUURMcVlHZkZVdVhTRFVqYUFtcmfSAVNBVV95cUxOUXgtNWZYb2tBdG5Hc0JfLWI5N3lUcVZELURBNHdhRHF1MlpQN2dRVkYxYWJBTWtqbTF5SDVUXy1OS2VaeGpPMnFRS25JeHpob3cxdw?oc=5"
     },
     {
      "title": "MK Pick | 줄 서서 사 먹던 ‘피자설기’, 이제 오픈런 없이 피자헛에서 즐긴다 - 매일경제",
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5idlV1ZWhGWXdYbEZsX2t4RTN5SGpHZ1FleEZWZWVQR0N3N2RveERPS2ZkMF9PNHZqRUVZLTJycnlLQ0hHYkdCY1F3VU1JdEZn?oc=5"
-    },
-    {
-     "title": "두쫀쿠·버터떡 이어 피자설기까지…피자헛도 뛰어든 ‘디저트 유행’[똑똑! 스마슈머] - 서울경제",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jVGduUjY2bVV1SWZBaW9zRmx3MTJIWkFJTmRCVTNxNWtoM3c2c1BYU1FGemVpYzJ5OEJWY19XUURMcVlHZkZVdVhTRFVqYUFtcmfSAVNBVV95cUxOUXgtNWZYb2tBdG5Hc0JfLWI5N3lUcVZELURBNHdhRHF1MlpQN2dRVkYxYWJBTWtqbTF5SDVUXy1OS2VaeGpPMnFRS25JeHpob3cxdw?oc=5"
     }
    ]
   },
   {
-   "name_ko": "Daiso-DAY 10월 뷰티 신상",
-   "name_zh": "大創美妝新品節",
-   "brand": "다이소몰",
-   "why_zh": "10月推出330多種美妝新品，創下歷史最大規模行事",
+   "name_ko": "Daiso 10월 뷰티 신상",
+   "name_zh": "大創10月美妝新品",
+   "brand": "다이소",
+   "why_zh": "大創一次推出330多種美妝新品，含皮膚護理、護髮品等，創造年度規模最大的美妝活動",
    "category": "beauty",
-   "keyword": "다이소 뷰티신상",
+   "keyword": "다이소 뷰티",
    "news": [
     {
-     "title": "다이소몰, 뷰티 신상 330여 종 ‘Daiso-DAY’ 개최…더마·헤어케어 앞세운다 - 비즈트리뷴",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mVkJXdzZRMmE3QkZKWUdzN1lKMDJ2U3VqbDIybVZlMFhfU2NBb1NFay1LNThFa2o4LVNINnhCd2drOVNSWWRzZVB0TnNvbjVxc2M5TktNZm1kMWI2NGc4dlRuNDVJZl9nUDF4NG1YRkE?oc=5"
+     "title": "드디어 재입고…다이소서 단돈 1000원으로 물광 만들어주는 '이 상품' - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WRW1CZ2ZraGZaQVVVOG1DVmxwOWg2ZWJnM19SODlRalZpd3hHRC1uS2QxN3FuRE1rSFlWY0VIb0c4LWF3dUhRcU4wSklHaHVHOUxFeHJn?oc=5"
     },
     {
-     "title": "다이소몰, 10월 뷰티 신상 프로모션 전개…오픈런 이벤트부터 포토리뷰 혜택까지 - 파이낸셜투데이",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZZ0tnSjROWVY1Rm9sbHBYLTQtaUliZDdzTzFjUlRjRlhTeDlxcTRHc29xRi1MbkdkOFFqODJaVlVQQkRfXzNBVUJlal9xRVhSWUo3MmYxek51Q04xNlFZYVZrTmJrV3RZdjVfUGtB0gFuQVVfeXFMTllnS2dKNE5ZVjVGb2xscFgtNC1pSWJkN3NPMWNSVGNGWFN4OXFxNEdzb3FGLUxuR2Q4UWo4MlpWVVBCRF9fM0FVQmVqX3FFWFJZSjcyZjF6TnVDTjE2UVlhVmtOYmtXdFl2NV9Qa0E?oc=5"
+     "title": "아성다이소, ‘Daiso-DAY 10월 뷰티 신상’ 행사 진행 - 경기신문",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkRVpXV3lBQ1ZVbVc0YVBZekhtYmM4Z3F2eW14TGVyd2dweDNpZGNPdndlSU1kSGtFY2ZDZ3hRNjRJaVFFWkVqZ2kzVVFZdkc0dWI2YTFwcGRnTC1RS0ptTGxqdVE?oc=5"
     },
     {
-     "title": "다이소몰, 10월 뷰티 신상 330종 선보여 - 중소기업신문",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmTGtsUGlyYVJZQkJnNXVvMzFfOExHRGcyUkR0czFhQU9GTUlobUJJaUFWZElUREEyYk1FcDhhU29IeUNLMEFobmhZMDRmb3ZINkN2YmhPMGpIaHFCME9Yc29hNjNiMjB1RXc2dQ?oc=5"
+     "title": "다이소몰, 뷰티 신상 330여종 푼다…더마·헤어케어 브랜드 총출동 - 매일일보",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtSUhQdWJ0RHhkRS1SMEVsZVA5VmdhWEpPcnZIRGV4OHFmM1kwVXRiYTlKY0tjN2VtNkxUMGNZOUlvR1VkV3liN3Vmem9XaHkwVUM2WTVma1hwRTRiZTRqSC1rZDA?oc=5"
     },
     {
-     "title": "다이소몰, 'Daiso-DAY 10월 뷰티 신상' 행사 진행 - 한국NGO신문",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DZ19wdzV4bVViYnNpOVMyX3d0bU9VLXBhVTBiTG5XQU5zbW9ZdW5raVBmWVRqeVdCRG5DLTdsQ2wza1VvejlnVlFfcEItcW4zT2VvWUR6U2ZMaDhmT1htSVVPV2QxWVl6?oc=5"
+     "title": "\"백화점 안 가도 되겠네\"…신상 보따리 푼 다이소 '또 일냈다' - 한국경제",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KMXlsLVprbFptQ3czTl9IZjJEMm5QUDhOb1BfakZpclpaZ2RvU244Sndmdk5xN25UQUpfZlJaVjdtWngyU0lxOUtWYmNfYkl1QVdHd2hDdHgzZw?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "후시덤 흔적 리페어",
+   "name_zh": "Fusiderm 痕跡修復系列",
+   "brand": "동화약품/다이소",
+   "why_zh": "韓國皮膚藥品品牌推出大創獨占新產品5款，針對皮膚色素沉著護理",
+   "category": "beauty",
+   "keyword": "후시덤",
+   "news": [
+    {
+     "title": "동화약품 ‘후시덤’, 흔적 리페어 5종 다이소 출시…초저가 뷰티 공략 - 직썰",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xREx5RHBKZGxsckh4RFRDZHBuR1pBSDdzQmNaUGJzZlNTd08tbHVQTTJjLUQ1MXZtX1dRbF9EaWN6TlVoMTNsNkdKdFFFWDBXN1A1QlJxX050U2x1dkpHUHFkckhvU2JU0gFsQVVfeXFMTmExTWpvazlnT2pXNktpUG12OWI1VEVmMk5ZQTFFZ09tVFgwYlZUdzdKNmR3blNYbjB5dGVkS1lndE02cWlTcEY2akkyYTF4a3JvUl91OXczWkxFZ3pnTTR4WHNWSGtSeWQxRVNZ?oc=5"
+    },
+    {
+     "title": "동화약품 후시덤, 다이소 전용 '흔적 리페어' 5종 출시 - 뉴스1",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xXzJ0eXYyMUg1WjRQTDNiX2lNekNKdG5XbWVIa3JwWms3X3NHOTcxemN1MjJLYUkxNnlDYXlsWmVjWVVHdFgyZDk4TVJINXBZNFVRY3FlbExWYWV1LXhTWA?oc=5"
+    },
+    {
+     "title": "동화약품 \"후시덤 '리페어 라인' 5종 다이소 출시\" - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04OTB3RkVlWHg2MnRjT3BQRWR5TFgxb0NveFA3cmUwdmlScUctU0VPdERTOVBXa0dRcnhJS1d5d1hhaVNZdDJtZElhZDc2WVZwUXNyZHpsN1o3WXc1U3NoMUlxOVdnZUM3ZGZ4aUhCRU9qdm5QdGdxWdIBeEFVX3lxTE04OTB3RkVlWHg2MnRjT3BQRWR5TFgxb0NveFA3cmUwdmlScUctU0VPdERTOVBXa0dRcnhJS1d5d1hhaVNZdDJtZElhZDc2WVZwUXNyZHpsN1o3WXc1U3NoMUlxOVdnZUM3ZGZ4aUhCRU9qdm5QdGdxWQ?oc=5"
+    },
+    {
+     "title": "동화약품, 다이소에 후시덤 '흔적 리페어' 5종 출시 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPeVB0cjRxRDFJd1pRdjFDbmNsX2ZwUUNkc21YN1FrZmc4cjQ4NlZsX3dBb2xVMkdZTjduS05MdklNQ2IzT2U1LXk2dXhfQQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "이너랩데이 다이소 신제품",
+   "name_zh": "Innerlab Day大創新品",
+   "brand": "셀트리온스킨큐어/다이소",
+   "why_zh": "韓國生技美妝品牌Innerlab推出大創限定3款新商品",
+   "category": "beauty",
+   "keyword": "이너랩",
+   "news": [
+    {
+     "title": "셀트리온스킨큐어 이너랩, ‘이너랩데이’ 다이소 신제품 3종 출시 - 피앤피뉴스",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xalYwNGxJdVlSWlM4NnVBQ05TeVViQlIzX2lsN3Y5TXA5b3NNaEQyTDBwcEFjX1ZVTEkxdFNKMG4yV29LTXpJTGctVG1QQWg2SjJ1cVFB?oc=5"
+    },
+    {
+     "title": "이너랩, ’이너랩데이’ 다이소 전용 신제품 3종 출시 - 장업신문",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45clBDMjZUSjhhTzRSUzAyblFQb182enBoODRRTlg4cWdfQUxYWi1MS0pWbGQyZDFnenhxRDN1ZDl4MUhheWtSejZfOEdqR2ZHcjduZVh1UTYyR0dDYWdjSm1ZRTQxYzJs?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "BIFF 굿즈",
+   "name_zh": "釜山國際電影節周邊商品",
+   "brand": "부산국제영화제",
+   "why_zh": "電影節周邊正式品牌化後，引發全國品缺搶購風潮",
+   "category": "other",
+   "keyword": "BIFF 굿즈",
+   "news": [
+    {
+     "title": "중구난방이던 BIFF 굿즈, 브랜드로 키우니 품절 대란 - 국제신문",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ3JSRTIzNFdFb0htWHJ6bkNiZUhjYWI3c1FNdWc5S0xqUlUxV3VVbkg5Z2g1WTJnWmotNTdrd0xDWDVaOGgwVnBjdVREM0NhRVhQdmI3Xzd1bTRCbUo0SENhcTZWY0hXdXducTlTWk9RdGVEd05jemppMHRLT2hZMFhsZjU3Ukp3TXZTUEpR?oc=5"
     }
    ]
   },
   {
    "name_ko": "디올 오블리크 캐리어",
-   "name_zh": "迪奧斜紋行李箱",
-   "brand": "디올 × 리모와",
-   "why_zh": "曾引發缺貨潮的聯名款，現已重新上市，引發關注",
+   "name_zh": "Dior Oblique行李箱",
+   "brand": "디올 x 리모와",
+   "why_zh": "曾引發全球品缺搶購的聯名款行李箱重新發售",
    "category": "fashion",
-   "keyword": "디올 리모와 캐리어",
+   "keyword": "디올 오블리크",
    "news": [
     {
      "title": "품절 대란을 일으켰던 디올 x 리모와 '디올 오블리크' 캐리어 재출시 - Hypebeast.KR",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN3NxRmVuYUtDd2N6dFBSOUVxb1FVX2ZmZC1mR0VkU1A1SWEySXpyRmZWbDFwbGtMOWh3TFlQT3pHSU5vX2Y1VmRNR2V4b2dzMTlIQmQtRV9LcXdkNXY3TVM3ZWR2aWpoVzU3dnRNY1phRk5fV2NfVHdsMWsyVFFkUW1mbHRJVXBYM3hrREI0NDR6ZjdrVGxDSXdyZWtiZFl5QnhWR21zdDl5NzJa?oc=5"
-    },
-    {
-     "title": "품절 대란 '1분컷' 핫템 돌아왔다…겨울 앞두고 '관심 폭발' [트렌드+] - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuMGNNWC13TDI5a3VxM2p0clZJcHVBM094RW90ZFQtM0VTVkt5OThXQktabmVlYnBUVjNBMENpbkVpc3Z2OXZlcGNnVUkycFZzdHZrcnhrZG13dw?oc=5"
     }
    ]
   },
   {
-   "name_ko": "치이카와 굿즈",
-   "name_zh": "奇怪松鼠周邊商品",
-   "brand": "BIFF",
-   "why_zh": "電影上映後引發搶購熱潮，多款商品缺貨，品牌整合後推出新款",
-   "category": "other",
-   "keyword": "치이카와 굿즈",
-   "news": [
-    {
-     "title": "중구난방이던 BIFF 굿즈, 브랜드로 키우니 품절 대란 - 국제신문",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ3JSRTIzNFdFb0htWHJ6bkNiZUhjYWI3c1FNdWc5S0xqUlUxV3VVbkg5Z2g1WTJnWmotNTdrd0xDWDVaOGgwVnBjdVREM0NhRVhQdmI3Xzd1bTRCbUo0SENhcTZWY0hXdXducTlTWk9RdGVEd05jemppMHRLT2hZMFhsZjU3Ukp3TXZTUEpR?oc=5"
-    },
-    {
-     "title": "영화 보고 입덕했는데 굿즈는 ‘텅텅’…치이카와 품절 대란 [트렌디깅] - 동아일보",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQT1RzVXVBMW5EWVkzQUN4cFo4Nl8tY1lyd1FkSVVhMnlFdVVrMGJWUEZHcFNRT29HRUN5Ry11cnhjOFVtUW43V0lzZHc4d04tZWdpN0k4TTBqQWpPZGh2TFNvVGp4Z9IBZkFVX3lxTFBQT1RzVXVBMW5EWVkzQUN4cFo4Nl8tY1lyd1FkSVVhMnlFdVVrMGJWUEZHcFNRT29HRUN5Ry11cnhjOFVtUW43V0lzZHc4d04tZWdpN0k4TTBqQWpPZGh2TFNvVGp4Zw?oc=5"
-    },
-    {
-     "title": "스크린·유통가 휩쓴 ‘치이카와’… 귀여움 넘은 ‘생존 공감’, 2030 사로잡다 - 스포츠동아",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zVmpWaUZtM0lPZ0o4bThUZlhSd2dnb1pSQnpuU09Zd0pDamVReXNkeFZMVkhsdEFzUU5yU1IwOU16VVRacHRwMWlEZ0d6YVVIelpKRXlOU09DZ01vWVNCVlU4Z2FLYmpWeXJjLWRR?oc=5"
-    },
-    {
-     "title": "'극장판 치이카와' 10일 만에 100만 돌파…어른들 울린 순수한 진실 - 씨네플레이",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJaHRoNE1WTEpyVkFmbFF6OEExc1kxQkFkMXM4d2l6anE1Z2lPbDBQa2hBYXpGUlBHNjlTX3BVWDlwRWppTWM5NjVqSXc4eXFEZks0NmtzdjdiZ3M?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "봉은사 공덕키링",
-   "name_zh": "奉恩寺幸運鑰匙圈",
+   "name_ko": "봉은사 공덕 키링 굿즈",
+   "name_zh": "奉恩寺祈福鑰匙圈周邊",
    "brand": "봉은사",
-   "why_zh": "寺廟周邊商品成為MZ代新熱點，幸運鑰匙圈缺貨",
+   "why_zh": "寺廟周邊商品因財運話題在MZ族間爆紅，出現品缺現象",
    "category": "other",
    "keyword": "봉은사 굿즈",
    "news": [
@@ -138,10 +188,24 @@
    ]
   },
   {
+   "name_ko": "칼파벳 한글과자",
+   "name_zh": "Calphabet韓文餅乾",
+   "brand": "칼파벳",
+   "why_zh": "韓文主題糕點品牌在首爾成水地舉辦韓文日特別行事，掀起搶購熱潮",
+   "category": "food",
+   "keyword": "칼파벳",
+   "news": [
+    {
+     "title": "'품절 대란' 한글과자, 성수에서 만난다…칼파벳, 9일 한글날 특별 행사 개최 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56ZmtLdHBndVNCR1V2ZmtJQ3hRTHBLLXRhNEJTaEkyZFF1M0pFUDk2NGNYelMwVmhxZ1JydUhCQnhhZl9uWlN4aXNjVk5iQQ?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "미떼 제로슈거",
-   "name_zh": "Mitte零糖巧克力",
+   "name_zh": "Mitte無糖飲品",
    "brand": "동서식품",
-   "why_zh": "新推出零糖熱巧克力，瞄準無糖飲品趨勢",
+   "why_zh": "推出無糖熱巧克力新品，順應低糖消費趨勢和運動風潮",
    "category": "food",
    "keyword": "미떼 제로슈거",
    "news": [
@@ -156,12 +220,26 @@
    ]
   },
   {
+   "name_ko": "짜파게티 요리사 대회 레시피 봉지면",
+   "name_zh": "Chapaghetti廚師大賽食譜版",
+   "brand": "농심",
+   "keyword": "짜파게티",
+   "why_zh": "SNS話題食譜獲得推出官方商品化的泡麵版本",
+   "category": "food",
+   "news": [
+    {
+     "title": "SNS서 화제 '짜파게티 요리사 대회 1등' 레시피…봉지면으로 나온다 - 더팩트",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zdjJpNmZYblhHcGVicUNqTTdjT2ExdXc0ZmZudnJ0ck95X3BBMEZLdEZVclpvZUhlS21EUnNhZHI1bHhQOWtpRi1nMmkweVF2RzFuStIBVEFVX3lxTE8zdjJpNmZYblhHcGVicUNqTTdjT2ExdXc0ZmZudnJ0ck95X3BBMEZLdEZVclpvZUhlS21EUnNhZHI1bHhQOWtpRi1nMmkweVF2RzFuSg?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "로보락 S10 MaxV Ultra Steam",
-   "name_zh": "石頭掃地機器人S10 MaxV Ultra Steam",
+   "name_zh": "Roborock掃地機器人S10 MaxV Ultra Steam",
    "brand": "로보락",
-   "why_zh": "韓國特化新型號，搭載110度蒸汽功能，提升清潔衛生",
+   "why_zh": "推出韓國特化款掃地機器人，搭載110度蒸氣清潔功能",
    "category": "tech",
-   "keyword": "로보락 청소기",
+   "keyword": "로보락",
    "news": [
     {
      "title": "로보락, 한국 특화 ‘S10 MaxV Ultra Steam’ 국내 출시 - 서울경제TV",
@@ -170,18 +248,14 @@
     {
      "title": "로보락, 한국형 신제품 출시…“110도 스팀 기능 탑재” - 마이데일리",
      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rSXdqNV80RFQxQ0NPdGxCSUxYVExwYksxTGhMMmxUMlBpQ1NudkNEQUF4dEoycmtzemM5R0Z3bjk2cktCZ1pSLUhfcE1FZGZwamdkMVFFYkFpZTEtLVJVdg?oc=5"
-    },
-    {
-     "title": "로봇청소기 위생 경쟁 가열 속···로보락, 110도 스팀 탑재 신제품 국내 출시 - 이뉴스투데이",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PTm83b2toUkZxaTdGQTRLdXFrdVZ1cDFYSHIxZ2FUWFJpMF9SRWVhYUNFNDMxMXpIQWNuSmhwdTVOSURJQ0NLdFZDSWh5SGxCVnBoYlFUOVJCMEs1eXJLSlAtbC01NGxwN1dtWWwtekEtNXRS0gF0QVVfeXFMTU9Obzdva2hSRnFpN0ZBNEt1cWt1VnVwMVhIcjFnYVRYUmkwX1JFZWFhQ0U0MzExekhBY25KaHB1NU5JRElDQ0t0VkNJaHlIbEJWcGhiUVQ5UkIwSzV5cktKUC1sLTU0bHA3V21ZbC16QS01dFI?oc=5"
     }
    ]
   },
   {
-   "name_ko": "개리야스 레트로 반려견 의류",
-   "name_zh": "GARIYASU復古寵物服裝",
-   "brand": "BYC",
-   "why_zh": "新推出復古感寵物衣服系列，秋冬新品",
+   "name_ko": "개리야스 반려견 의류",
+   "name_zh": "Garryas復古寵物服飾",
+   "brand": "비와이씨",
+   "why_zh": "BYC推出復古感寵物衣類新系列，秋冬新品上市",
    "category": "kids",
    "keyword": "개리야스",
    "news": [
@@ -196,102 +270,16 @@
    ]
   },
   {
-   "name_ko": "짜파게티 요리사 대회 레시피 봉지면",
-   "name_zh": "炸醬麵廚師大賽冠軍食譜泡麵",
-   "brand": "농심",
-   "keyword": "짜파게티",
-   "why_zh": "SNS爆紅的冠軍食譜推出官方泡麵版本",
-   "category": "food",
+   "name_ko": "ACH01 대왕 키캡 스위치",
+   "name_zh": "Abko ACH01超大鍵帽開關",
+   "brand": "앱코",
+   "why_zh": "針對Gen-Z鍵帽熱潮推出的特色鍵盤配件與室內擺飾",
+   "category": "tech",
+   "keyword": "키캡",
    "news": [
     {
-     "title": "SNS서 화제 '짜파게티 요리사 대회 1등' 레시피…봉지면으로 나온다 - 더팩트",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CV1k0YXUxRjZwdjZSS0xPdEdzRDNJMkNMcUtzQ2pjYlRyb1JlTHpOTVcyWHRLVTcwRDBuOUZENnlTT2Q0YzZzM3phY2xhRHE5Uy1VX2szeVZXUdIBVEFVX3lxTE8zdjJpNmZYblhHcGVicUNqTTdjT2ExdXc0ZmZudnJ0ck95X3BBMEZLdEZVclpvZUhlS21EUnNhZHI1bHhQOWtpRi1nMmkweVF2RzFuSg?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "토니모리 본셉 비타민C 신제품",
-   "name_zh": "Tonymory本色維他命C新品",
-   "brand": "토니모리",
-   "why_zh": "大創1位美白精華推出的新色調與底妝系列10種新品",
-   "category": "beauty",
-   "keyword": "토니모리 본셉",
-   "news": [
-    {
-     "title": "‘다이소 1위 미백 앰플’ 토니모리 본셉, 비타민C 담은 색조·베이스 신제품 10종 출시 - 매일경제",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CbGNscUpJdjh4NzdLb0ZRV3k3VHkwVVFzc0VRXzJuMjVTT0I2YURkOHM4NW1qU0lYQW9pbHA4QXBDS3FNaXFvUHFiUEQyaGph?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "후시덤 흔적 리페어",
-   "name_zh": "Fusiderm痘疤修復系列",
-   "brand": "동화약품",
-   "why_zh": "大創專用新品，推出5種痘疤護理系列",
-   "category": "beauty",
-   "keyword": "후시덤 리페어",
-   "news": [
-    {
-     "title": "동화약품 후시덤, 다이소 전용 '흔적 리페어' 5종 출시 - 뉴스1",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xXzJ0eXYyMUg1WjRQTDNiX2lNekNKdG5XbWVIa3JwWms3X3NHOTcxemN1MjJLYUkxNnlDYXlsWmVjWVVHdFgyZDk4TVJINXBZNFVRY3FlbExWYWV1LXhTWA?oc=5"
-    },
-    {
-     "title": "동화약품 \"후시덤 '리페어 라인' 5종 다이소 출시\" - 뉴시스",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5haDlXaTdYVlhybWprV0d0T1pYM2I4akdGVnlvcVBmNjlEWkcxOUNYdVgzVWpfNGVwZEUzbE53Rnd1RVV5dEdTWjc3dWVOdUpjTUMtV0JxS3dnRmp0TU5nN9IBeEFVX3lxTE04OTB3RkVlWHg2MnRjT3BQRWR5TFgxb0NveFA3cmUwdmlScUctU0VPdERTOVBXa0dRcnhJS1d5d1hhaVNZdDJtZElhZDc2WVZwUXNyZHpsN1o3WXc1U3NoMUlxOVdnZUM3ZGZ4aUhCRU9qdm5QdGdxWQ?oc=5"
-    },
-    {
-     "title": "동화약품, 다이소 뷰티 시장 공략 확대..‘후시덤 흔적 리페어’ 5종 출시 - 한국정경신문",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vWlZCQW1RVlNOTmZXeTBmNFhRaEs2bFBYcmxqdGVZWnl0czJESTdtX1JDSk5HdzljVnpkTWJFVHJLakItUVluRXNHR3ExUFFqQmc?oc=5"
-    },
-    {
-     "title": "동화약품 후시덤, 다이소에 피부 흔적 케어 '흔적 리페어' 라인 5종 출시 - 약업신문",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4VXNqaC0zX281RHh0bmZibTFSWDFJV1djb1dtTXhfR3lCaHJZZGxOM1ZzMTFxVTgxR2IwcEZURUNGX2NmamdiWXNQWmRBWkk4YVJUUjhySy0tV3ZxMnppbjBNc2pDRkMtMW1mMElrM0o3aVM0YmtZ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "이너랩데이 다이소 신제품",
-   "name_zh": "InnerLap Day大創新品",
-   "brand": "셀트리온스킨큐어",
-   "why_zh": "大創專用新推出3種內服膠原蛋白產品",
-   "category": "beauty",
-   "keyword": "이너랩 다이소",
-   "news": [
-    {
-     "title": "셀트리온스킨큐어 이너랩, ‘이너랩데이’ 다이소 신제품 3종 출시 - 피앤피뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xalYwNGxJdVlSWlM4NnVBQ05TeVViQlIzX2lsN3Y5TXA5b3NNaEQyTDBwcEFjX1ZVTEkxdFNKMG4yV29LTXpJTGctVG1QQWg2SjJ1cVFB?oc=5"
-    },
-    {
-     "title": "이너랩, ’이너랩데이’ 다이소 전용 신제품 3종 출시 - 장업신문",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45clBDMjZUSjhhTzRSUzAyblFQb182enBoODRRTlg4cWdfQUxYWi1MS0pWbGQyZDFnenhxRDN1ZDl4MUhheWtSejZfOEdqR2ZHcjduZVh1UTYyR0dDYWdjSm1ZRTQxYzJs?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 간절기 아우터",
-   "name_zh": "大創換季外套",
-   "brand": "다이소",
-   "why_zh": "推出3萬元零售的換季外套，衝擊時尚市場",
-   "category": "fashion",
-   "keyword": "다이소 아우터",
-   "news": [
-    {
-     "title": "“마네킹 그대로 사도 3만원”…다이소, 간절기 아우터 시장도 흔든다 - 쿠키뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSWnE4RGltNjZPTWRtTzNhekFfUWlaMWpYdGlGVDNobG9xdDhwWDJLRGNxY1FpSlZ6TThieEhNMkliTklnR3JaUFdtbDkyaUQzbTBnSWhrWEh1ZFV5ZUZsNVZiRQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "토마토 막걸리",
-   "name_zh": "番茄馬格利酒",
-   "brand": "세븐일레븐",
-   "why_zh": "便利商店新推無酒精飲品系列，跟風健康飲酒趨勢",
-   "category": "food",
-   "keyword": "토마토 막걸리",
-   "news": [
-    {
-     "title": "[오늘의신상]윤남노 복담주 20만병 완판…세븐일레븐, 이번엔 토마토 막걸리 - 아시아경제",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82OHA3RGpLYTJ5OEktdVU5SEFUMG1ZTWVEWmd4Sk9HWC11TVRKQzFEQjRjb0FOa243MkhQYnlQWkx5YUt4SnVPZGRlR0xvaG43YmVsYTZLT1Vtc0tLNHdtWA?oc=5"
+     "title": "GEN-Z 키캡 열풍 겨냥한 앱코...대왕 키캡 스위치 'ACH01'·인테리어 소품 '키캡 액자 명화' - 디지털포스트",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZcjVpUmE5azVKXzJrUnZkel8xRjJ4TWV1TGRyR1ZFZ2JwT21PUUFPUmpPVGdJZnNKaFpoVE9iTU90elU5YUtOMVcweXhuNE4wX3dwR1dwbjBiSUE4ajVWNm15MDRiS251UzQw?oc=5"
     }
    ]
   }
