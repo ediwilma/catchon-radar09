@@ -1,20 +1,20 @@
 {
- "time": "2026-10-14T23:23:51.321912+00:00",
- "ok": 333,
+ "time": "2026-10-15T01:23:40.929200+00:00",
+ "ok": 255,
  "waits": 0,
  "usage": {
-  "app": "{\"call_count\":91,\"total_cputime\":0,\"total_time\":99}",
+  "app": "{\"call_count\":70,\"total_cputime\":0,\"total_time\":99}",
   "buc": null
  },
  "total": 1051,
  "errors": [
   {
    "account": "boboo.sang",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 boboo.sang \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"A4QRo5"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 boboo.sang \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"ARsSUZ"
   },
   {
-   "account": "ahhyun_luv",
-   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"A4NawoUQ7JenofEL8CSyZEy\"}}"
+   "account": "dini_terrace",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"AOSrFybF3Ywlk8WHqcgrbSA\"}}"
   }
  ]
 }
