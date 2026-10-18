@@ -1,20 +1,20 @@
 {
- "time": "2026-10-18T12:59:00.330555+00:00",
- "ok": 123,
+ "time": "2026-10-18T14:42:00.731110+00:00",
+ "ok": 42,
  "waits": 0,
  "usage": {
-  "app": "{\"call_count\":45,\"total_cputime\":0,\"total_time\":99}",
+  "app": "{\"call_count\":10,\"total_cputime\":0,\"total_time\":96}",
   "buc": null
  },
  "total": 1051,
  "errors": [
   {
    "account": "boboo.sang",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 boboo.sang \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"APOHOK"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 boboo.sang \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"AISsk5"
   },
   {
-   "account": "julo_mom",
-   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"A5LazcyIbptLKSCgQeFx_kP\"}}"
+   "account": "jihye_fit",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"AImfKONbLX92mYYPVda7a5H\"}}"
   }
  ]
 }
