@@ -1,13 +1,35 @@
 {
- "updated": "2026-10-23T19:07:34.430131+00:00",
+ "updated": "2026-10-24T17:14:20.699188+00:00",
  "items": [
   {
+   "name_ko": "아이폰 듀오",
+   "name_zh": "iPhone Duo",
+   "brand": "Apple",
+   "why_zh": "新機上市需求高，韓國初期僅3萬台，全面品售",
+   "category": "tech",
+   "keyword": "아이폰듀오",
+   "news": [
+    {
+     "title": "‘300만 원’ 넘는데도 품절 대란?…애플 이 신제품 인기 왜? - 문화일보",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMQ2lCLTR2cXBvZURQMUZGX0pPQ2NUblRvVkR5VjVHTFN3c1FvTDB4MVhhQ3lrcUtxenFTcnJRRjFZWFFpbko3UnJXUENQQl96?oc=5"
+    },
+    {
+     "title": "돈 있어도 못 사는 ‘아이폰 듀오’…높은 수요와 공급 제약 겹쳐 ‘품절 대란’ - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jcFJLOS00U2hMMTRpM3hZdDk3dmtzRjZwZFdIY1dTWFJRdnJ5M3UtSW04ci1OZmd2ZVYtdGU3YVUyZGQyaFhkZmxsNUV2UQ?oc=5"
+    },
+    {
+     "title": "‘아이폰듀오’ 韓 초기 물량 3만대 뿐 - 헤럴드경제",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FUUlVVVNBM3d4Ty1nM2lTX0FXa3R4SkVHUHFCbm9wbTlMUkQ0aU5KV2lfdThHbzBnR0Q5b3kwMC1UcVZRWUN6Yl96YWJFcURRbnlaeGhn?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "캡틴큐",
-   "name_zh": "Captain Q（傳說級酒精飲料）",
-   "brand": "국내 주류",
-   "why_zh": "11年後重新上市，引發全國品售罄潮",
+   "name_zh": "Captain Q",
+   "brand": "Captain Q",
+   "why_zh": "11年後重新上市，傳說級酒飲引發品售潮",
    "category": "food",
-   "keyword": "캡틴큐 품절",
+   "keyword": "캡틴큐",
    "news": [
     {
      "title": "유행보다 역행?…11년 만에 돌아온 ‘캪틴큐’ 품절대란, 왜 - 중앙일보",
@@ -28,34 +50,12 @@
    ]
   },
   {
-   "name_ko": "iPhone 15 Pro Duo",
-   "name_zh": "iPhone 15 Pro Duo",
-   "brand": "Apple",
-   "why_zh": "超過300萬韓元仍品售罄，供應嚴重不足",
-   "category": "tech",
-   "keyword": "아이폰 듀오 품절",
-   "news": [
-    {
-     "title": "‘300만 원’ 넘는데도 품절 대란?…애플 이 신제품 인기 왜? - 문화일보",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMQ2lCLTR2cXBvZURQMUZGX0pPQ2NUblRvVkR5VjVHTFN3c1FvTDB4MVhhQ3lrcUtxenFTcnJRRjFZWFFpbko3UnJXUENQQl96?oc=5"
-    },
-    {
-     "title": "돈 있어도 못 사는 ‘아이폰 듀오’…높은 수요와 공급 제약 겹쳐 ‘품절 대란’ - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jcFJLOS00U2hMMTRpM3hZdDk3dmtzRjZwZFdIY1dTWFJRdnJ5M3UtSW04ci1OZmd2ZVYtdGU3YVUyZGQyaFhkZmxsNUV2UQ?oc=5"
-    },
-    {
-     "title": "‘아이폰듀오’ 韓 초기 물량 3만대 뿐 - 헤럴드경제",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FUUlVVVNBM3d4Ty1nM2lTX0FXa3R4SkVHUHFCbm9wbTlMUkQ0aU5KV2lfdThHbzBnR0Q5b3kwMC1UcVZRWUN6Yl96YWJFcURRbnlaeGhn?oc=5"
-    }
-   ]
-  },
-  {
    "name_ko": "리센느빵",
-   "name_zh": "Lissent 麵包",
-   "brand": "편의점",
-   "why_zh": "品售罄，推出第二代並更換集卡",
+   "name_zh": "Lisense Bread",
+   "brand": "Lisense",
+   "why_zh": "全國便利商店品售，推出新一代產品",
    "category": "food",
-   "keyword": "리센느빵 품절",
+   "keyword": "리센느빵",
    "news": [
     {
      "title": "[단독] 품절 대란 '리센느빵', 포토카드 전면 교체…26일 2탄 출시 - 뉴스1",
@@ -64,12 +64,34 @@
    ]
   },
   {
+   "name_ko": "치이카와 굿즈",
+   "name_zh": "Chiikawa 周邊商品",
+   "brand": "Chiikawa",
+   "why_zh": "電影院開賣即品售，粉絲開夜排購買",
+   "category": "other",
+   "keyword": "치이카와굿즈",
+   "news": [
+    {
+     "title": "영화관도 품절 대란…극장가 흔드는 '치이카와' 팬덤 - 이데일리",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMUpwZERCMXk1djZtTW9DV2Jyb2w0NGQ5MWRWMlBqY1FCYmVYY0xMS1VWbTZSSi1BN1RXWG9SY244a3dTLUhXeDFnUG4yTkZlRGx5UEl6OGJlUjJyX0JGYnUwZ0YtM1pIY3JzX01FVlRCejRkTlRYTDRMc3Bfc3RMXw?oc=5"
+    },
+    {
+     "title": "치이카와 신드롬, 굿즈 품절이 만든 ‘덕질 경제학’ - https://technovalue.com/",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE51bEhTSG40RGlsZXdxczhRdXo1NlozWVo3YVgtTEJnV3V0OWtMS0lFMG1DQXRJX25YUGpHYnI5dnYyTmxtNGJXQkdBdHJESWVZRWVQY25lSQ?oc=5"
+    },
+    {
+     "title": "‘치이카와’ 굿즈 대란…“입고 전날 밤부터 대기” - 에너지경제신문",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aNHdELXZtblRiTDlBY0F1Sk5CODZBb2ZPVmRZeHY5VjBkWTRsNHVGWHgxRzQ3SWpKNVNncF9qRzJWUlAtUDVwUkd2aWtwaXVZWlI4WTY5Qk9OV3M?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "패밀리팜 고구마칩",
-   "name_zh": "Family Farm 番薯薄片",
-   "brand": "바이오포트",
-   "why_zh": "人氣綜藝節目帶動，品售罄後被收購",
+   "name_zh": "FamilyFarm 地瓜片",
+   "brand": "패밀리팜",
+   "why_zh": "綜藝節目爆紅品售，獲大型食品公司收購",
    "category": "food",
-   "keyword": "패밀리팜 고구마칩",
+   "keyword": "패밀리팜고구마칩",
    "news": [
     {
      "title": "바이오포트, ‘나혼자산다’ 품절 대란 고구마칩 ‘패밀리팜’ 인수… 건강스낵 시장 본격 공략 - 매일경제",
@@ -82,84 +104,20 @@
    ]
   },
   {
-   "name_ko": "치이카와 굿즈",
-   "name_zh": "Chiikawa 周邊商品",
-   "brand": "各大通路",
-   "why_zh": "電影院周邊販售品售罄，入場前夜開始排隊",
-   "category": "other",
-   "keyword": "치이카와 굿즈 품절",
-   "news": [
-    {
-     "title": "영화관도 품절 대란…극장가 흔드는 '치이카와' 팬덤 - 이데일리",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMUpwZERCMXk1djZtTW9DV2Jyb2w0NGQ5MWRWMlBqY1FCYmVYY0xMS1VWbTZSSi1BN1RXWG9SY244a3dTLUhXeDFnUG4yTkZlRGx5UEl6OGJlUjJyX0JGYnUwZ0YtM1pIY3JzX01FVlRCejRkTlRYTDRMc3Bfc3RMXw?oc=5"
-    },
-    {
-     "title": "치이카와 신드롬, 굿즈 품절이 만든 ‘덕질 경제학’ - https://technovalue.com/",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE51bEhTSG40RGlsZXdxczhRdXo1NlozWVo3YVgtTEJnV3V0OWtMS0lFMG1DQXRJX25YUGpHYnI5dnYyTmxtNGJXQkdBdHJESWVZRWVQY25lSQ?oc=5"
-    },
-    {
-     "title": "‘치이카와’ 굿즈 대란…“입고 전날 밤부터 대기” - 에너지경제신문",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5SZGFDdEJHRUtIXzZHTzQ4dE1qbEVJQzdTdExSQ3JBYmZXU1VYcER4b3ZEUU9BV1VGTVI1dTdGNnA0bVpPeDEzenNMTGEyT0dKZEJwa0FFYlY1VE5wR0pjMmxrRQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "문경 감홍 사과",
-   "name_zh": "文慶柿紅蘋果",
-   "brand": "조선몰",
-   "why_zh": "最新人氣蘋果品種，全國各地品售罄",
-   "category": "food",
-   "keyword": "문경 감홍 사과",
-   "news": [
-    {
-     "title": "곳곳 품절대란, 요즘 최고 대세 사과 ‘문경 감홍’ 조선몰 단독 특가 - 조선일보",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVHhpbF9VeE9tdGxzcEdScGFXelliNWM5Rm44eVJyNXdJYUU5OGhGOUZhci1wZDliUlduZkJSaHA1cEZuQWVzelViOW1Pc2ZGSnJjX3pHZ3Y1QUcyMEltb3ZtMnFxRm9QWU55NE5tTy1FbzI3ZE1aYmc3bm5mUTlRMXRTXzdDY3hKNHVF?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "호빵맨 콜라보 제품",
-   "name_zh": "Anpanman 聯名商品",
-   "brand": "GS25",
-   "why_zh": "100種貼紙同梱，便利商店限定聯名",
-   "category": "food",
-   "keyword": "호빵맨 콜라보",
-   "news": [
-    {
-     "title": "“호빵의 계절이 돌아왔다”…GS25, 100종 스티커 동봉된 ‘호빵맨’ 콜라보 제품 출시 - 매일경제",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XWS1sLUhqaGwzOE90TkhaZkJCa19KMjZ0SnRhaVFIYngwY2JlTW9SN1dvR3I4R0hXOFYyNVV4OFI0YWFTNW9oOHpXNUdxdWpI?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "노티드 찹쌀떡",
-   "name_zh": "Knotted 糯米麻糬",
-   "brand": "편의점",
-   "why_zh": "上市首日排隊，引發開門搶購風潮",
-   "category": "food",
-   "keyword": "노티드 찹쌀떡 오픈런",
-   "news": [
-    {
-     "title": "\"이번엔 노티드 찹쌀떡?”…출시 첫날부터 긴 대기줄에 또 '오픈런' - 뉴시스",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6RWZsb2x4a0s1czk0QlpNTE1zYUl4ak1FeEJ6X2xNNExKbGN6NmVNdHREMHdTaVA5VkNIV2prQnBVbzBJRm1sVDRrWDFvc2JLb0lnTmdqcGFtVGR2amhhWVdUUmtUN1R5eTFVaHNNUmRyVjI0SDV2U9IBeEFVX3lxTFB6RWZsb2x4a0s1czk0QlpNTE1zYUl4ak1FeEJ6X2xNNExKbGN6NmVNdHREMHdTaVA5VkNIV2prQnBVbzBJRm1sVDRrWDFvc2JLb0lnTmdqcGFtVGR2amhhWVdUUmtUN1R5eTFVaHNNUmRyVjI0SDV2Uw?oc=5"
-    }
-   ]
-  },
-  {
    "name_ko": "다이소 토너",
    "name_zh": "Daiso 爽膚水",
-   "brand": "다이소",
-   "why_zh": "5000韓元販售百貨公司4萬韓元等級成分，品售罄",
+   "brand": "Daiso",
+   "why_zh": "5千韓元高CP值美妝品，品售成潮流",
    "category": "beauty",
-   "keyword": "다이소 토너 품절",
+   "keyword": "다이소토너",
    "news": [
+    {
+     "title": "'이게 왜 이렇게 잘 팔려?'…갑자기 품절 대란 터진 다이소 단돈 ‘2000원짜리’ 정체 - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1UHZFWmFTR2tPaFNOSnlvQy1fOG9Za3lNUEt3MXRQcF9zOTRnMHVvQzlWUEdvMzJLdmd1d3haOXp6bC1XT0paR082OEM5cGVLZ2ppTkxn?oc=5"
+    },
     {
      "title": "이번에도 품절 대란?…보통 몇만 원 하는 데 5000원에 나온 '다이소 상품' - 위키트리",
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zR3dZaDBoVE45UEpfRHZLdDR4MHlSTXY0R0JVdmtsS3F4ZERwRWx6R3JYM1lnbnZobzNVRmk4eXplVUV3am1ldldFRDJtbERWTmR3TDF3?oc=5"
-    },
-    {
-     "title": "\"다이소 갔는데 또 품절이래요\"…요즘 대란 난 뜻밖의 상품 [덕질경제학] - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3anN6c2RIUWR6Uy1RMnU4YVBsUFVISTlCOUxiTlZWWXRUSWh4bEhEVmwwcTVoY0d5azQ5UkY3bm9CQXZESzNVMjV1MXVqX0RZWXVUMWcxS1pEQQ?oc=5"
     },
     {
      "title": "“이걸 5천원에?” 백화점 4만원짜리 성분, 다이소 토너에 담긴 진짜 이유 - 뉴스와",
@@ -168,12 +126,31 @@
    ]
   },
   {
-   "name_ko": "스파오 캐릭터 협업",
-   "name_zh": "SPAO 角色聯名商品",
-   "brand": "스파오",
-   "why_zh": "角色聯名銷售增長51%，商品品售罄",
+   "name_ko": "노티드 찹쌀떡",
+   "name_zh": "Knotted 糯米麻糬",
+   "brand": "Knotted",
+   "why_zh": "新品開售首日排隊，引發開夜排熱潮",
+   "category": "food",
+   "keyword": "노티드찹쌀떡",
+   "news": [
+    {
+     "title": "\"이번엔 노티드 찹쌀떡?”…출시 첫날부터 긴 대기줄에 또 '오픈런' - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6RWZsb2x4a0s1czk0QlpNTE1zYUl4ak1FeEJ6X2xNNExKbGN6NmVNdHREMHdTaVA5VkNIV2prQnBVbzBJRm1sVDRrWDFvc2JLb0lnTmdqcGFtVGR2amhhWVdUUmtUN1R5eTFVaHNNUmRyVjI0SDV2U9IBeEFVX3lxTFB6RWZsb2x4a0s1czk0QlpNTE1zYUl4ak1FeEJ6X2xNNExKbGN6NmVNdHREMHdTaVA5VkNIV2prQnBVbzBJRm1sVDRrWDFvc2JLb0lnTmdqcGFtVGR2amhhWVdUUmtUN1R5eTFVaHNNUmRyVjI0SDV2Uw?oc=5"
+    },
+    {
+     "title": "떡 먹으려고 KTX 탄다… 2030 ‘떡지순례’ 열풍 - 조선일보",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUk16bW82QnVURU9EOXF1TW4yNVgxZWV3MTc1amQ3TEkxSWhjUTkzYXl0emVSWmxNeWptbXpLS0VpTEpqTkdzcGwwak5MdXVmUUxOQWZ5YW1RQmxxZWltQ3pfVTc0YXJoTE9uTDdlMmMwVWZHdmdGZld3WmV4MTUwb0ZBTG0?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "스파오 먼작귀 협업",
+   "name_zh": "SPAO 梦幻作品角色聯名",
+   "brand": "SPAO",
+   "keyword_ko": "먼작귀",
+   "why_zh": "角色聯名系列品售，帶動銷售成長51%",
    "category": "fashion",
-   "keyword": "스파오 캐릭터 협업",
+   "keyword": "스파오먼작귀",
    "news": [
     {
      "title": "‘먼작귀 품절 대란까지’…스파오, 캐릭터 협업에 매출 51% 뛰었다 - 더트래커",
@@ -182,44 +159,86 @@
    ]
   },
   {
-   "name_ko": "푸라닭 마요피뇨",
-   "name_zh": "Puradak Chicken 美乃滋辣椒餐點",
-   "brand": "푸라닭",
-   "why_zh": "新菜單上市，部分門店品售罄",
+   "name_ko": "호빵맨 콜라보 제품",
+   "name_zh": "Anpanman 便利商店聯名",
+   "brand": "GS25",
+   "why_zh": "GS25便利商店限定，附贈100種貼紙",
    "category": "food",
-   "keyword": "푸라닭 마요피뇨",
+   "keyword": "호빵맨",
    "news": [
     {
-     "title": "푸라닭치킨, '마요피뇨' 출시, 쿠팡이츠 최대 1만3천원 할인…일부매장 품절도 [ 신아일보 강동완 기자 ] - 블로그",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4QWRzSlltZmFuQzNhWG8xTGJJa0FRYTNmaE9RRklDSFJJZlBtQXU4N3pXUlNkT0xvcG52bm95dWtyOVZHZWtxaTF5X05OZHFhRkkzdnh3VV9jcnJ2QWJadWpUUV9wYVFMT2FzYTNjTFo0alVBTXZXVHNXc29iQQ?oc=5"
+     "title": "“호빵의 계절이 돌아왔다”…GS25, 100종 스티커 동봉된 ‘호빵맨’ 콜라보 제품 출시 - 매일경제",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XWS1sLUhqaGwzOE90TkhaZkJCa19KMjZ0SnRhaVFIYngwY2JlTW9SN1dvR3I4R0hXOFYyNVV4OFI0YWFTNW9oOHpXNUdxdWpI?oc=5"
     }
    ]
   },
   {
-   "name_ko": "원더바스 슬라이스 세럼",
-   "name_zh": "Wonderbath Slice Serum（可切割精華）",
-   "brand": "원더바스",
-   "why_zh": "SNS爆紅，銷售增長2.75倍，進攻美國市場",
-   "category": "beauty",
-   "keyword": "원더바스 슬라이스 세럼",
+   "name_ko": "맥플랜",
+   "name_zh": "Mac Plan",
+   "brand": "CJ Wellcare",
+   "why_zh": "腸道益生菌產品，上市一月銷售破百萬",
+   "category": "food",
+   "keyword": "맥플랜",
    "news": [
     {
-     "title": "원더바스 ‘슬라이스 세럼’, SNS 화제 타고 해외시장 공략 가속 - 뷰어스",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15bkNGRURZaVJTU2FqWDBWNlZCeVRyVjhvMV8zTjQ0T3hiMXYwekIxSG5VVjNiS240ZUx1NEoxM19xb29RYkZfSVNXeThoRERLY21lYXlybnM?oc=5"
+     "title": "‘장내 미생물 먹이’ 美 웰니스 열풍 관통… CJ웰케어 ‘맥플랜’, 한 달 만에 100만 개 돌파 - 식품음료신문",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oVmNCbFhMVnczZ0tKYjlwTG9USGlqSmgxcHVYOE50SDgyYWUtalFGV0FqMVl6NTJXVE9hWlQ1QWZTOFJxOTlIS3ZNQzVFM3FHaHc5V3pJbEt5N2NxQklyWllrQ2NmczIwa0kwUl9aSQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "문경 감홍 사과",
+   "name_zh": "文慶 柿紅蘋果",
+   "brand": "조선몰",
+   "why_zh": "時下熱門水果，各地品售，限時特價",
+   "category": "food",
+   "keyword": "문경감홍",
+   "news": [
+    {
+     "title": "곳곳 품절대란, 요즘 최고 대세 사과 ‘문경 감홍’ 조선몰 단독 특가 - 조선일보",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVHhpbF9VeE9tdGxzcEdScGFXelliNWM5Rm44eVJyNXdJYUU5OGhGOUZhci1wZDliUlduZkJSaHA1cEZuQWVzelViOW1Pc2ZGSnJjX3pHZ3Y1QUcyMEltb3ZtMnFxRm9QWU55NE5tTy1FbzI3ZE1aYmc3bm5mUTlRMXRTXzdDY3hKNHVF?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "요아정",
+   "name_zh": "Yo-A-Jung",
+   "brand": "요아정",
+   "why_zh": "國產零食海外爆紅，日本、菲律賓開夜排",
+   "category": "food",
+   "keyword": "요아정",
+   "news": [
+    {
+     "title": "日서 ‘최애 조합’·필리핀에선 오픈런…요아정, 해외서도 통했다 - 이데일리",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYnNxY1hndS1MMzMzUlNxRzN0ZUpleU40UG9kTk9nZlgzRFF3c25ZYzdoM0JsU25Oa3V0UmhaYTJucmxPYkVqTDlOc0p4U0gwMzJVNnR0aTZ3ZnlFdHVnSHlnRk5helJDM3Atc1p1S0hjbDVNOWxaS1JCQW5uOUM3aA?oc=5"
     },
     {
-     "title": "밈 타고 판매 2.75배…원더바스 ‘잘라 쓰는 세럼’ 미국 공략 - 뉴스퀘스트",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCckpreE1mdWhPWWJZcEJsWHFGelRLWG9WRVhPSHBBNXJvZ051dDZ1UHFlNDEwSXpHNHZ6ckZXUXk4V2RmcGtYdHc5QUdnelJVdjdFeWlGc1g2MGQwZFVZZEx6Y3ZLNzhlSWdpNkozbw?oc=5"
+     "title": "“누구나 다 아는 ‘이 간식’, 팔릴까 했는데. 기우였다”…벌써 1600만개 팔린 반전 흥행 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5c3JxX0ZmdFhlUVhEQWRScXo2eXJnWFJLMTg5dmxETnZLaG5nR1ZwYll2dlJkblF3c0t3eEVYNUJNWndvY2pLWUhCcF91UQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "소다활 레몬라임맛",
+   "name_zh": "Sodahal 檸檬萊姆無糖碳酸飲",
+   "brand": "동화약품",
+   "why_zh": "零糖無碳酸新產品系列擴展",
+   "category": "food",
+   "keyword": "소다활",
+   "news": [
+    {
+     "title": "동화약품, 제로 탄산 '소다활 레몬라임맛' 출시… 라인업 확장 - 보건신문",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pTTdBR09IOUhfN2JMSjJnbF9DcENRekVpTU9aR2pWUkNKT2c1eHMyV0pzLTNuV3g2QmJ1WkVTaTVTaUxqWk5VVlBWc2Fjb2V2bzJUcmRaZ2xjeHJrTWFQeG13OA?oc=5"
     }
    ]
   },
   {
    "name_ko": "쿠쿠 미식컬렉션 에어프라이어",
    "name_zh": "Cuckoo 美食系列大容量烤箱型氣炸鍋",
-   "brand": "쿠쿠",
-   "why_zh": "新上市大容量款式",
-   "category": "living",
-   "keyword": "쿠쿠 에어프라이어",
+   "brand": "Cuckoo",
+   "why_zh": "新型廚房電器上市",
+   "category": "tech",
+   "keyword": "쿠쿠에어프라이어",
    "news": [
     {
      "title": "쿠쿠 ‘미식컬렉션 대용량 오븐형 에어프라이어’ 출시 - 글로벌에픽",
@@ -228,30 +247,16 @@
    ]
   },
   {
-   "name_ko": "에뛰드 진주알 BB 리뉴얼",
-   "name_zh": "Etude Pearl BB Cream 翻新版",
-   "brand": "에뛰드",
-   "why_zh": "懷舊商品翻新上市",
-   "category": "beauty",
-   "keyword": "에뛰드 진주알 BB",
-   "news": [
-    {
-     "title": "에뛰드, 추억의 '진주알 BB' 리뉴얼...디오디너리, 립 트리트먼트 출시 - 싱글리스트",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HTEhrSHBheDJNb3B0VnlCWERuaThFcHZpeHV6VE1yeDRXdU5kdjEyYUVqY3piTGtuNngzdjRtcmpsSUxOdXl3T2Mzbkt5eVY2NDVRM2Q1S3loenY1Ti1leTVFZHM2Zw?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "GS25 협업 김밥",
-   "name_zh": "GS25 聯名飯捲",
-   "brand": "GS25",
-   "why_zh": "上市10分鐘完售",
+   "name_ko": "푸라닭 마요피뇨",
+   "name_zh": "Poula Chicken 美乃滋辣椒新餐點",
+   "brand": "푸라닭치킨",
+   "why_zh": "新菜色上市，Coupang Eats限時優惠，部分門市品售",
    "category": "food",
-   "keyword": "GS25 김밥",
+   "keyword": "푸라닭마요피뇨",
    "news": [
     {
-     "title": "GS25 협업 김밥 10분 만에 완판 행진 : 기업·산업 - 재경일보",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJdUdSeU13QXFHZmJhaEFWWGlhalMtejZtcFNNSE9HeF81QXcySnNIdHdqYUJNYWNRSDNRRC03cHYxRTVRN0hUWlg5SQ?oc=5"
+     "title": "푸라닭치킨, '마요피뇨' 출시, 쿠팡이츠 최대 1만3천원 할인…일부매장 품절도 [ 신아일보 강동완 기자 ] - 블로그",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4QWRzSlltZmFuQzNhWG8xTGJJa0FRYTNmaE9RRklDSFJJZlBtQXU4N3pXUlNkT0xvcG52bm95dWtyOVZHZWtxaTF5X05OZHFhRkkzdnh3VV9jcnJ2QWJadWpUUV9wYVFMT2FzYTNjTFo0alVBTXZXVHNXc29iQQ?oc=5"
     }
    ]
   }
