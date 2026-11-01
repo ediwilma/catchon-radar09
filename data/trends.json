@@ -1,22 +1,154 @@
 {
- "updated": "2026-10-31T13:11:59.864953+00:00",
+ "updated": "2026-11-01T09:23:50.441731+00:00",
  "items": [
   {
-   "name_ko": "피자설기",
-   "name_zh": "披薩雪糕",
-   "brand": "GS25 X 설빙",
-   "why_zh": "SNS爆紅的融合甜點，多次完售，編便利商店冷凍新品",
+   "name_ko": "치이카와 팝콘통",
+   "name_zh": "Chiikawa 爆米花桶",
+   "brand": "電影院",
+   "why_zh": "電影院周邊商品全面缺貨，引發搶購熱潮",
+   "category": "other",
+   "keyword": "치이카와 팝콘",
+   "news": [
+    {
+     "title": "\"팝콘통까지 품절대란\" 치이카와 열풍에 소비자 지갑 '활짝', 극장 '활기' [무비코노미] - 이코노미스트",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KUlZVdW5JenI2NGFMdTB6OVhXUVhNQlVpcFFYc0x4aFpQelRoM2N1WmNFbW1RSWVRSjViZGpnUHJzakhZb0ZNR2QtRUVUM3RLUW5TQWNtZ29zYUo0aElndnp3?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "찹쌀떡 한정 신상",
+   "name_zh": "糯米糕限定新品",
+   "brand": "편의점 3사",
+   "why_zh": "SNS爆紅掀起「떡 열풍」，各便利商店搶推新口味，部分產品因大腸菌群超標被回收",
+   "category": "food",
+   "keyword": "찹쌀떡 한정",
+   "news": [
+    {
+     "title": "\"즉시 반품하세요\" 70만개 팔린 '이 찹쌀떡' 후속작서 대장균군 - 이데일리",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOenhpYUNueGx2dm41NUhWdDduYzA2ZGFDWHRXa3piOXpwcWEwUWt2dE8weVJJOGM1YXZhV0IxWVdPTDJTT0ZpTE5lVEN4M2tiV29jTXRzZUdnTDkteHpkcEFmTkdialBIMWFoUjY5YmRhbFBaejRaUW11LVlQVHF4SQ?oc=5"
+    },
+    {
+     "title": "‘내한’ 저스틴♥헤일리 비버도 ‘찹쌀떡 대란’ 합류‥제대로 즐기고 갔네 - 뉴스엔",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MQV9FTDYzZ2VSZGtKR3U3cFAxSWRETGQyUTlITVEyZU9leFpIMTBzRWxINkpac2toM1hwcllEenBaNnk5YXNhY2xuMDIyZWsyT0xyZm44aGN2dEs5LWxyMFNoTC1DTHZw?oc=5"
+    },
+    {
+     "title": "SNS 달군 찹쌀떡 열풍...편의점 3사도 '떡 전쟁' - 우먼타임스",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBscndZZHptM3k4S1lHV0JXX3RVWGdvd25BQzIzeUhJMzNsT0FpUzdkSTJCWXdnNnhDaElzRkR3OGpNTW01dVMyd3JEVEpVRXZuODBzUUhFRTFYSW81ODRycndNUE5TYmt4VWN5dXU1TFPSAXRBVV95cUxOeURRd1R6OGVXbXZPcDh4UG82SkV6N3ZVMjVYb0YwTl90WHZ2S05pcVRHZFN5WDBLX2djSk12Q0dfM1hLaERNbGZ0TVJsQWVPYTRPTDBpSVQtRW9nMlltVUttY09KWEZ6akJRNmpvTngxNUlfVQ?oc=5"
+    },
+    {
+     "title": "“피자도 초콜릿도 떡으로”…유통가 '떡 디저트' 경쟁 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpNHZPVC16OHB4SFVUcnUybDZYenJNMEZDeFkzSEFBdFQ3NU5ZeTZ3TzZRTTZ0czdMSlZZMnNsaVBIN0FLcHhFUWJud3RlQQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "코스 트룰로 백",
+   "name_zh": "CLIO Trullo 包包",
+   "brand": "코스(CLIO)",
+   "why_zh": "品牌舊款再出版引發搶購，缺貨再次成為話題",
+   "category": "beauty",
+   "keyword": "트룰로 백",
+   "news": [
+    {
+     "title": "코스, 품절 대란 ‘트룰로 백’ 재출시 - 아이즈매거진 | eyesmag",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92SGluVmVmSW5qSk96UjJ3emM4V2pFRmh6QWRHODFxY1owMk8yYkdTU090cVM0X21jREF4RWlScU43dkpjSV9UcW96blpQZDZhWVFrRUd1SlZOdVBXcTVJYmFxQ01vdktabjhkTXJteXVxMVcybVE?oc=5"
+    },
+    {
+     "title": "품절 대란엔 다 이유가 있다! 셀럽들의 내돈내산 파데 - 하퍼스 바자 코리아",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qdWpCTWhybG81WU9jaDhrRnFTak8ya0U3TEZOZ2xrOWRpd2Y2T1BnbDVFMktGUzVILWZGbXVPc1hpZXY3em5TRmh2SE1NblhsTGtIN0Nha0JObDg?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "스타벅스 곰돌이컵",
+   "name_zh": "星巴克熊熊杯",
+   "brand": "스타벅스",
+   "why_zh": "限量版杯子因缺貨成為熱話，11月10日重新上市",
+   "category": "other",
+   "keyword": "스타벅스 곰돌이컵",
+   "news": [
+    {
+     "title": "“품절 대란 스타벅스 곰돌이컵 돌아온다”…11월 10일부터 한정 판매 - 라디오코리아",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVWtieElEUWNBWnBvajhId3JJTGhFeGF4WERzLWN0Sy1OZFYwazZSeV96TE9xWnFWd2pQX3dHajJBR1lyaUZRNmFxNFMzMTMyUG13M25fMWlzUFcxU1dVaGVGWEM?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "경북 감홍 특대과",
+   "name_zh": "慶北感紅特大蘋果",
+   "brand": "農產品",
+   "why_zh": "限時特價5kg 4萬元台幣，成為最夯蘋果品種",
+   "category": "food",
+   "keyword": "감홍 사과",
+   "news": [
+    {
+     "title": "품절대란, 요즘 대세 사과 ‘경북 감홍’ 특대과 5kg 4만원대 단독 특가 - 조선일보",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVG1WSEs5MXBGczI3ZURpM3RyWTdCeWVnZGNfRGM5bjUwcjVaR0d0LVl6bXlQSWxzbUQxVDBTTW04a1VsZk5saXNmeHhrU1JDekZMUTdzYnk1S0dvS1IzMDlSNDM3MWlCU2ltcjJqdFRaU2dXeWt5V1p4UDFPN2xnWktPclFabkJ4OUZj?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "아이폰 듀오",
+   "name_zh": "iPhone Duo",
+   "brand": "애플",
+   "why_zh": "全球缺貨，上市後持續熱銷，但傳出耐用性問題",
+   "category": "tech",
+   "keyword": "아이폰 듀오",
+   "news": [
+    {
+     "title": "아이폰 듀오, 전세계 품절 대란… “몇번 펼치니 쩍” 내구성 논란도 - 동아일보",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CZUtaMHpOZGNldmo4UnVQQ3M3a3hZM1RENjVRY2g5VW9fZVVCcmsyb1JUVGo3YklCRVZwU0NDNEliR25RRThxR3E2TmFKNmZpazFkQkxyQTQtM0tiU3VLZ2E3VnlaaEZ6RFpTWkNGdjljX3hvVlHSAWZBVV95cUxPbzl0bUVZV3hfam8waTUzLVFxbmVEQmpZNzNHcEduV1N4bkJPU0FiejhvOHdnd1VENi1PTFBFaVBBel90UkFsRGZDNEp5akNOV1ozT2xpUlNybjBkMXd3QXVqZFJjZ3c?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "방탄소년단 뷔 와인 '마리골드'",
+   "name_zh": "BTS V 推薦葡萄酒 Marigold",
+   "brand": "김창수 위스키",
+   "why_zh": "V發布照片2小時完售，再入庫等待時間長達2個月",
+   "category": "other",
+   "keyword": "뷔 와인 마리골드",
+   "news": [
+    {
+     "title": "방탄소년단 뷔, 와인도 품절 대란…공개 2시간 만에 '완판' - 싱글리스트",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtaWxNWHljeHN0ZFdXZGpjbUh2LWM4X3otZHhDSW5SNk5mb3RNTGhFM2RacHlZX3FuWEhSR1FRMXlmTHIxREZqMWFvc1poYjNsSFJhZjRudXlpLXR0QzBWS09FM2xJZw?oc=5"
+    },
+    {
+     "title": "“열리자마자 품절 대란”… 롯데마트, ‘김창수 위스키 마리골드’ 가을 한정판 단독 선보인다 - 지이코노미",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KNXVUTXJNMFhqNy13X0NpUGNCQmNwMmpXWGdiWTluRjZMejJPUjJOa1V1QUtPS2ZJeTVIMHBhMVBGZ3k1dUZPaWtHSWJRbGhCYWdDZUN3cDBEazFsVnJZR2NodjllcDVOVHc4SEtCMi1Ndw?oc=5"
+    },
+    {
+     "title": "\"사진 한 장 올렸을 뿐인데\"... 방탄소년단 뷔, 칠레 와인 2시간 만에 품절된 진짜 이유 - 살구뉴스",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95WW5XSk8yN3FQeF90VzZacHRmUHJ4UER1TFJHTVNIQXgzTXBtYnpmSS12LVduTUdLRGRxU3BrN0tENzVkaV81cnRhaEt1dHdMdlE3c3NLMVo2RkNtenVtQkhuMGpfTkZCejZXQtIBcEFVX3lxTE9la2lzUzg3S3NFYnk5OV8zb2lpZlVqYU04SEtUdWdpU1VxeGtFY3lKODVRcHpMT0hHMGpKZk5wSXhKVUZsclA1endlT0dXSjRnQ0Y5R1c4cDc3cllSN0d5ckhYMlpLWGRaWHdmRXlBNXE?oc=5"
+    },
+    {
+     "title": "'재입고까지 2개월'… BTS 뷔가 마신 와인에 무슨 일이? - 금강일보",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01R0cyeEo1ODZlMTZtV2VTNEFoVkY3Q1E1dkVQcXlMcmY2RGtfVFpSYlYwRXdaV0IyX2MtT1UtUFJ5d2VBNzh3cUZ0NVJTeklaSWFXeE53MlBFc2ZycnlCdXdHS0thM0hW?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "스키즈 필릭스 바이올렛 시리즈",
+   "name_zh": "Stray Kids Felix Violet Series",
+   "brand": "공차",
+   "why_zh": "新推出紫色系飲料，購買可獲得偶像應援物周邊",
+   "category": "food",
+   "keyword": "공차 바이올렛 시리즈",
+   "news": [
+    {
+     "title": "공차, '바이올렛 시리즈' 2종 출시…스키즈 필릭스 키링 증정 - 푸드투데이",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lcFFQaUxobVo0Q2lGME5JT09US3NOaFpXUlV2am5TN1hxWEVBXzFvWDV0VEVpQUtMZUY3Tmw1WUljcXhOUUxKVE5RVTlreHoxX3FSb0hHNkY0QXRBN1lHc05lMjNHdw?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "GS25 피자설기",
+   "name_zh": "GS25 披薩年糕",
+   "brand": "GS25",
+   "why_zh": "便利商店創意甜點，融合披薩與年糕，推出後目標完售",
    "category": "food",
    "keyword": "피자설기",
    "news": [
-    {
-     "title": "GS25, SNS 화제템 ‘피자설기’ 냉동제품으로 선봬 - 싱글리스트",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8waGhjek1wOVhaSVRzX2Q4c3BWZWtoVUZOT2RUQTdOcjk5eVBzUXVDcTNsUER0RHJtaGhyR2JfNGpHMUdQR1RJUi1ZcHRXd3BHQjlaU2VxU2hfVXhBQ3B1RTRkVVVwZw?oc=5"
-    },
-    {
-     "title": "“유통가 퓨전 떡 열풍 지속”...GS25, SNS 화제 상품 '피자설기' 선 봬 - 팝콘뉴스",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QMDRIbE9WMG1UNzRBcUFVR3Nta3NiRFVhcXNpb29xeENTTHQyRGk0WnNqYW1zNUpnZW10UTJjOThacFlrMHgzUGpZMWtRcVBHQ0FhdVRleWhmTnowMkRKNlJYcENQazV0dnlCUExKVdIBckFVX3lxTE80TC1hTmZqRnJHN3dST2RtZTBFZGN4YlllLXNJaVplQjJfaE9DZW13TmxhSGRSX1BDdks3LVhWMThGU0F1aUp0M0d1SW9HUGRqdnNJSGRhY3ZzQjZrakVOeUZrajVFWWRYRHBBMW9JUDJWZw?oc=5"
-    },
     {
      "title": "GS25, 떡 위에 피자를 올렸다…‘설빙 피자설기’로 또 한 번 ‘완판’ 노린다 - 뉴스로드",
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxUUtWZ0dZLXN6WEFOdUhGenpUcHFUdE00aUk4b0xoNmxmSFZkV1loQ0diQXJ5SHFIVUQ0a01kaUl6eDQ1X0VscnJCVF9HTU9BMXhMaGZtWVZLZDhkc0ZRTFg4U0dGUjNPR0RwWE5IY9IBb0FVX3lxTFBxUUtWZ0dZLXN6WEFOdUhGenpUcHFUdE00aUk4b0xoNmxmSFZkV1loQ0diQXJ5SHFIVUQ0a01kaUl6eDQ1X0VscnJCVF9HTU9BMXhMaGZtWVZLZDhkc0ZRTFg4U0dGUjNPR0RwWE5IYw?oc=5"
@@ -28,131 +160,53 @@
    ]
   },
   {
-   "name_ko": "찹쌀떡 (모찌)",
-   "name_zh": "糯米年糕",
-   "brand": "편의점 3사",
-   "why_zh": "掀起開放時段排隊風潮，全國便利商店缺貨",
-   "category": "food",
-   "keyword": "떡오픈런",
-   "news": [
-    {
-     "title": "[업계는 지금] 이게 웬 떡이냐…‘오픈런’ 모찌 열풍에 편의점 3사도 가세 - 푸드투데이",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SR290YzFCdmpULUtWM3R4ci01UXBLOV9Mak5IQlQzTzloZGdBcXFnZzRib1NBWlYwVG9Zc1J1Q2xZUzgxeDlXeFdlNEEzTU9VX3lUSkh1Q2NJVWlVUE4tQnYyMlZHZw?oc=5"
-    },
-    {
-     "title": "불붙은편의점 '떡 전쟁'…'할매 입맛' MZ 정조준 - www.ebn.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pX0J2ZDVZN1MwLWE2N3ZxX29ZUWdVZUM2cXhFNW56Tm9LTWhwVEgxa014dDRDOWtRelZsMGRxTHNWLTZ2Y1k4TENZYXFkZ0lmQzlhazA3UkMzbHkyMm1uNnVpUktENVRS?oc=5"
-    },
-    {
-     "title": "“피자도 초콜릿도 떡으로”…유통가 '떡 디저트' 경쟁 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpNHZPVC16OHB4SFVUcnUybDZYenJNMEZDeFkzSEFBdFQ3NU5ZeTZ3TzZRTTZ0czdMSlZZMnNsaVBIN0FLcHhFUWJud3RlQQ?oc=5"
-    },
-    {
-     "title": "SNS 달군 찹쌀떡 열풍...편의점 3사도 '떡 전쟁' - 우먼타임스",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBscndZZHptM3k4S1lHV0JXX3RVWGdvd25BQzIzeUhJMzNsT0FpUzdkSTJCWXdnNnhDaElzRkR3OGpNTW01dVMyd3JEVEpVRXZuODBzUUhFRTFYSW81ODRycndNUE5TYmt4VWN5dXU1TFPSAXRBVV95cUxOeURRd1R6OGVXbXZPcDh4UG82SkV6N3ZVMjVYb0YwTl90WHZ2S05pcVRHZFN5WDBLX2djSk12Q0dfM1hLaERNbGZ0TVJsQWVPYTRPTDBpSVQtRW9nMlltVUttY09KWEZ6akJRNmpvTngxNUlfVQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "트룰로 백",
-   "name_zh": "Trulo Bag",
-   "brand": "코스(Cos)",
-   "why_zh": "品牌標誌款包包，因缺貨風潮再次補貨推出",
-   "category": "fashion",
-   "keyword": "트룰로백",
-   "news": [
-    {
-     "title": "코스, 품절 대란 ‘트룰로 백’ 재출시 - 아이즈매거진 | eyesmag",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92SGluVmVmSW5qSk96UjJ3emM4V2pFRmh6QWRHODFxY1owMk8yYkdTU090cVM0X21jREF4RWlScU43dkpjSV9UcW96blpQZDZhWVFrRUd1SlZOdVBXcTVJYmFxQ01vdktabjhkTXJteXVxMVcybVE?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "치이카와 팝콘통",
-   "name_zh": "吉伊卡哇爆米花桶",
-   "brand": "電影周邊",
-   "why_zh": "電影上映帶動周邊商品熱潮，爆米花桶缺貨",
-   "category": "other",
-   "keyword": "치이카와",
-   "news": [
-    {
-     "title": "\"팝콘통까지 품절대란\" 치이카와 열풍에 소비자 지갑 '활짝', 극장 '활기' [무비코노미] - 이코노미스트",
-     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KUlZVdW5JenI2NGFMdTB6OVhXUVhNQlVpcFFYc0x4aFpQelRoM2N1WmNFbW1RSWVRSjViZGpnUHJzakhZb0ZNR2QtRUVUM3RLUW5TQWNtZ29zYUo0aElndnp3?oc=5"
-    },
-    {
-     "title": "치이카와 극장판, 14일 연속 1위…팝콘통 품절로 번진 가족 관람 열풍 - https://www.diarypoint.com/",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFaWNFSy1ETWhyN0NsT1IwWU05cUxWSGFlRzg2VnlTVW15X0o1T0tDMF96VlJjbFpoNDJYWTJmcHJrMHVyVjhHX1ctUGhET1hmaUVHZ0FxOU9nSTQ4M3pxTTc4RWVNQmFJcU9j?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "아이폰 듀오",
-   "name_zh": "iPhone Duo",
-   "brand": "Apple",
-   "why_zh": "全球缺貨，上市後因耐用度問題引發討論",
-   "category": "tech",
-   "keyword": "아이폰듀오",
-   "news": [
-    {
-     "title": "품절 대란 ‘아이폰 듀오’ 내구성 논란…20번도 안 접었는데 화면 ‘쩍’ - 동아일보",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tU09MSGluV1JmSm4xTWVXS1dqdVVBT3ZqUlA4SWdra0pVWlpFZ08takFFSV9oX19tMjczTDBlaWR1RGhSTTRfYklwNzFsRjgyal9ZeDlyLU9hY0EzUGdjb0h2SGV2b3MwTDR2M3JxR0lMeXBSdFHSAWZBVV95cUxOOG51TDlnY2FmbmU3SE1wVmk1cWxIQXNnTDI5T2FGeG96N2QtQXpIVEhqcTVjUjluSGMxX0c3RTNIWFlnNU1wOE5RTGw5aUwyVWM3eE94d28zZFh2YS1Qcm1WZ2wxYWc?oc=5"
-    },
-    {
-     "title": "아이폰 듀오, 전세계 품절 대란… “몇번 펼치니 쩍” 내구성 논란도 - 동아일보",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CZUtaMHpOZGNldmo4UnVQQ3M3a3hZM1RENjVRY2g5VW9fZVVCcmsyb1JUVGo3YklCRVZwU0NDNEliR25RRThxR3E2TmFKNmZpazFkQkxyQTQtM0tiU3VLZ2E3VnlaaEZ6RFpTWkNGdjljX3hvVlHSAWZBVV95cUxPbzl0bUVZV3hfam8waTUzLVFxbmVEQmpZNzNHcEduV1N4bkJPU0FiejhvOHdnd1VENi1PTFBFaVBBel90UkFsRGZDNEp5akNOV1ozT2xpUlNybjBkMXd3QXVqZFJjZ3c?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "스타벅스 곰돌이컵",
-   "name_zh": "星巴克熊寶寶杯",
-   "brand": "Starbucks",
-   "why_zh": "限定款11月10日回歸販售，曾引發品牌缺貨",
+   "name_ko": "천연 수세미",
+   "name_zh": "天然菜瓜布",
+   "brand": "生活用品",
+   "why_zh": "SNS流行ASMR破洞感受加上環保特性，掀起購買風潮",
    "category": "living",
-   "keyword": "스타벅스곰컵",
+   "keyword": "천연 수세미",
    "news": [
     {
-     "title": "“품절 대란 스타벅스 곰돌이컵 돌아온다”…11월 10일부터 한정 판매 - 라디오코리아",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVWtieElEUWNBWnBvajhId3JJTGhFeGF4WERzLWN0Sy1OZFYwazZSeV96TE9xWnFWd2pQX3dHajJBR1lyaUZRNmFxNFMzMTMyUG13M25fMWlzUFcxU1dVaGVGWEM?oc=5"
+     "title": "[소셜＋] \"'왁뿌볼' 대신 천연 수세미\"…ASMR 손맛에 친환경은 덤 - 연합뉴스",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10NkxQODdoUlpmWDh1eTllVE83OUw0SmppQS00MnZ6d25tVWtPTW4yWVQ0ZzAxS0dwTHg5cUx5S0FXbnEzS0pZMzBoc1B2TVlzNHJueGlFdjNET2_SAWBBVV95cUxNc3JKLXpRZU92NW9DaXMwNXU5eHVOclEyeDNvOEtOb3Q3Z0Jab3BOUjA0SlBiUWRySjEyYmdCTDRYZ1NiOFZQcXIyVVBLU0ZkODhmWkJjOXE0c1U5c0NxOTI?oc=5"
+    },
+    {
+     "title": "부수는 쾌감에 미세플라스틱 '제로'…SNS 타고 번진 천연 수세미 열풍 - 더쎈뉴스",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qR1NLUzdHaTVSTm50Y29xNzk5R2VkQUVhcnpwb2VNRUtrNkk1ZWdzeEsyYUp0LVFJbmZLRnBKcmRJbG54YTdrQXVyYk9NVWNvODlPMVBJcVdCeWxvUHJtUGJtLUV2aGFr?oc=5"
     }
    ]
   },
   {
-   "name_ko": "바이올렛 시리즈",
-   "name_zh": "Violet紫色系列",
-   "brand": "공차 (Gong Cha)",
-   "why_zh": "新品飲料系列，推出期間附贈Stray Kids菲利克斯鑰匙圈",
+   "name_ko": "캪틴큐 보물상자 한정판",
+   "name_zh": "Captain Q Treasure Box 限定版",
+   "brand": "롯데칠성",
+   "why_zh": "懷舊糖果限定版完售，推出新款「時光機包裝」延續熱潮",
    "category": "food",
-   "keyword": "공차바이올렛",
+   "keyword": "캪틴큐 보물상자",
    "news": [
     {
-     "title": "공차, '바이올렛 시리즈' 2종 출시…스키즈 필릭스 키링 증정 - 푸드투데이",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lcFFQaUxobVo0Q2lGME5JT09US3NOaFpXUlV2am5TN1hxWEVBXzFvWDV0VEVpQUtMZUY3Tmw1WUljcXhOUUxKVE5RVTlreHoxX3FSb0hHNkY0QXRBN1lHc05lMjNHdw?oc=5"
+     "title": "롯데칠성, 캪틴큐 보물상자 한정판 완판...‘타임머신 패키지’ 선봬 - 푸드투데이",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rZVVZLUhVMlJ6T2FtN1UzUUhmNWw3S1ZpaEFuQ0cyMXROdWNrQVRFLVlsQVk5Szcya2pmUWV4QWNVUEd0VTdKWVdTcktSWUp2Z0wxbHljaGhPVkd5SDNIS2RyaU44dC1t?oc=5"
+    },
+    {
+     "title": "[레트로에 빠진 韓] 캪틴큐 품절에 옛날 과자까지…유통가 달구는 복고 소비 - 아주경제",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuQkl5M1BtdXhUUHlqWHRMN291Y3JVM1gtRk11blVlSkJENlY5aVFxNnZUdzdxdVpWOXZUcWxGTDdBdnR4clhOZmFRcVRFcVA4anVJSS1RdFhZUdIBWEFVX3lxTE1QVkhHUlhEcVpSOWZHLWdGU2JkLW5uZU54TjlGM0lXYVUwdjA4MzRXQ1RfVHd4RTEtNzl6LTRqaWZic0FMQzFZLTRuR016SmNGaHhHRjJwWGY?oc=5"
     }
    ]
   },
   {
-   "name_ko": "하이뮨 액티브 프로틴 쉐이크",
-   "name_zh": "Hi Immune Active Protein Shake",
-   "brand": "일동후디스",
-   "why_zh": "新推出紅豆年糕和伯爵奶茶口味蛋白飲",
-   "category": "food",
-   "keyword": "하이뮨쉐이크",
-   "news": [
-    {
-     "title": "일동후디스, ‘하이뮨 액티브 프로틴 쉐이크 인절미·얼그레이밀크티’ 출시 - 푸드투데이",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oLWZNcDFFYml4VV8xT2gxWldYNkRYQUt2b215SmtWS25UMWVWandkcks2VGdvQVR2eVkwXzdmYUR5dkNIX01CNFFJSmo4TnhKR0NycUhfd0hLcGQ5Uk90TERGMUNHZw?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "레티놀 시카 모공 흔적 앰플",
-   "name_zh": "視黃醇舒敏毛孔精華液",
-   "brand": "이니스프리 (Innisfree)",
-   "why_zh": "11月Olive Young Pick新品，標榜視黃醇入門首選",
+   "name_ko": "이니스프리 레티놀 라인",
+   "name_zh": "Innisfree 視黃醇系列",
+   "brand": "이니스프리",
+   "why_zh": "11月Olive Young購物節推出特價，多款產品參與折扣",
    "category": "beauty",
-   "keyword": "이니스프리레티놀",
+   "keyword": "이니스프리 레티놀",
    "news": [
+    {
+     "title": "이니스프리, 11월 올영픽 참여…레티놀 앰플 더블 기획세트 48% 할인 - 나눔경제뉴스",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oMnJLNGRCRmYwQThXeV82ZmpCajkzeWRmaVpKWmJsWHZvRWhCZnFON2pwWVBqV2M1TFNYQ2JydU5yQU5aeFJHN1hpaW4yLUo1QW9jQS1yRTdiTUMzeGRWc01kb1VwSGxSNFYyYw?oc=5"
+    },
     {
      "title": "“레티놀 입문자 치트키”…이니스프리, ‘레티놀 시카 모공 흔적 앰플’ 11월 올영픽 참여 - 매일경제",
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CdG5zX2hhQkJ3b2pvYjh4MmVoYy0wMjkzZXZYTkxQemtZVHlDM3gzVWV6THdfbC1DZ3dnajZicFVmaHpCc3hNWXh0aVgwUDlX?oc=5"
@@ -162,36 +216,18 @@
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42bldna1RqeVNEOGdDcWlzRnZ4WGJfVUFxbGJLeDFTUnRjNjRIWXF2bVZvbThiYzcxLWhRN1ZQUlhCZTNIcVp4ay1zLVBwTFVGSGpBZlVJMmNGZi1aZGdNTjZnOA?oc=5"
     },
     {
-     "title": "이니스프리, ‘레티놀 시카 모공 흔적 앰플’ 올영픽 참여:약품신문 - 약품신문",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BQ3o4RDlSeXd2WW9ZYjFCaVBoX0RJTTdZVWQxYXNHUkFOdlZpa20xSHNaUmp2MXJaaHprbDFzX0JKMlFiQnljSExCV092a1MtTXNDYWMwSGNhXzkwSlJrVNIBYEFVX3lxTE1BQ3o4RDlSeXd2WW9ZYjFCaVBoX0RJTTdZVWQxYXNHUkFOdlZpa20xSHNaUmp2MXJaaHprbDFzX0JKMlFiQnljSExCV092a1MtTXNDYWMwSGNhXzkwSlJrVA?oc=5"
+     "title": "이니스프리, ‘레티놀 시카 모공 흔적 앰플’ 올영픽 참여 - 팩트뉴스",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xSlkwMGc4ZjhZVEJZLWdIN3F5clFYRzRXRnVieTNvWVRqOEVMMWpTVXE3akNsYVpvQzJjQkl3dHYxQkFJeGIzOFNQNV9nRC00ekVXM3hMd1YtUklITkJXaXd3emJrUWNK?oc=5"
     }
    ]
   },
   {
-   "name_ko": "천연 수세미",
-   "name_zh": "天然絲瓜絡",
-   "brand": "多品牌",
-   "why_zh": "SNS爆紅的環保清潔工具，ASMR影片助推人氣",
-   "category": "living",
-   "keyword": "천연수세미",
-   "news": [
-    {
-     "title": "[소셜＋] \"'왁뿌볼' 대신 천연 수세미\"…ASMR 손맛에 친환경은 덤 - 연합뉴스",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51Q184em9LSnZ4c1FfQVNHTFNEZVNsODNTb3BDQ21qbkNSWGZXdHpFQjRyQ3VfWTB3YkhfMm5xZmZ0OFF3OGRBSlZWS1V3QjNGMGdpaWw1RHdrS2RYdHpMZ2NfNDRyV0F1NmF5ekJRVnNMX3E1bWlZ?oc=5"
-    },
-    {
-     "title": "부수는 쾌감에 미세플라스틱 '제로'…SNS 타고 번진 천연 수세미 열풍 - 더쎈뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qR1NLUzdHaTVSTm50Y29xNzk5R2VkQUVhcnpwb2VNRUtrNkk1ZWdzeEsyYUp0LVFJbmZLRnBKcmRJbG54YTdrQXVyYk9NVWNvODlPMVBJcVdCeWxvUHJtUGJtLUV2aGFr?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "MagSafe Flex Pouch",
-   "name_zh": "MagSafe Flex磁吸收納包",
-   "brand": "Ninja Labs",
-   "why_zh": "SNS話題商品，正式登陸韓國市場",
+   "name_ko": "닌자 랩스 MagSafe Flex Pouch",
+   "name_zh": "Ninja Labs MagSafe Flex Pouch",
+   "brand": "닌자 랩스",
+   "why_zh": "SNS話題款手機配件韓國上市",
    "category": "tech",
-   "keyword": "마그세이프파우치",
+   "keyword": "닌자 랩스 파우치",
    "news": [
     {
      "title": "SNS 화제… 닌자 랩스 ‘MagSafe Flex Pouch’ 한국 출시 - 부패방지뉴스",
@@ -200,62 +236,30 @@
    ]
   },
   {
+   "name_ko": "리센느 도시락",
+   "name_zh": "Lissens 便當盒",
+   "brand": "리센느",
+   "why_zh": "繼麵包後推出新產品便當盒，延續品牌熱度",
+   "category": "living",
+   "keyword": "리센느 도시락",
+   "news": [
+    {
+     "title": "리센느 빵 이어 도시락 나왔다 - 부산일보",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtQTMxNDN2VVNkbjNzVkxiVFBucWpsa2VNMkZlOF9tZ05xM0ZWZmdXdDlYZFZoSG16bGx5M1cybGxTdXhhaUY1UWRkYlpyOElmZnl4bl9UZzlWLWVTYmFPX29EOTVkN0N0b0ZlUDdvZW5uVWRWVTZkZkpFUUg?oc=5"
+    }
+   ]
+  },
+  {
    "name_ko": "감바스 짜파게티",
-   "name_zh": "蝦仁斯パゲティ泡麵",
+   "name_zh": "Gambas Jjapagetti",
    "brand": "농심",
-   "why_zh": "SNS推薦自製食譜商品，融合烏賊遊戲概念",
+   "why_zh": "SNS流行「모디슈머」自製食譜風潮的相關商品",
    "category": "food",
-   "keyword": "감바스짜파게티",
+   "keyword": "감바스 짜파게티",
    "news": [
     {
      "title": "[슬소생]'모디슈머' 레시피만큼 맛있을까…'감바스 짜파게티' - 비즈워치",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zOEk2elRITzJGMkxMeWVnTEtpODVlencyNi1XQlB6b0h0T0tKSzJwRE1Vdjg1dklaNlRIVzFGT3psd1FFRHhHRld5R0JocVNPLTFXellqazRUeGluR2xmNmZFTC1ENkxuVEZRcQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "캪틴큐 보물상자 한정판",
-   "name_zh": "Captain Q寶藏盒限定版",
-   "brand": "롯데칠성 (Lotte Chilsung)",
-   "why_zh": "限定版飲料完售，推出懷舊包裝新款",
-   "category": "food",
-   "keyword": "캪틴큐",
-   "news": [
-    {
-     "title": "롯데칠성, 캪틴큐 보물상자 한정판 완판...‘타임머신 패키지’ 선봬 - 푸드투데이",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rZVVZLUhVMlJ6T2FtN1UzUUhmNWw3S1ZpaEFuQ0cyMXROdWNrQVRFLVlsQVk5Szcya2pmUWV4QWNVUEd0VTdKWVdTcktSWUp2Z0wxbHljaGhPVkd5SDNIS2RyaU44dC1t?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 겨울 아우터·러닝복",
-   "name_zh": "大創冬季外套·運動服",
-   "brand": "다이소 (Daiso)",
-   "why_zh": "便宜價格撼動冬季服裝市場，與Head推出聯名商品",
-   "category": "fashion",
-   "keyword": "다이소아우터",
-   "news": [
-    {
-     "title": "“마네킹 그대로 사도 3만원”…다이소, 간절기 아우터 시장도 흔든다 - 쿠키뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSWnE4RGltNjZPTWRtTzNhekFfUWlaMWpYdGlGVDNobG9xdDhwWDJLRGNxY1FpSlZ6TThieEhNMkliTklnR3JaUFdtbDkyaUQzbTBnSWhrWEh1ZFV5ZUZsNVZiRQ?oc=5"
-    },
-    {
-     "title": "\"의류부터 장갑까지\" 다이소 X 헤드, 러닝 아이템 추가 출시 - 뉴시스",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBaGFFZEpIM2hucDdpdEJib0ZhcWV5dVhodFAtQzJSOU9GcklmWWN0dzlpcWVlT3lyTk0zdEg4U2FNRmdmQlZKdUhJbFNsY1B2RlU5d2t1RjVGZkNWNTZFStIBeEFVX3lxTE1LTHBsQ0JrYVhtb1NBSHltUHh1dTF5QnN6SDg0ODVCTFZIekEzS19tMWNjbENoMExCejVYVG1YNFdkcEU0OVVzSzdzUkNmZDhlbF9WcDVpckE0cmRhMlVmelF1UGg3ZGNMU19YdlNpMWExUmd1bTF2RA?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "경북 감홍 사과",
-   "name_zh": "慶北感紅蘋果",
-   "brand": "농산물",
-   "why_zh": "時下熱門蘋果品種，特大5kg限時優惠銷售",
-   "category": "food",
-   "keyword": "감홍사과",
-   "news": [
-    {
-     "title": "품절대란, 요즘 대세 사과 ‘경북 감홍’ 특대과 5kg 4만원대 단독 특가 - 조선일보",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVG1WSEs5MXBGczI3ZURpM3RyWTdCeWVnZGNfRGM5bjUwcjVaR0d0LVl6bXlQSWxzbUQxVDBTTW04a1VsZk5saXNmeHhrU1JDekZMUTdzYnk1S0dvS1IzMDlSNDM3MWlCU2ltcjJqdFRaU2dXeWt5V1p4UDFPN2xnWktPclFabkJ4OUZj?oc=5"
     }
    ]
   }
