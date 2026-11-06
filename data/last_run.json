@@ -1,36 +1,36 @@
 {
- "time": "2026-11-05T21:13:15.607255+00:00",
- "ok": 124,
+ "time": "2026-11-05T23:14:29.098938+00:00",
+ "ok": 139,
  "waits": 0,
  "usage": {
-  "app": "{\"call_count\":51,\"total_cputime\":0,\"total_time\":99}",
+  "app": "{\"call_count\":57,\"total_cputime\":0,\"total_time\":98}",
   "buc": null
  },
  "total": 1051,
  "errors": [
   {
    "account": "boboo.sang",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 boboo.sang \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"A2Hq9r"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 boboo.sang \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"AcATGk"
   },
   {
    "account": "masoyu_",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 masoyu_ \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"A2qpRxiwC"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 masoyu_ \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"At9zmM1Ug"
   },
   {
    "account": "_yuki.home",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 _yuki.home \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"ARm02M"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 _yuki.home \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"AyAfK5"
   },
   {
    "account": "toribam_mom",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 toribam_mom \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"A_SEB"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 toribam_mom \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"ApmPt"
   },
   {
    "account": "seojung_kkk",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 seojung_kkk \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"A964a"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207013,\"is_transient\":false,\"error_user_title\":\"\\u627e\\u4e0d\\u5230\\u7528\\u6236\",\"error_user_msg\":\"\\u627e\\u4e0d\\u5230\\u4f7f\\u7528 seojung_kkk \\u7528\\u6236\\u540d\\u7a31\\u7684\\u7528\\u6236\\u3002\",\"fbtrace_id\":\"ADegL"
   },
   {
-   "account": "blancdelapin_official",
-   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"AEUtAgGvL7h_8b-pDkUSHny\"}}"
+   "account": "ssofit_yaksa",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":4,\"fbtrace_id\":\"ANhaE8nkwDoCYp43zbsM6hG\"}}"
   }
  ]
 }
