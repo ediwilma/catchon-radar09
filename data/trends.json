@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-06T21:59:38.974466+00:00",
+ "updated": "2026-11-07T22:12:48.741247+00:00",
  "items": [
   {
-   "name_ko": "다이소 저금통 (치이카와)",
-   "name_zh": "大創存錢筒（Chiikawa）",
+   "name_ko": "다이소 저금통",
+   "name_zh": "Daiso存錢筒",
    "brand": "다이소",
-   "why_zh": "全國門市缺貨搶購，粉絲瘋狂掃貨，成為大創話題商品",
+   "why_zh": "치이카와 캐릭터 저금통이 전국 매장에서 품절대란, 2000원대 가격에 오픈런 발생",
    "category": "living",
-   "keyword": "다이소 저금통 치이카와",
+   "keyword": "다이소 저금통 품절",
    "news": [
     {
      "title": "\"2000원짜리에 또 난리났다\"…다이소 갔더니 '품절입니다' [덕질경제학] - 한국경제",
@@ -22,16 +22,30 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSzBfX0dROFlWeThpTC02b0pJN3NEQWN3UTFkSzlUMkdzam1lUjFtZHp0cWpPQy1DNDhSdUg2T281dHQxTmx0andYX2ZIVHVkQWpXbjY3aUFoMmVOd0lzRWtCa1RTdlVzYURJWXB4NWV4QkU3SjVsN1lxUjRRaXU3Mw?oc=5"
     },
     {
-     "title": "[14F] 다이소 저금통이 왜 품절이죠?... 치이카와 팬들 사이에서 난리난 다이소템 - MBC 뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBVQ2dUbGFTR2xXRUt6cXhCdkFPUEhXdDlOeUt0eFRaNmR0SXRibmRRYkJtbG5IYTBKOEZYVU9HRHJYVnN4aHhlb19wSFc4bmN1VHNKWnJDOVBOOFMySzRnUXlHWTFid9IBZkFVX3lxTFBsN3NtSExnZ21DV0dPNVBROEt0eGxKWU1VcHdNSV9NR3IzU3pOc2xQUmFiTE10ZlNQeHVOSTF4YTROZWgwWXk3MEJOUklDZ3VGbVNHYW9MZlJfR0Uwa3QySWxmZFdVZw?oc=5"
+     "title": "\"2천 원 들고 다이소 오픈런?\" 매장마다 싹쓸이 품절 대란 난 기막힌 이유 - 애니멀플래닛",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CV2dzOGR5WjZ5ZDFra1ViVDYxV1lJdDZuamhlNXkzSThEbnBHQ0R5Uk1QWUJVZTRvNmU3bWY4R2hWNjdhYkZFRFVVa2Q0dzZYMHlSU25vLV9LLXlIdHpn?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "다이소 화장품",
+   "name_zh": "Daiso美妝產品",
+   "brand": "다이소",
+   "why_zh": "5000원대 신상 화장품이 매장마다 품절, SNS에서 화제",
+   "category": "beauty",
+   "keyword": "다이소 화장품 5000원",
+   "news": [
+    {
+     "title": "“보이면 일단 사야한다”…품절대란 난 다이소 5000원짜리 화장품 정체 - 헤럴드경제",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yandtb0xYQ3JERmI2ZUs5X1NxclB3WEZYS2F2bldXdmRadHBZcGlmWXhWN2V0UXAwWng5VWF3cTZUSFNzVzVGSEVmSWpkeUdzTklnOHZn?oc=5"
     }
    ]
   },
   {
    "name_ko": "아크테릭스 부츠",
-   "name_zh": "Arc'teryx靴子",
-   "brand": "Arc'teryx",
-   "why_zh": "全球掀起品牌風潮，社群媒體熱烈討論",
+   "name_zh": "Arc'teryx登山靴",
+   "brand": "아크테릭스",
+   "why_zh": "세계적 규모의 품절 대란으로 SNS에서 화제",
    "category": "fashion",
    "keyword": "아크테릭스 부츠",
    "news": [
@@ -42,93 +56,81 @@
    ]
   },
   {
-   "name_ko": "다이소 화장품 5000원대",
-   "name_zh": "大創5000韓元化妝品",
-   "brand": "다이소",
-   "why_zh": "性價比高引發搶購風潮，各門市缺貨",
-   "category": "beauty",
-   "keyword": "다이소 5000원 화장품",
-   "news": [
-    {
-     "title": "“보이면 일단 사야한다”…품절대란 난 다이소 5000원짜리 화장품 정체 - 헤럴드경제",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yandtb0xYQ3JERmI2ZUs5X1NxclB3WEZYS2F2bldXdmRadHBZcGlmWXhWN2V0UXAwWng5VWF3cTZUSFNzVzVGSEVmSWpkeUdzTklnOHZn?oc=5"
-    }
-   ]
-  },
-  {
    "name_ko": "삼립 호빵",
-   "name_zh": "三立虎皮蛋糕",
+   "name_zh": "Samrip紅豆麵包",
    "brand": "삼립",
-   "why_zh": "便利店銷售成長44%，提早掀起冬季風潮，出市3周後銷量爆增",
+   "why_zh": "출시 3주만에 편의점 매출 44% 증가, 호빵 전체 매출 20% 성장",
    "category": "food",
-   "keyword": "삼립 호빵",
+   "keyword": "삼립 호빵 편의점",
    "news": [
     {
      "title": "일찍 찾아온 '호빵' 열풍…삼립, 편의점 매출 44% 늘었다 - 비즈워치",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZ0J2Z1d2M1F6YWdOOHgtS0ctMEwxaElqVzdFUVpwb1JOcGZ5TXRQclpGc0I3RnNUQXZUcS1EYlBaQlZwa01ZQXBoMEktNzJWQUN5SWFveFFrN2NtQVBHa2huMzd5aWlELVpmdg?oc=5"
     },
     {
-     "title": "삼립호빵, 편의점 매출 ‘껑충’…전년비 44% 증가 - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Td0sycVFZWS0tWjMxT0pCd0NXZ0RSVnptVGl4bm90N21GdXk5aDJTdWVxTVl2a0Z5SmxBNmpvZk1GaVQ3bEprZGwyUkgtSGVFT2QzQlA3ZU1nQQ?oc=5"
-    },
-    {
      "title": "삼립호빵, 출시 3주 만에 편의점 매출 44%↑...호빵 전체 20% 성장 - 국제뉴스",
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Xd3dpZjQtU3I5NGE4aFZ4MmJNUkEyM0NoVVRyZUpmU0NZWWdmZkZBSGMtRlFockJ2bm84emY1US1iU3lHWWlUV0pKYXhHM25QM094WlAybnJrT2ZsQVlHcEd2ZHZFbDNoeHY2QWZ3?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "올리브영 먼작귀 신상",
-   "name_zh": "Olive Young怪獸新品",
-   "brand": "Olive Young",
-   "why_zh": "上市隨即售完，電影角色聯名商品引發熱銷",
-   "category": "beauty",
-   "keyword": "올리브영 먼작귀",
-   "news": [
-    {
-     "title": "관객 수 250만 돌파하더니… '이 캐릭터' 콜라보 제품 올리브영에 풀리자마자 품절 대란 - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LVHVncHBpVEc1T0JjcWs0bEZQdUFJa2g3Q0tVVFQ1cGlxWXdLc2hLVUNkN1BSMm00dklaWWZuUmU5T1N0TjBraVNEd05wZnJtanlmSGVB?oc=5"
     },
     {
-     "title": "품절 대란 난 올영 먼작귀 신상 - 판다랭크",
-     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBSSWhJSXRtSm9kRkxwTW1KQ1hpbnk4VGJWeUdNY1d4VnZnSzhsRmVWNWFQNzFPRmJrdWpYSnVQM2FzTWREYmdV?oc=5"
+     "title": "삼립호빵, 편의점 매출 ‘껑충’…전년비 44% 증가 - 한국경제",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Td0sycVFZWS0tWjMxT0pCd0NXZ0RSVnptVGl4bm90N21GdXk5aDJTdWVxTVl2a0Z5SmxBNmpvZk1GaVQ3bEprZGwyUkgtSGVFT2QzQlA3ZU1nQQ?oc=5"
     }
    ]
   },
   {
-   "name_ko": "파리바게뜨 초코 쫀득 츄러스",
-   "name_zh": "Paris Baguette 巧克力軟Q起司條",
-   "brand": "파리바게뜨",
-   "why_zh": "銷售達500萬個，後續推出30種巧克力甜點新品",
+   "name_ko": "렌시스 마리나 초코",
+   "name_zh": "Lensee Marina Choco巧克力",
+   "brand": "렌시스",
+   "why_zh": "품절대란 발생, 소비자들의 재입고 문의 폭주",
    "category": "food",
-   "keyword": "파리바게뜨 츄러스",
+   "keyword": "렌시스 마리나 초코",
+   "news": [
+    {
+     "title": "렌시스 '마리나 초코' 품절대란…소비자들 재입고 문의 쏟아져 - 경기연합신문",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2NXJ0Vzl1Yy1SODZUU3FMd01pNUlBMEVvSlU4aVFtalRPRmpJN1BRb3BkRVFqUzE0SnFlNkdsZFRaMXR2NmVhdU5VSll0Vkt0ckxTeG5wUTZJRTR3RE1lblRtMzhEUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "파리바게뜨 초코 츄러스",
+   "name_zh": "Paris Baguette巧克力吮指條",
+   "brand": "파리바게뜨",
+   "why_zh": "500만개 흥행 이후 초코 디저트 30종 총출동으로 인기 지속",
+   "category": "food",
+   "keyword": "파바 초코 츄러스",
    "news": [
     {
      "title": "파리바게뜨, ‘초코 쫀득 츄러스’ 500만개 흥행 잇는다… 초코 디저트 30종 총출동 - Korea IT Times",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SY2hGQnJlREVMaUhYN0JKYzltZEE3SjZseGVTdVlRX2ptdzg0eVVZTzJLVEhVQzlBbEs3Q3JjcVYyN09nRXpmaXVfVmVWc1ptUURkLWUybzY4d3hfQzRhazRTb2hPWkxjTW5ST1NoOA?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YRDdaal9OMWRqN0o1Z2tNazZsaGtRel93bjVGR0wwYm05YnZCOVVKQkVNeHphQkFFRkQ1a0dldXQ5QVVNblNERWl3cEE5TGhkT0N0TDQyZVE3WWZ3V09pcVJTR2ZENVluekp4d0ozNU8?oc=5"
     },
     {
-     "title": "“초코 듬뿍 매장 어디?”…파바 츄러스 ‘점바점’, 진짜 기준은? - 이데일리",
+     "title": "“초코 듬뿍 매장 어디?”…‘점바점’ 파바 츄러스, 진짜 기준은? - 이데일리",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQjhyOVUtT1h4Wjg2S3M3UThFWUFEaVloVWp2U3gtM01jSmU1V1E5Um56bVFoVjUwMVMzVEhKOVhoa3hVaW8wZ2tmVkJQUGZqazEzcUtsOEh4eFZQdUJEb1FKSDluNXVWaTVic2tLZk44Y1I4M3VsUWp2YkNvdjV5Wg?oc=5"
-    },
+    }
+   ]
+  },
+  {
+   "name_ko": "파리바게뜨 파바 그릴",
+   "name_zh": "Paris Baguette Pava Grill",
+   "brand": "파리바게뜨",
+   "why_zh": "주문 즉시 구우면서 신선함을 강조한 신상 런칭",
+   "category": "food",
+   "keyword": "파바 그릴",
+   "news": [
     {
-     "title": "파리바게뜨, ‘초코 쫀득 츄러스’ 리뉴얼... 초코 디저트 30종 출시 - 금강일보",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOalBqeG9FYTBxeTgzeUhrd2FRMUhMY0NUUVNuLVVON0dPOHdHNktCREZtdE1FX25WMlZKa19FR2xnOU9zZ2hFLWxWcUstZFBpZWZDaW9DSVBTZWdYNWF3VzFLMEVhM2w3VlE?oc=5"
+     "title": "빵이 가장 맛있는 온도...파리바게뜨, 주문 즉시 굽는 ‘파바 그릴’ 론칭 - 푸드투데이",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zcGI0VFJjdXpZMEJRSUZXLVc5QjRFRFIwQzhnVzZEM1g2blFQNDVBVFVsZHQ1V25mQmtMcGRnN0ttS3JBM3FkaWNuakhLMG5nSmM2RjRET3RzbVBQMDFkcFpuVmlUUQ?oc=5"
     }
    ]
   },
   {
    "name_ko": "맥도날드 빅아치",
-   "name_zh": "麥當勞Big Arch漢堡",
-   "brand": "맥當勞",
-   "why_zh": "出市2周銷售破百萬個，大型起司漢堡熱銷",
+   "name_zh": "McDonald's Big Arch漢堡",
+   "brand": "맥도날드",
+   "why_zh": "출시 2주만에 100만개 판매, 대형 비프버거 통했다는 평가",
    "category": "food",
    "keyword": "맥도날드 빅아치",
    "news": [
-    {
-     "title": "존박 '맥도날드' 반응 폭발…유통업계 '뜻밖의 흥행' 함박웃음 - 신아일보",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmdUtSWWw1V1ZFNUxIeGY2TG1UajhwSkktdEpIcnEyTnpsblpXa29JLUFHSDhKUG5wbTZsRllrenQwWDhXOHFrcU5MSVo0Y0Y0b3ctWUZrVEo0Y0YtTXVEdG9xZU1xR0U0SjBxa0hrU3g?oc=5"
-    },
     {
      "title": "맥도날드 ‘빅아치’, 출시 2주 만에 100만개 돌파…대형 비프버거 통했다 - 나눔경제뉴스",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4M0JxZHlxbFlIWUdyUVlRZkRqVVR5YWVYRlZGNFFKdzhEX20weURkVmxUTXAyYU4zVE41YnV4bmJqU0NiQjRhd0FZeFlFdTRTLWE5eVFpWVpLMWhUdTduanBNWHowckNjZnMtTQ?oc=5"
@@ -136,71 +138,35 @@
    ]
   },
   {
-   "name_ko": "롯데칠성 새로",
-   "name_zh": "樂天七星Saero燒酒",
-   "brand": "롯데칠성",
-   "why_zh": "累積銷售13億瓶，無糖酒精飲料趨勢領頭",
+   "name_ko": "창억떡",
+   "name_zh": "Changuk Rice Cake",
+   "brand": "창억떡",
+   "why_zh": "광주 명물이 전국 KTX역에서 판매 가능, 떡 오픈런 열풍",
    "category": "food",
-   "keyword": "새로 소주",
+   "keyword": "창억떡 KTX",
    "news": [
     {
-     "title": "롯데칠성 소주 ‘새로’ 누적 판매 4년 만에 13억병…‘제로 슈거’ 열풍 선도 - 경향신문",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VSkNIRWJUSmxUTE0wNjhuT1ByYS1oX01ZMnZXamJuRGxDWVlCX2JleERHQlJ5cHJJZUtXSUpPQnBvVVpWbVJaVWxHWHBkNmRrZDh6OFFxSEFXSnJwUG9R0gFfQVVfeXFMTVVKQ0hFYlRKbFRMTTA2OG5PUHJhLWhfTVkydldqYm5EbENZWUJfYmV4REdCUnlwckllS1dJSk9CcG9VWlZtUlpVbEdYcGQ2ZGtkOHo4UXFIQVdKcnBQb1E?oc=5"
+     "title": "\"광주 안 가도 된다\"...창억떡, 이제 전국 KTX역에서 구매 가능 (+방법) - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12V2tlSTg0MGpQSWZfaC12dlo4S2FkSWhRLW5lX2hXNWpKeHo2d29SMEMzTVZMUlU2aHNQR29WcVVLYjk5NHg1bF9UX2JwNDJIVzJwYVZ3?oc=5"
+    },
+    {
+     "title": "평일에도 오픈런···전남광주 상륙한 ‘떡픈런’ 열풍 - 무등일보",
+     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1zMGFhelFnNmpxb3U3c2REV213S3lNVE43ckJ2c0NsZnpuamsyRkxsQTNQekFKSHB5SXM3U3ZkRU4wQVNSOVhETm13?oc=5"
+    },
+    {
+     "title": "[무잇슈] 떡도 이제 오픈런 시대···MZ 입맛 사로잡은 ´찹쌀떡´ - 무등일보",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0taDlqRXRqelFYRFgyQ0czSUo0aDEyYXZ4UDNOSm52NXdMOVAwbmhDSVR0WnpJVnVPWEt6QXFFN2ZlT0tFUGpDcWFpa3M?oc=5"
     }
    ]
   },
   {
-   "name_ko": "다이소 겨울 필수템 (의류)",
-   "name_zh": "大創冬季必備服飾",
-   "brand": "다이소",
-   "why_zh": "爆紅品項引發全店缺貨，與UNIQLO形成對比",
-   "category": "fashion",
-   "keyword": "다이소 겨울옷",
-   "news": [
-    {
-     "title": "유니클로 긴장해야 할 듯…다이소에서 품절대란 난 '겨울 필수템' - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PTTJVU2tkWWVzTDRvQ2k1UHRjRUNOX1VzNHp0ejBXNzZEUlRTUkNHZ09WLV9OM09WTkFXRklHT0NvUThEbWtCc1FyOWpYamNwZlFaMDhn?oc=5"
-    },
-    {
-     "title": "\"2천 원 들고 다이소 오픈런?\" 매장마다 싹쓸이 품절 대란 난 기막힌 이유 - 애니멀플래닛",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CV2dzOGR5WjZ5ZDFra1ViVDYxV1lJdDZuamhlNXkzSThEbnBHQ0R5Uk1QWUJVZTRvNmU3bWY4R2hWNjdhYkZFRFVVa2Q0dzZYMHlSU25vLV9LLXlIdHpn?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 2000원 저금통",
-   "name_zh": "大創2000韓元存錢筒",
-   "brand": "다이소",
-   "why_zh": "經常性缺貨熱銷品，多次補貨仍供不應求",
-   "category": "living",
-   "keyword": "다이소 2000원",
-   "news": [
-    {
-     "title": "\"2000원짜리에 또 난리났다\"…다이소 갔더니 '품절입니다' [덕질경제학] - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50QXJnMUQ4S1JMUGxSXzNvZExpS21zdHdJZXR1VzdyVVNrN0xZY2VEemRwZDRzUm1pY1cyd0VPODNuYzRadjNiRFZtdC03aW9XVXhpVFRGSnhtQQ?oc=5"
-    },
-    {
-     "title": "“2000원인데 없어서 못 사요”…다이소 저금통 ‘품절 대란’, 왜 - 이데일리",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSzBfX0dROFlWeThpTC02b0pJN3NEQWN3UTFkSzlUMkdzam1lUjFtZHp0cWpPQy1DNDhSdUg2T281dHQxTmx0andYX2ZIVHVkQWpXbjY3aUFoMmVOd0lzRWtCa1RTdlVzYURJWXB4NWV4QkU3SjVsN1lxUjRRaXU3Mw?oc=5"
-    },
-    {
-     "title": "\"2천 원 들고 다이소 오픈런?\" 매장마다 싹쓸이 품절 대란 난 기막힌 이유 - 애니멀플래닛",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CV2dzOGR5WjZ5ZDFra1ViVDYxV1lJdDZuamhlNXkzSThEbnBHQ0R5Uk1QWUJVZTRvNmU3bWY4R2hWNjdhYkZFRFVVa2Q0dzZYMHlSU25vLV9LLXlIdHpn?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "센녹 엔하이픈 선우 향수",
-   "name_zh": "Senlock ENHYPEN Sunoo香水",
-   "brand": "센녹",
-   "why_zh": "明星聯名香水上市首日完售，Olive Young黑五首日銷售爆棚",
+   "name_ko": "엔하이픈 선우 향수",
+   "name_zh": "ENHYPEN Sunoo香水",
+   "brand": "센녹/올리브영",
+   "why_zh": "출시 첫날 올영 블랙프라이데이에서 완판, 초도 물량 소진",
    "category": "beauty",
-   "keyword": "센녹 엔하이픈 향수",
+   "keyword": "선우 향수",
    "news": [
-    {
-     "title": "세화피앤씨 센녹, 올리브영 한정 기획세트 판매 호조 - 데일리한국",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsM1gxTnpneDQtMWxNdTFDaDFqbjdocVZyanFWRHB5ajB2eEIwTWFMMzBxSVJGdmt1T1dteGJQa2RRRExLN3FOVy1hQnlKZHNzemJZcG5Dd3RGUFVPdnVnNEwzaktMNHdqdHhCMFozZ9IBc0FVX3lxTFBMYlpBQTRkM0dkME14aVJiSVRfRVV2YlA1S2hEb0JTVWNhLXVfWDRxZXBuT3BQbXBwQllnUlV5czdRZmttSVBjWHU5ZmFTNEpnc2VCMDR6VWppdkVTVDI3WU5rdHFxUFE5Y1NOUWtvU3ozM3M?oc=5"
-    },
     {
      "title": "센녹, 향수·이어폰 기획세트 온라인 초도 물량 소진…추가 공급 검토 - 한국원자력신문",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYk9CZG5iZjBuajBjTHNyblVSVkF5ZnNlTUIwdkxfVVNqMGU0MFFpQ3haT21uYkNoblFYVjIyY3d1cy1IRjZDdzctRHF0SGFpNnBDTUM2SFQ0NjBuaDNxZGJfYm93Zllja1pV0gFrQVVfeXFMTUpiT0JkbmJmMG5qMGNMc3JuVVJWQXlmc2VNQjB2TF9VU2owZTQwUWlDeFpPbW5iQ2huUVhWMjJjd3VzLUhGNkN3Ny1EcXRIYWk2cENNQzZIVDQ2MG5oM3FkYl9ib3dmWWNrWlU?oc=5"
@@ -216,24 +182,38 @@
    ]
   },
   {
-   "name_ko": "닌자 랩스 MagSafe Flex Pouch",
-   "name_zh": "Ninja Labs MagSafe Flex Pouch",
-   "brand": "닌자 랩스",
-   "why_zh": "SNS話題商品，韓國新上市",
-   "category": "tech",
-   "keyword": "닌자 랩스 MagSafe",
+   "name_ko": "롯데칠성 새로",
+   "name_zh": "Lotte Chilsung Saerow Zero Soju",
+   "brand": "롯데칠성",
+   "why_zh": "누적 판매 4년만에 13억병, 제로슈거 열풍 선도",
+   "category": "food",
+   "keyword": "새로 소주",
    "news": [
     {
-     "title": "SNS 화제… 닌자 랩스 ‘MagSafe Flex Pouch’ 한국 출시 - 미디어픽",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fdkFpbldIekkxUjMybnM1NTdqQ0pvVm9kY2thT1BlWEQtMlZTYTNvaWVTLWhkR2xqenNIbXJwM0lRcDFBbTcwa05jeWFvTER5cWRNTm1lMXhRQ05EREdxVkkyZElQOERnazNR?oc=5"
+     "title": "롯데칠성 소주 ‘새로’ 누적 판매 4년 만에 13억병…‘제로 슈거’ 열풍 선도 - 경향신문",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VSkNIRWJUSmxUTE0wNjhuT1ByYS1oX01ZMnZXamJuRGxDWVlCX2JleERHQlJ5cHJJZUtXSUpPQnBvVVpWbVJaVWxHWHBkNmRrZDh6OFFxSEFXSnJwUG9R0gFfQVVfeXFMTVVKQ0hFYlRKbFRMTTA2OG5PUHJhLWhfTVkydldqYm5EbENZWUJfYmV4REdCUnlwckllS1dJSk9CcG9VWlZtUlpVbEdYcGQ2ZGtkOHo4UXFIQVdKcnBQb1E?oc=5"
     }
    ]
   },
   {
-   "name_ko": "다이슨 로봇청소기·물청소기 신제품",
-   "name_zh": "Dyson機器人吸�塵器·水洗吸塵器",
+   "name_ko": "웰라쥬 헬로키티 협업",
+   "name_zh": "Wellaju Hello Kitty聯名",
+   "brand": "웰라쥬",
+   "why_zh": "일본과 한국에서 품절 난 협업 제품",
+   "category": "beauty",
+   "keyword": "웰라쥬 헬로키티",
+   "news": [
+    {
+     "title": "일본서 존재감 키우는 웰라쥬…헬로키티 협업 제품 '품절' - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QUXQ5bFMtc3dWU0w4NUNiSFRRSnpfRDNZUXpsS2RVNTZJd0RvenQxWlh0enZfSDFhVEkyQW5Ya2xrY09hTlRBYzE0TjVDQkZiU0E1aHZR?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "다이슨 로봇청소기·물청소기",
+   "name_zh": "Dyson機器人吸塵器·水洗吸塵器",
    "brand": "다이슨",
-   "why_zh": "搭載AI及UV技術新品上市，韓國發售",
+   "why_zh": "AI·UV 탑재 신제품 2종 국내 출시",
    "category": "tech",
    "keyword": "다이슨 로봇청소기",
    "news": [
@@ -248,30 +228,30 @@
    ]
   },
   {
-   "name_ko": "웰라쥬 헬로키티 협업 제품",
-   "name_zh": "Wellaju x Hello Kitty聯名商品",
-   "brand": "웰라쥬",
-   "why_zh": "跨界聯名商品上市後隨即售完",
-   "category": "beauty",
-   "keyword": "웰라쥬 헬로키티",
+   "name_ko": "쌤피로 빼빼로",
+   "name_zh": "傳統文化Pocky棒",
+   "brand": "삼립/쌤피로",
+   "why_zh": "한국 전통문화를 담은 디자인으로 SNS 감탄",
+   "category": "food",
+   "keyword": "빼빼로 전통",
    "news": [
     {
-     "title": "일본서 존재감 키우는 웰라쥬…헬로키티 협업 제품 '품절' - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QUXQ5bFMtc3dWU0w4NUNiSFRRSnpfRDNZUXpsS2RVNTZJd0RvenQxWlh0enZfSDFhVEkyQW5Ya2xrY09hTlRBYzE0TjVDQkZiU0E1aHZR?oc=5"
+     "title": "\"국중박 굿즈인 줄\"…韓 전통문화 담은 빼빼로에 누리꾼 '감탄' - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wV0MtWjl3SklaMkNDTW9KdU1EQllncWRPSHFjWURpR1AzMnRCNnJqcndGTHRGY3hjWkJVYWVIb2NaNHRUaTJLempVSUJVMUFUUEFVQUVsQldTbGk2QnF2emIzYXpXaVlFZ0JJVkMxcnZUbXYwbG5rLdIBeEFVX3lxTE9wV0MtWjl3SklaMkNDTW9KdU1EQllncWRPSHFjWURpR1AzMnRCNnJqcndGTHRGY3hjWkJVYWVIb2NaNHRUaTJLempVSUJVMUFUUEFVQUVsQldTbGk2QnF2emIzYXpXaVlFZ0JJVkMxcnZUbXYwbG5rLQ?oc=5"
     }
    ]
   },
   {
-   "name_ko": "창억떡 KTX전국역 판매",
-   "name_zh": "Changok Tteok全國KTX車站販售",
-   "brand": "창억떡",
-   "why_zh": "廣島名物黑糍現可全國火車站購買，便民銷售",
-   "category": "food",
-   "keyword": "창억떡 KTX",
+   "name_ko": "써모스 이나피스퀘어 협업",
+   "name_zh": "Thermos x Inapisquare育兒用品",
+   "brand": "써모스",
+   "why_zh": "개인 취향 맞춤형 육아용품 협업 3종 출시",
+   "category": "kids",
+   "keyword": "써모스 이나피스퀘어",
    "news": [
     {
-     "title": "\"광주 안 가도 된다\"...창억떡, 이제 전국 KTX역에서 구매 가능 (+방법) - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12V2tlSTg0MGpQSWZfaC12dlo4S2FkSWhRLW5lX2hXNWpKeHo2d29SMEMzTVZMUlU2aHNQR29WcVVLYjk5NHg1bF9UX2JwNDJIVzJwYVZ3?oc=5"
+     "title": "\"육아용품도 내 취향대로\"...써모스, 이나피스퀘어 협업 3종 출시 - https://www.trend-korea.co.kr/",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oYXdLdHFhQmNPeU9IQkx5TVBfRzUwSlA0enNNSUNaNEZaSlNpWmZrRlZzbnh6LUVWRXozV3lEYTR5c3Z5VzF0eDc1SlRtN3llc2FOak9DbDFLdElfMVZpOXZtY0s2TFhaemlPbmxMaw?oc=5"
     }
    ]
   }
