@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-21T03:41:48.049944+00:00",
+ "updated": "2026-11-22T12:55:54.836740+00:00",
  "items": [
   {
-   "name_ko": "흑색 연필·연필깎이",
-   "name_zh": "黑色鉛筆·削鉛筆機",
+   "name_ko": "흑색 연필",
+   "name_zh": "黑色鉛筆",
    "brand": "다이소",
-   "why_zh": "수능 하루 전 흑색 연필만 허용 지침으로 전국 다이소에서 품절대란 발생",
-   "category": "living",
-   "keyword": "다이소 연필 품절",
+   "why_zh": "수능 AI 커닝 방지 규정으로 흑색 연필만 허용되면서 전국 다이소 품절",
+   "category": "other",
+   "keyword": "흑색 연필 품절",
    "news": [
     {
      "title": "“수능 당장 내일인데 어쩌나” 연필 품절 대란···“흑색 연필” 지침에 대치·목동 다이소 연필·연필깎이 품절 - 경향신문",
@@ -19,21 +19,47 @@
     },
     {
      "title": "흑색 연필만 수능장에...다이소, 연필 품절 대란 - 머니투데이 - 머니투데이",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mby1Bc0ltdUdGRXZ2SW8tLU5JRGdLU2lseGx5Mkd1UF9fbmZYX1VHdkNMd09XS29VOTdKSWRzLTN3NC1IOWFFSEdlMHNuN0Flblpyd2RWTXRMbl8tTG9wTGxXVGNUTE5SdXhnS1dBRdIBb0FVX3lxTE1mby1Bc0ltdUdGRXZ2SW8tLU5JRGdLU2lseGx5Mkd1UF9fbmZYX1VHdkNMd09XS29VOTdKSWRzLTN3NC1IOWFFSEdlMHNuN0Flblpyd2RWTXRMbl8tTG9wTGxXVGNUTE5SdXhnS1dBRQ?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93YkgxT2RVeThzLV92WFB3UEgyM3RxQ3NHU08tWWFFeC0yOTdRanV2Q1V0ZXhhUHlYQ1hILV9ackE4UlR0Z2NWdThuem1nb05BZjNzV3lBa2tpYmtFMzEwNExkMWhXRTh5QWfSAW9BVV95cUxNZm8tQXNJbXVHRkV2dklvLS1OSURnS1NpbHhseTJHdVBfX25mWF9VR3ZDTHdPV0tvVTk3Sklkcy0zdzQtSDlhRUhHZTBzbjdBZW5acndkVk10TG5fLUxvcExsV1RjVExOUnV4Z0tXQUU?oc=5"
     },
     {
-     "title": "수능 앞두고 막겠다는데…\"추가 확보 중\" 품절 대란 - SBS 뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wUlE0Zl9oMndsTTRqNF9VQ29DZzVrUUJtTzZGSDM1bXJmc1BrZVZ1SWJ5bEVyTFBLUVY4SHB0RmVpQUh6OVRDOEhhNTJmVEtpOVdDWHVKUHpLOFByUVBaQ2hWdDlITVliSHfSAWZBVV95cUxNZUlXUUFOUy1fTFk3bnJHaUx0Z05XN0NLZGJSMmlXWVpaRkV4QXpGWDRjbmRuYXBzbUo4VDVNRTJ0VG9EcmJuMUJwNkxsa19hUmFpSklTQ2FGUk96ZF9GcENNZEFWOWc?oc=5"
+     "title": "흑색 연필만 허용하자 다이소 ‘품절 대란’…무테 안경 거래액도 급증 - 세계일보",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSVENqb1Z4NFRIa2ZXdjhnVUZxS3dyN3JIMG41cFB2VXNtNWUtcTJlT296THhpRTNxU3BjRzc5X0lXT3BBbTdXVVVVbmdEM2dRcER5RtIBVEFVX3lxTFBSVENqb1Z4NFRIa2ZXdjhnVUZxS3dyN3JIMG41cFB2VXNtNWUtcTJlT296THhpRTNxU3BjRzc5X0lXT3BBbTdXVVVVbmdEM2dRcER5Rg?oc=5"
     }
    ]
   },
   {
-   "name_ko": "AI 커닝 방지 초소형 카메라",
-   "name_zh": "AI 防作弊超小型攝像機",
-   "brand": "젠틀몬스터·삼성",
-   "why_zh": "수능 AI 커닝 적발 강화로 인해 무테 안경·초소형 카메라 품절대란 발생",
+   "name_ko": "연필깎이",
+   "name_zh": "削鉛筆機",
+   "brand": "다이소",
+   "why_zh": "수능 연필 대란과 함께 품절 사태 발생",
+   "category": "other",
+   "keyword": "연필깎이 품절",
+   "news": [
+    {
+     "title": "수능 하루 전 다이소 우르르…‘연필·연필깎이’ 품절 대란 - JTBC",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5faU1PWGpfeHQwV1hFbHE5ZERHMlBsOHJaV3Q1aUpndExILW05cnJFaV80blhoa0xJcUxta1kwc3pMRU12UmFrMTZGdnpfVjVMTlU2bw?oc=5"
+    },
+    {
+     "title": "흑색 연필만 수능장에...다이소, 연필 품절 대란 - 머니투데이 - 머니투데이",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93YkgxT2RVeThzLV92WFB3UEgyM3RxQ3NHU08tWWFFeC0yOTdRanV2Q1V0ZXhhUHlYQ1hILV9ackE4UlR0Z2NWdThuem1nb05BZjNzV3lBa2tpYmtFMzEwNExkMWhXRTh5QWfSAW9BVV95cUxNZm8tQXNJbXVHRkV2dklvLS1OSURnS1NpbHhseTJHdVBfX25mWF9VR3ZDTHdPV0tvVTk3Sklkcy0zdzQtSDlhRUhHZTBzbjdBZW5acndkVk10TG5fLUxvcExsV1RjVExOUnV4Z0tXQUU?oc=5"
+    },
+    {
+     "title": "흑색 연필만 허용하자 다이소 ‘품절 대란’…무테 안경 거래액도 급증 - 세계일보",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSVENqb1Z4NFRIa2ZXdjhnVUZxS3dyN3JIMG41cFB2VXNtNWUtcTJlT296THhpRTNxU3BjRzc5X0lXT3BBbTdXVVVVbmdEM2dRcER5RtIBVEFVX3lxTFBSVENqb1Z4NFRIa2ZXdjhnVUZxS3dyN3JIMG41cFB2VXNtNWUtcTJlT296THhpRTNxU3BjRzc5X0lXT3BBbTdXVVVVbmdEM2dRcER5Rg?oc=5"
+    },
+    {
+     "title": "수능 하루 앞두고 터진 ‘연필 대란’…다이소 연필깎이도 품절 - 중앙일보",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2VzN1bnBJOXhJdjhJNjU2ZmxaX3pvaWd4WHItRzNhN09UYmpDZmF0a0ZBZjRRREEzSFlxZmdCenNNdHJqOVc3ZHpFRHNvUEFlanJWbTRn?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "AI 안경/초소형 카메라",
+   "name_zh": "AI眼鏡/超小型相機",
+   "brand": "젠틀몬스터, 삼성",
+   "why_zh": "수능 AI 커닝 방지용으로 주목받으며 품절 대란, 삼성 AI 안경 미국 물량까지 품절",
    "category": "tech",
-   "keyword": "AI 카메라 품절",
+   "keyword": "AI 안경 품절",
    "news": [
     {
      "title": "‘단추 카메라’ 품절대란…수능 사흘 앞 “연기하자” AI 커닝 쇼크 - 중앙일보",
@@ -44,67 +70,67 @@
      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Zck55dDFZVk83QUFKcHFFS180RW9UZEY2T2ptVzZyaDY3aGtmSnYwV3dBZENxUVJkLUlPU3Z3MjA2OHg3d0ZuQWVrcVljem1UN3daNg?oc=5"
     },
     {
-     "title": "수능 사흘 앞두고 ‘AI 커닝' 초소형카메라 품절 대란? - 최보식의언론",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xVXBpcjlJem42U29QbnpVZFE1S0ltZFpCYTZnRTJfc3BIb05sNnR3dHNoci1xaXdBdVhpbDZKb0xPT3VRSVo1YndQd0hiQlpNWHJ3VFlYdFh5OGd1d29IR05kbUnSAWhBVV95cUxOdDgwZjhldlNSMDIyWGNBdThlSFZzNVRJYVM1YUI1UFVPR0N6VkZLYXExdHVVWmhkSmtVYVRvR0E3d3pUSTBQVklkWHlHY3FrcmRkZlhuMWRXVnh2dmtHQTVVWXBFOHd0Nw?oc=5"
+     "title": "수능 앞두고 막겠다는데…\"추가 확보 중\" 품절 대란 - SBS 뉴스",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wUlE0Zl9oMndsTTRqNF9VQ29DZzVrUUJtTzZGSDM1bXJmc1BrZVZ1SWJ5bEVyTFBLUVY4SHB0RmVpQUh6OVRDOEhhNTJmVEtpOVdDWHVKUHpLOFByUVBaQ2hWdDlITVliSHfSAWZBVV95cUxNZUlXUUFOUy1fTFk3bnJHaUx0Z05XN0NLZGJSMmlXWVpaRkV4QXpGWDRjbmRuYXBzbUo4VDVNRTJ0VG9EcmJuMUJwNkxsa19hUmFpSklTQ2FGUk96ZF9GcENNZEFWOWc?oc=5"
     },
     {
-     "title": "수능 AI 안경 초소형 카메라 품절 대란...커닝 쇼크에 교육의 공정성 시험대 : 사회 - veritas.kr",
-     "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9nV2JHT3R5Q3k0ZUxySHUyWUREWHp5MjNCdVhiWjFTdi1KaF83N2RySHFRSEdnUGc5ek1qTUhsaEtObXc?oc=5"
+     "title": "수능 사흘 앞두고 ‘AI 커닝' 초소형카메라 품절 대란? - 최보식의언론",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xVXBpcjlJem42U29QbnpVZFE1S0ltZFpCYTZnRTJfc3BIb05sNnR3dHNoci1xaXdBdVhpbDZKb0xPT3VRSVo1YndQd0hiQlpNWHJ3VFlYdFh5OGd1d29IR05kbUnSAWhBVV95cUxOdDgwZjhldlNSMDIyWGNBdThlSFZzNVRJYVM1YUI1UFVPR0N6VkZLYXExdHVVWmhkSmtVYVRvR0E3d3pUSTBQVklkWHlHY3FrcmRkZlhuMWRXVnh2dmtHQTVVWXBFOHd0Nw?oc=5"
     }
    ]
   },
   {
-   "name_ko": "리치와인 (中 적포도주)",
-   "name_zh": "麗茨紅酒（中國產）",
-   "brand": "리치와인",
-   "why_zh": "APEC 정상회의 만찬식탁에 오르며 매출 900배 급증, 품절대란 발생",
+   "name_ko": "리치와인 (중국산)",
+   "name_zh": "Chinese Ricci Wine",
+   "brand": "중국산",
+   "why_zh": "APEC 정상회의 만찬식탁에 올려지며 매출 900배 급증, 품절 대란",
    "category": "food",
    "keyword": "리치와인 APEC",
    "news": [
     {
      "title": "APEC 만찬식탁 오른 中리치와인 품절 대란…\"매출 900배 급증\" - 연합뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pRGp1bXZYVnl2bnBVUUVncEVvOHNJenVxM1ZjTFU5azdnNzRQUnFMcm1Oc3d2MHpwbFFPemx4cDhORVZ6eVJNMEw0cnVvRXdxTDFiNEUxN3h3dk5iRTN1VNIBYEFVX3lxTE9pRGp1bXZYVnl2bnBVUUVncEVvOHNJenVxM1ZjTFU5azdnNzRQUnFMcm1Oc3d2MHpwbFFPemx4cDhORVZ6eVJNMEw0cnVvRXdxTDFiNEUxN3h3dk5iRTN1VA?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUl9qQ0JETUk3QVY4TUN3UHF1WXREc2ZXaHFNaXBGSU9Ua0RGQmQ1Ti1JTlhiOFllT29tWjk5cUZ1ZmNOR29nQ1IwLUl4SmpEZ0NRR21SbXo4VXfSAWBBVV95cUxPaURqdW12WFZ5dm5wVVFFZ3BFbzhzSXp1cTNWY0xVOWs3Zzc0UFJxTHJtTnN3djB6cGxRT3pseHA4TkVWenlSTTBMNHJ1b0V3cUwxYjRFMTd4d3ZOYkUzdVQ?oc=5"
     },
     {
      "title": "'품절대란' APEC 정상회의 와인, 매출 900배 상승했다 - 노컷뉴스",
      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqS1NteEpjZ1A2N0M0ZUl0NkptM0NQaXZpVC10NE1fV0xuOVNWSWxLQ3I2X3RHd3hOTjZpQi1WWmZ1UVBNQVNGWHJNejh5eDlTQ3c?oc=5"
     },
     {
+     "title": "선전 APEC 만찬식탁 오른 리치와인 품절 대란 - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wWjMzMlU2enVBMzBDQzhhMTMtTGVERnNKa1dlMUtfZUFLMTI1LVc0RXJuN3JHaUtIR2VJQnc0Zm9pS0VHa2NTX3ZSMGptSU1ienREdi1RZ19Db3RZeXpZVHBxb3dad2VXX2R2eWpBbkk1LUdPQm5Oa9IBeEFVX3lxTE1wWjMzMlU2enVBMzBDQzhhMTMtTGVERnNKa1dlMUtfZUFLMTI1LVc0RXJuN3JHaUtIR2VJQnc0Zm9pS0VHa2NTX3ZSMGptSU1ienREdi1RZ19Db3RZeXpZVHBxb3dad2VXX2R2eWpBbkk1LUdPQm5Oaw?oc=5"
+    },
+    {
      "title": "APEC 만찬 오른 中리치와인 품절 대란…\"매출 900배 급증\" - 연합뉴스TV",
      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhdW92RW1uU0xkOTV6SGNuYTNzMEJQRlFuaHUwbFlEbG55aS1tbmw1V3JSNGREUlNzS0FIdkx6bnpOaDhNX2p3QzREUjg3UW5XUTNvSVZZN25FYkFRNHRRelBZcFJyeEE?oc=5"
-    },
-    {
-     "title": "선전 APEC 만찬식탁 오른 리치와인 품절 대란 - 뉴시스",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wMkFiTHdvVklLOXk1U1NhMXhxTDFVeWZGUjBGY2N1NUI4Skh6eC1melhKWGl5ZW1QQUdpVVdLcFRXTG9meWxnRWNZSVNYYXVLRWlyVFdsNDRjZ0FsNUN1aNIBeEFVX3lxTE1wWjMzMlU2enVBMzBDQzhhMTMtTGVERnNKa1dlMUtfZUFLMTI1LVc0RXJuN3JHaUtIR2VJQnc0Zm9pS0VHa2NTX3ZSMGptSU1ienREdi1RZ19Db3RZeXpZVHBxb3dad2VXX2R2eWpBbkk1LUdPQm5Oaw?oc=5"
     }
    ]
   },
   {
-   "name_ko": "스타벅스 헬로키티 협업 상품",
-   "name_zh": "星巴克 Hello Kitty 聯名商品",
-   "brand": "스타벅스",
-   "why_zh": "협업 상품 품절대란과 리셀 열풍으로 화제",
-   "category": "food",
-   "keyword": "스타벅스 헬로키티",
+   "name_ko": "저가 패딩 점퍼",
+   "name_zh": "平價羽絨外套",
+   "brand": "샘스클럽",
+   "why_zh": "영하권 한파에 8만원대 제품 품절, 쇼트·미드 다운 열풍",
+   "category": "fashion",
+   "keyword": "패딩 점퍼 한파",
    "news": [
     {
-     "title": "스타벅스-헬로키티 협업, 품절대란과 '리셀' 열풍으로 뜨겁다 - 공감신문",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uX0V1d1NJVXdYM1dScHE4eDZOQkp5OEZRWkZlcjNIRk80MlRIOEpkcTlMRGxOOWtmLUVIQUhicnNLRmNpaHBGRWZXYkdLNHBDSnFvaTYzcV9ZSGRfbldVVEpkV1RrNk0?oc=5"
+     "title": "중국도 저가 패딩 열풍…샘스클럽 8만원대 제품 품절 대란 - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VWW1ScWxOUExYS2p4RkI0UVMwelhoT1U0alFnRnJxRmhpd3lGV0diLTV0WnA0a1pCbnN4elBhaXMwTjVyUVYxNkhpOUlCaEc5SjVlNS12MDFhRThWMW9TV9IBeEFVX3lxTE05WEJ3WTNRbTNyb1U2TXY0ZkFzeENkbHNadzNjU192TEs2WE9kdzV0N2w2Qmlta21HYXhfcS15d2dTQkxVT0VzaW5mLWVfY29IOE1ocHpfWFFudGhZVDJJSWFPb2l6ZWZnRkRlZ0g5RVROUENWaWphWg?oc=5"
+    },
+    {
+     "title": "영하권 한파에 숏·미드 다운 점퍼 열풍…김지원 효과 톡톡 - https://www.2news.co.kr/",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSnA1SkxxYnNRUzVUR2VmeW8zUWFTOGE1U2lSN0JxUENZZy1SWGxfOTdzRXhDcDdXVklFSmR3Z1hnNF9Pbml2Q2FTa3F1ZnJtLXZjbDMzeGg1Y1lMbTQyX1NfeUYweXNh?oc=5"
     }
    ]
   },
   {
-   "name_ko": "더랩바이블랑두 클리어히알 속광 스킨팩",
-   "name_zh": "더랩바이블랑두 透明玻尿酸發光面膜",
-   "brand": "더랍바이블랑두",
-   "why_zh": "다이소 출시 닷새 만에 완판, 2차 재입고 진행 중",
+   "name_ko": "속광 스킨팩",
+   "name_zh": "保濕面膜",
+   "brand": "더랩바이블랑두",
+   "why_zh": "다이소 출시 5일 만에 완판, 11월 16일 2차 재입고",
    "category": "beauty",
-   "keyword": "다이소 스킨팩 속광",
+   "keyword": "속광 스킨팩 다이소",
    "news": [
-    {
-     "title": "백화점 안 부럽다…다이소서 품절 대란 예상되는 '신상 화장품' - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SdXc3V0ZpWTNYZFFxMEJqWTY0QVpISUpQZ2JPSGV3MFREMkxQQkYwek1WZWhTRzRHT3FlRjVsUXpFVU5LWEI0d25kR3hlcFl0eW53Sl9R?oc=5"
-    },
     {
      "title": "다이소 5000원 '속광 스킨팩' 닷새 만에 완판…11월 16일 2차 재입고 판매 재개 - https://www.diarypoint.com/",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPRGJkd2p1bWZzMlhqWF9OSDdTZl80Ri1Ia2VpVjVSX1g5VFlVWkJJN1B5RU5LVTE0WEVNNUIwMHU2R0lFaXZEeGJGZm9Ca3hUZEI1TTRUY05ybFU3QTN2TjI3VWVrTE83bDRF?oc=5"
@@ -116,10 +142,10 @@
    ]
   },
   {
-   "name_ko": "빽다방 '시그니처 딥크림라떼'",
-   "name_zh": "Paik's Coffee 招牌濃奶油拿鐵",
+   "name_ko": "시그니처 딥크림라떼",
+   "name_zh": "招牌濃郁奶油拿鐵",
    "brand": "빽다방",
-   "why_zh": "출시 2주 만에 20만 잔 돌파, 꼬숩라떼 열풍 주도",
+   "why_zh": "출시 2주 만에 20만 잔 돌파, '꼬숩라떼' 열풍 주도",
    "category": "food",
    "keyword": "빽다방 딥크림라떼",
    "news": [
@@ -130,30 +156,20 @@
    ]
   },
   {
-   "name_ko": "요아정 겹겹이 디저트 (초코쉘 찹쌀떡)",
-   "name_zh": "요아정 層層甜點（巧克力外殼年糕）",
-   "brand": "요아정",
-   "why_zh": "초코쉘 입힌 찹쌀떡으로 겹겹이 디저트 열풍 합류",
-   "category": "food",
-   "keyword": "요아정 디저트 찹쌀떡",
-   "news": [
-    {
-     "title": "요아정 '겹겹이 디저트' 열풍 합류…초코쉘 입힌 찹쌀떡 판다 - 이데일리",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ3FRUkY4c0tfUmMzbzFuNDZidWVKcWVuNFEzRFQtaTU4MWV1XzVjMGdRRkE2SGJiZGJnRFhSZDNBWHNKUzZyQ01WZW9Dcld6aGtiMkNScGVBM1Y0bjlFRG5vejdSTm5aY1otS0Z6dDc3YnNRM2hzNEZPcXlMM0xsZA?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "LG생활건강 46cm 바디워시",
-   "name_zh": "LG生活健康 46cm 沐浴乳",
+   "name_ko": "46cm 바디워시",
+   "name_zh": "46cm 沐浴乳",
    "brand": "LG생활건강",
-   "why_zh": "체취 제거 기능으로 출시 1년 8개월 만에 130만개 판매",
+   "why_zh": "출시 1년 8개월 만에 130만개 판매, 체취까지 잡는 제품",
    "category": "beauty",
-   "keyword": "LG 바디워시 46cm",
+   "keyword": "46cm 바디워시",
    "news": [
     {
      "title": "'출시 1년 8개월 만에 130만개 팔렸다'…체취까지 잡는 바디워시는? - 조세일보",
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zdTEwVTFuYUJpZWxnbTB1Y0RqUmRkemFLclhyMk1zZFk0bklqbk5ja1VGV1FONWRnakZxSmEyZHRIenpRTGJMU1JzUlpaZGFDcXVxQkMta0RJRy1JWW5Z?oc=5"
+    },
+    {
+     "title": "LG생활건강 46cm, 누적 판매 130만 개 돌파 - 코스모닝",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TY283elZSZUdlRVdFakY3aXZsTzZMYlJ4aXRCZVAwdHNBZ282VlkzMlZGVkozc0hDSWlIX0lycDA3WU44ZHVqQlJuVUs3aFhLNVdHek54WmFpMjBpME5CaHk2QQ?oc=5"
     },
     {
      "title": "LG생활건강 46cm 바디워시, 출시 1년 8개월 만에 130만개 판매 - 국제뉴스",
@@ -162,38 +178,24 @@
    ]
   },
   {
-   "name_ko": "세븐일레븐 '남해안 제철 꼬막비빔밥'",
-   "name_zh": "GS25 '南海岸時令蚶肉拌飯'",
-   "brand": "세븐일레븐",
-   "why_zh": "성시경 협업으로 출시, 비빔밥 열풍 잇는 편의점 신제품",
+   "name_ko": "스타벅스-헬로키티 협업",
+   "name_zh": "星巴克-Hello Kitty聯名",
+   "brand": "스타벅스",
+   "why_zh": "협업 상품 품절 대란 및 리셀 열풍",
    "category": "food",
-   "keyword": "세븐일레븐 꼬막비빔밥",
+   "keyword": "스타벅스 헬로키티",
    "news": [
     {
-     "title": "세븐일레븐, 성시경 협업 ‘남해안 제철 꼬막비빔밥’ 출시 … 비빔밥 열풍 잇는다 - 워크투데이",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtWWM3dW5Cc2V5dXVxV0tvaldmZVFZODRGdWlmQXc4dVNadENiNmU3dDhuN3dFM0RPMVBvSVRILTMwR2ZnSkhHdGRqLUlfeVRJNTZJZy1Uc3k0QS1MbFoyaUJRbkRpWmx5eWdkVQ?oc=5"
+     "title": "스타벅스-헬로키티 협업, 품절대란과 '리셀' 열풍으로 뜨겁다 - 공감신문",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uX0V1d1NJVXdYM1dScHE4eDZOQkp5OEZRWkZlcjNIRk80MlRIOEpkcTlMRGxOOWtmLUVIQUhicnNLRmNpaHBGRWZXYkdLNHBDSnFvaTYzcV9ZSGRfbldVVEpkV1RrNk0?oc=5"
     }
    ]
   },
   {
-   "name_ko": "CU '맛피아 감자스틱'",
-   "name_zh": "CU '美味黑手黨 薯條'",
-   "brand": "CU",
-   "why_zh": "편의점 역대 최초로 하루 매출 1억 돌파",
-   "category": "food",
-   "keyword": "CU 감자스틱 맛피아",
-   "news": [
-    {
-     "title": "CU 편의점 역대 최초로 하루 매출 1억…‘맛피아 감자스틱’ 도대체 뭐길래? - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kanNWN0N6Um1zamZtSGNEeXBNWHZzelZ5QWlFSVJIZkJqLVpteHdxYTVvSUpiemhranRrTlZsZTg0VjNWUGdzc3RpMVV2c004NExOUjVR?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "도레도레 '비버 케이크' 팝업",
-   "name_zh": "도레도레 '河狸蛋糕' 快閃店",
+   "name_ko": "도레도레 비버 케이크",
+   "name_zh": "도레도레 海狸蛋糕",
    "brand": "도레도레",
-   "why_zh": "성수동에 팝업 2곳 오픈, 1만3900원부터 시작",
+   "why_zh": "성수동 팝업 오픈, SNS 화제 상품",
    "category": "food",
    "keyword": "도레도레 비버케이크",
    "news": [
@@ -208,10 +210,10 @@
    ]
   },
   {
-   "name_ko": "배스킨라빈스 호빵맨 협업 '랜덤말랑이'",
-   "name_zh": "31冰淇淋 麵包超人聯名 '隨機軟糖'",
+   "name_ko": "배스킨라빈스 호빵맨 랜덤말랑이",
+   "name_zh": "31冰淇淋 波波噹噹天 軟糖",
    "brand": "배스킨라빈스",
-   "why_zh": "호빵맨 협업 두 번째 굿즈로 사전예약 진행",
+   "why_zh": "협업 굿즈 2탄 사전예약 진행 중",
    "category": "food",
    "keyword": "배스킨라빈스 호빵맨",
    "news": [
@@ -222,52 +224,62 @@
    ]
   },
   {
-   "name_ko": "CU '겟커피 디카페인'",
-   "name_zh": "CU 'Get咖啡 低因'",
-   "brand": "CU",
-   "why_zh": "즉석 원두커피 신제품으로 심야 수요 공략",
+   "name_ko": "CU 맛피아 감자스틱",
+   "name_zh": "CU 黑手黨薯條",
+   "brand": "CU 편의점",
+   "why_zh": "편의점 역대 최초 하루 매출 1억원 달성",
    "category": "food",
-   "keyword": "CU 겟커피 디카페인",
+   "keyword": "맛피아 감자스틱",
    "news": [
     {
-     "title": "CU, 즉석 원두커피 ‘get커피 디카페인’ 출시… 심야 수요 공략 - 팝콘뉴스",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aVjZpbGJ2NTlLeEt4OEFYYnUwY2VEbi1XVC1tUDRvQXVCWGs2QzU4WkNuZFFkanZHcDdMc25PMXdBdFQtUmtHZmlfMktwS3YwQzYzUm94aGhvTU0yajBwTkNfb3I0NnFHZVpKUXVn0gFyQVVfeXFMTkFBLUJCUS01R3VUTFFoT3UtT3lOSE80OU9pMDhXY0xYUkF3YzlCam5zdVprcEhkUjdrcjA4cTFUSU1wZFBRZjhPckxjSXJuc0xEbXN3Zm81MHpZRjVfTnJuUFBZRTlQZl9ZN1A3SkJYRGVR?oc=5"
+     "title": "CU 편의점 역대 최초로 하루 매출 1억…‘맛피아 감자스틱’ 도대체 뭐길래? - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kanNWN0N6Um1zamZtSGNEeXBNWHZzelZ5QWlFSVJIZkJqLVpteHdxYTVvSUpiemhranRrTlZsZTg0VjNWUGdzc3RpMVV2c004NExOUjVR?oc=5"
     }
    ]
   },
   {
-   "name_ko": "다이소 5000원 털 안감 조끼·플리스",
-   "name_zh": "大創 5000韓元 毛絨內裡背心·絨衣",
-   "brand": "다이소",
-   "why_zh": "겨울 필수템으로 품절대란 예상되는 신상 제품",
-   "category": "fashion",
-   "keyword": "다이소 플리스 조끼",
+   "name_ko": "캇예스 져니더키",
+   "name_zh": "캇예스 Journey the Key",
+   "brand": "캇예스",
+   "why_zh": "GS25 출시 직후 품절",
+   "category": "food",
+   "keyword": "캇예스 져니더키",
    "news": [
     {
-     "title": "다이소 5000원 털 안감 조끼·플리스 품절 대란…매장별 실시간 재고 확인법 - www.diarypoint.com",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aYUEwbGY0Q3lEd2QxdnUtT3lUSXhQb3JYTUh0R3NXQlluYWQ2aGlmMHpyVDVGN1R0YlE2OTd3TlFnQzBtd2JHTmZ5Sk1sUG5OZEFPcVdaS3NITmJJU2pSQUF4cW9yb29OMGE0?oc=5"
-    },
-    {
-     "title": "벌써 다 품절됐다…다이소서 난리 난 5000원 '겨울 필수템' - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2VlJtR285SURBTHRoYzM2QmpOc2dZU05HcGRoVjFIWEtZSzU4bVBvbUJEalRhUUxrV2dkeTZZY3ZVenRmX2pBeWlzaWpsRnpCY0d5VmFR?oc=5"
-    },
-    {
-     "title": "\"재고 언제 풀리나\" 대기만 무려…난리 난 다이소 '5000원템' - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zY2ZPTmxtaTBJcUxDUC1QZzlscGVKVVREc3J0di13d183LTVNRDRlSTNBTVBGYTduMGROcXA0T3pqRzNlM2RlcXZuTy03OWhFVktHZUs2c0U0QQ?oc=5"
+     "title": "캇예스 ‘져니더키’, GS25 출시 직후 품절 - ABC뉴스",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKamlVYU5XdXJfdTMyTmpPd3B2djFHNnNDUno4U0o3bDA5bVpuLUdOVnZvSU9jcGlwbUxKajlyVmpWZ092UjgtbW9RZnJwUUw0VlVHcEZ6ZVV5cTdnc3ZqbTMxb9IBZ0FVX3lxTFBxVWtXYmNUNXg5YzhmandjYk04QWYxdW56YnpmYTJYOGxiYVdRaU05Mjl6WFJlU21GX2Y2WGVBc2tZUFhvVHZnTzFGUEJySlAwQzFaeEhWNnk3bFc1aFBQM3J5azJoUUk?oc=5"
     }
    ]
   },
   {
-   "name_ko": "스타벅스 크리스마스 케이크",
-   "name_zh": "星巴克 聖誕蛋糕",
-   "brand": "스타벅스",
-   "why_zh": "공개 당일 품절에 예약 열기 후끈한 크리스마스 시즌 신상",
+   "name_ko": "떡 간식 (MZ 열풍)",
+   "name_zh": "年糕小食 (MZ潮流)",
+   "brand": "다양",
+   "why_zh": "요아정 겹겹이 디저트 등 떡핀런 열풍, 초코쉘 찹쌀떡 등 신상",
    "category": "food",
-   "keyword": "스타벅스 크리스마스 케이크",
+   "keyword": "떡 MZ 간식",
    "news": [
     {
-     "title": "“크리스마스 케이크도 스타벅스”…공개 당일 품절에 예약 열기 후끈 - 위메이크뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLV0Q5SThrbFBVcVMzSGp0aG9rbkZmYVVCbjZ3aGZLNDlEOU1GVV9OM1VEcWFNOVV2Z1Z5dFYwUG1UNlFFYXlXLVRDcERPb1dTN1JjTG9tWU9VU3c?oc=5"
+     "title": "요아정 '겹겹이 디저트' 열풍 합류…초코쉘 입힌 찹쌀떡 판다 - 이데일리",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ3FRUkY4c0tfUmMzbzFuNDZidWVKcWVuNFEzRFQtaTU4MWV1XzVjMGdRRkE2SGJiZGJnRFhSZDNBWHNKUzZyQ01WZW9Dcld6aGtiMkNScGVBM1Y0bjlFRG5vejdSTm5aY1otS0Z6dDc3YnNRM2hzNEZPcXlMM0xsZA?oc=5"
+    },
+    {
+     "title": "[트렌드PICK] 할매 간식인 줄 알았더니 요즘 대세…MZ '떡픈런' 열풍 - 우리뉴스(민영뉴스통신사)",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETFpsTENsZ0JVMHJEcXllZ2NwQXJyNFpKZjNWck9nbGJ5RF9KYW9FaU9WQnFtRHlHdHEyeEU0RWN4SWhTUnRWWmtvTkhiS21NTHNJOXRkbzBkMkhJQmJyeTVmcU1rZ0VodDdJU9IBcEFVX3lxTE42dS1ydTByZWk5TTg0Y2NGZEJwYkFKZ2dkSVlGYTJxOWNBdFlVWG10UGVESjlSVXA4LTB6akk0Umt3dHpyOTRmbzB4b1M3X2kzaG01cE9Wc3A3c2tjWkRQdWhGN3ZMMlA5MkVBQ3d3MUs?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "해남 고구마 맛탕 마들렌",
+   "name_zh": "海南地瓜煎糖 瑪德蓮",
+   "brand": "신세계 센텀시티",
+   "why_zh": "팝업 선보임, SNS 화제 상품",
+   "category": "food",
+   "keyword": "고구마 맛탕 마들렌",
+   "news": [
+    {
+     "title": "신세계 센텀시티, SNS 화제 ‘해남 고구마 맛탕 마들렌’ 팝업 선보여 - 파이낸스투데이",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VSXlGMjRkcU1YMV83ekNaQi1EQjg2UDU2cWgxZllVQ2NFYndSbVloTWZ2UmFmT0lSYkhFdm9iX2U2VDI3UGk1MGdRZTZGS0pNNHA2S3NtUUsyb0EzaVN0ODZFdi0zTkVndVljeQ?oc=5"
     }
    ]
   }
