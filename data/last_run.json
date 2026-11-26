@@ -1,48 +1,52 @@
 {
- "time": "2026-11-26T04:36:08.545739+00:00",
- "ok": 193,
+ "time": "2026-11-26T14:12:40.093604+00:00",
+ "ok": 136,
  "waits": 0,
  "usage": {
-  "app": "{\"call_count\":83,\"total_cputime\":0,\"total_time\":99}",
+  "app": "{\"call_count\":60,\"total_cputime\":0,\"total_time\":99}",
   "buc": null
  },
  "total": 1051,
  "errors": [
   {
    "account": "boboo.sang",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 boboo.sang 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"A8PMLRHQy9jruEIZzDig6zy\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 boboo.sang 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AorYh3_Pj6X7OBh6MR42-js\"}}"
   },
   {
    "account": "masoyu_",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 masoyu_ 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AuZN3imGHqAuuNkAZVbyjc6\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 masoyu_ 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"A5zVkscY8UTuazjJJkgvDMP\"}}"
   },
   {
    "account": "_yuki.home",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 _yuki.home 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AuvDyPbw6LEpqg3iTdSc-Fs\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 _yuki.home 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"ANBxH_vTDPzrs9gVNXpcBqv\"}}"
   },
   {
    "account": "toribam_mom",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 toribam_mom 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AqTCpmMn1PgJaGUGN0YwVr5\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 toribam_mom 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AVBiC6uGYifJU-OiP4qXV1e\"}}"
   },
   {
    "account": "seojung_kkk",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 seojung_kkk 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AcnHGiZCpEETvDNyCNouiHs\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 seojung_kkk 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AmLUjDOlwEmJyXoyFxWSa6t\"}}"
   },
   {
    "account": "_blanc_beauty",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 _blanc_beauty 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"Aq-Mz66JdYQrF_akqWDM56m\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 _blanc_beauty 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"A7Qa47Dv3hmGV6AuUt8bXmZ\"}}"
   },
   {
    "account": "seo.so.mom",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 seo.so.mom 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"A6co_fZhy59NGC7WDx7XBaA\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 seo.so.mom 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"A_xXiVwwluOys24nTnfr50z\"}}"
   },
   {
    "account": "mimiwor",
-   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 mimiwor 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"AC4powgpWt8CTpHPTxWKJGM\"}}"
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 mimiwor 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"ADNAhHolYcKfrLh0WvOfz2B\"}}"
   },
   {
-   "account": "roseinwood",
-   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"is_transient\":true,\"fbtrace_id\":\"Aa9KZap2-917yK5dcOt-eBN\"}}"
+   "account": "moms_english_official",
+   "error": "HTTP 400 {\"error\":{\"message\":\"Invalid user id\",\"code\":110,\"type\":\"OAuthException\",\"error_subcode\":2207013,\"is_transient\":false,\"error_user_msg\":\"找不到使用 moms_english_official 用戶名稱的用戶。\",\"error_user_title\":\"找不到用戶\",\"fbtrace_id\":\"A-K6EKV--JSRj6Sg1ieJNO8\"}}"
+  },
+  {
+   "account": "miya_bbo",
+   "error": "HTTP 403 {\"error\":{\"message\":\"(#4) Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"is_transient\":true,\"fbtrace_id\":\"AUqyvkZ5P2VMHNYgidRMXVN\"}}"
   }
  ]
 }
