@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T14:15:14.634503+00:00",
+ "updated": "2026-11-27T19:57:51.605482+00:00",
  "items": [
   {
-   "name_ko": "스타벅스 헬로키티 콜라보",
-   "name_zh": "星巴克Hello Kitty聯名",
-   "brand": "스타벅스",
-   "why_zh": "全國缺貨，轉售價翻倍，12月銷售大幅成長",
+   "name_ko": "스타벅스 헬로키티 콜라보레이션",
+   "name_zh": "星巴克 Hello Kitty 聯名款",
+   "brand": "Starbucks",
+   "why_zh": "全國缺貨、轉售價格翻倍，引發搶購熱潮",
    "category": "other",
    "keyword": "스타벅스 헬로키티",
    "news": [
@@ -16,84 +16,64 @@
    ]
   },
   {
-   "name_ko": "리치와인",
-   "name_zh": "RichWine紅酒",
-   "brand": "중국 리치와인",
-   "why_zh": "APEC峰會上桌後爆紅，銷售暴增900倍",
-   "category": "food",
-   "keyword": "리치와인 품절",
+   "name_ko": "다이소 비밀번호 수첩 (일본 제품)",
+   "name_zh": "大創 密碼記錄本（日本商品）",
+   "brand": "Daiso",
+   "why_zh": "日本爆紅的低價密碼本（660日圓）防止AI詐騙，2030年輕人搶購導致品缺",
+   "category": "living",
+   "keyword": "다이소 비밀번호 수첩",
    "news": [
     {
-     "title": "APEC 만찬 오른 中리치와인 품절 대란…\"매출 900배 급증\" - 연합뉴스TV",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhdW92RW1uU0xkOTV6SGNuYTNzMEJQRlFuaHUwbFlEbG55aS1tbmw1V3JSNGREUlNzS0FIdkx6bnpOaDhNX2p3QzREUjg3UW5XUTNvSVZZN25FYkFRNHRRelBZcFJyeEE?oc=5"
+     "title": "\"AI가 절대 해킹 못해\"…'품절 대란' 5600원짜리 일본 수첩 - 머니투데이 - 머니투데이",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tZDBoVGFoQ1UtNGxWdXpNTmhwYy1hdEhrRWl4SHlGZ1ZIb3RYckJIcUpwaGUxOXZTRzRDMlE2QUl3eFVSRFZsVG0yMzh3MnFtblhuMFJCMXRQLWN5bzRTcE5LQTFEUDBf0gFuQVVfeXFMUHVKbkhsbEJ3Q2p2eDcyRHRUZm84YkwwWlpReXNQazI2MkJybFpQejJZMS1DLXU5Z29Zd3J6ZXgwVzltVUhzNWEzX0FEQnJOdFRMa3pRbHEzMi1QVGh0ODB1eVpqT1RjSk9TUG5zMVE?oc=5"
     },
     {
-     "title": "APEC 만찬식탁 오른 中리치와인 품절 대란…\"매출 900배 급증\" - 연합뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUl9qQ0JETUk3QVY4TUN3UHF1WXREc2ZXaHFNaXBGSU9Ua0RGQmQ1Ti1JTlhiOFllT29tWjk5cUZ1ZmNOR29nQ1IwLUl4SmpEZ0NRR21SbXo4VXfSAWBBVV95cUxPaURqdW12WFZ5dm5wVVFFZ3BFbzhzSXp1cTNWY0xVOWs3Zzc0UFJxTHJtTnN3djB6cGxRT3pseHA4TkVWenlSTTBMNHJ1b0V3cUwxYjRFMTd4d3ZOYkUzdVQ?oc=5"
+     "title": "\"해킹에 털리느니 손으로 적는다\"…日서 '비밀번호 수첩' 품절 대란 - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RTkRRZTdSUlZwTTk1X0YxSkFEbWY4ZTFENWctY210QlVVU2JOVnhPUWZCVmtLVXZzVmN4OTA4NkstUlRyeFpMaWNlWnBnWkxRUVMyb3NSeEdBcDVVWng1T9IBeEFVX3lxTFBzeVhaaFl0XzB4OXl5c1FBNzJKa29QWV9VLWFrMi1rWnFXZWxTeVdpUTRLcFRKODdKMTRkY0lxNHJZRm1zaEZSZFI4MW5zNWxKaDhYYlhuUFQyT3RJNFFNVk5laEEyZENQMmp4OHM2MEFoNWc1V0ZKcw?oc=5"
     },
     {
-     "title": "'품절대란' APEC 정상회의 와인, 매출 900배 상승했다 - 노컷뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqS1NteEpjZ1A2N0M0ZUl0NkptM0NQaXZpVC10NE1fV0xuOVNWSWxLQ3I2X3RHd3hOTjZpQi1WWmZ1UVBNQVNGWHJNejh5eDlTQ3c?oc=5"
+     "title": "\"60대만 찾던 물건인데\"…일본 품절 대란 '이 수첩' 뭐길래 - 머니투데이 - 머니투데이",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Sm5IbGxCd0Nqdng3MkR0VGZvOGJMMFpaUXlzUGsyNjJCcmxaUHoyWTEtQy11OWdvWXdyemV4MFc5bVVIczVhM19BREJyTnRUTGt6UWxxMzItUFRodDgwdXlaak9UY0pPU1BuczFR0gFuQVVfeXFMUHVKbkhsbEJ3Q2p2eDcyRHRUZm84YkwwWlpReXNQazI2MkJybFpQejJZMS1DLXU5Z29Zd3J6ZXgwVzltVUhzNWEzX0FEQnJOdFRMa3pRbHEzMi1QVGh0ODB1eVpqT1RjSk9TUG5zMVE?oc=5"
     },
     {
-     "title": "정상들 식탁에 올랐을 뿐인데…매출 900배 뛴 '3만원대 술' - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jZnotV2VaazNtQlZMcUpXVVN0N1VyQW95TE9RNHg1TldjWU1uMHJHYU4wWHhuWU5XM2F1RzNQN3k3MHlSX1lON0daZTQweDJhNEVGNldyMUQydw?oc=5"
+     "title": "“내 개인정보 털릴라” 다이소서 품절된 뜻밖의 수첩…2030까지 몰렸다는 日 [이슈, 풀어주리] - 서울경제",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sQnl0bjBtaFZwVHdDZUQ2dmlTSm15ZW0tT0Y3c0I0SmVTN09nNlZxS05iZ2Z6TDdRMlA3eFRxX3pMS2RFRFdjNzdaNDNRcXl6anfSAVNBVV95cUxQY0dXUTk1eGNrdXpIYTBRVjZ1OUVwdVpLeGY2RDAyQzNHSHpueVVyeFNoc05ZMmJXQ1gwR3FrVHY1Sk8zYV9NV0ZaZjIyWE5kNEZCTQ?oc=5"
     }
    ]
   },
   {
-   "name_ko": "캇예스 져니더키",
-   "name_zh": "Cathy's Journey the Key",
-   "brand": "캇예스 (젼언니 협업)",
-   "why_zh": "GS25獨家販售，開售後迅速缺貨",
+   "name_ko": "파리바게뜨 블랙초코 케이크",
+   "name_zh": "巴黎貝甲 黑巧克力蛋糕",
+   "brand": "Paris Baguette",
+   "why_zh": "美國詹妮推薦的爆紅甜點引進韓國，SNS熱議",
    "category": "food",
-   "keyword": "져니더키 GS25",
+   "keyword": "파리바게뜨 블랙초코 케이크",
    "news": [
     {
-     "title": "캇예스 ‘져니더키’, GS25 출시 직후 품절 - ABC뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKamlVYU5XdXJfdTMyTmpPd3B2djFHNnNDUno4U0o3bDA5bVpuLUdOVnZvSU9jcGlwbUxKajlyVmpWZ092UjgtbW9RZnJwUUw0VlVHcEZ6ZVV5cTdnc3ZqbTMxb9IBZ0FVX3lxTFBxVWtXYmNUNXg5YzhmandjYk04QWYxdW56YnpmYTJYOGxiYVdRaU05Mjl6WFJlU21GX2Y2WGVBc2tZUFhvVHZnTzFGUEJySlAwQzFaeEhWNnk3bFc1aFBQM3J5azJoUUk?oc=5"
+     "title": "美서 대박 난 '제니 케이크' 한국 온다…파바, 초코 열풍 잇는다 - 조세일보",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZQXdOMFl6OENSQUUwX3RqYzB0akRZY0lTWVdIU093X3Qxam56Z0RQVk9RWmpfMHVzNDNJSGt5TlFrdDAydW9pY0FWcy10Nm8zVEdOR2xXaWRRelZTdlkzUllieWkySWxydE9pV0kyNFdzUWpM?oc=5"
     },
     {
-     "title": "젼언니와 캇예스가 만든 '져니더키', GS25 선출시 이후 뜨거운 관심 - 빅데이터뉴스",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqUnhOLUUxNXo2d21FVjJ4SDZfQmprUU01ZVUtUDVJWlZxNm9jNGxjYXgyckRURHh4alk3ZkVFZnJOTUF2SEptelpSWW53RnBOMGxxbDJFNUNwM3BmdVBKWl9vOEpyZi1pM1J3VEZfY1RxX1V5VnUzWmJGa2k?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "GS25 한정선 찹쌀떡",
-   "name_zh": "GS25限定糯米年糕",
-   "brand": "GS25",
-   "why_zh": "第二彈皮斯塔奇版本上市，累積銷售70萬個，掀起'떡지순례'熱潮",
-   "category": "food",
-   "keyword": "찹쌀떡 GS25",
-   "news": [
+     "title": "파리바게뜨, SNS에서 화제된 ‘미국에서 온 블랙초코 케이크’ 출시 - 푸드투데이",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kd1JuUUJhdDlEWVpPNEUzVEU2bFN0ZzM4ak1rbXJGVEpkQkZvZU5RQVI5UGQ4Mk5JZlU5U1Z4MGhDbDJ1TnBYY2dMYWxjTEg4LVhhbU5rSk1pWHlRM2lFaWZUcTN0QQ?oc=5"
+    },
     {
-     "title": "GS25, '한정선 찹쌀떡' 2탄 피스타치오 출시...누적 70만개 '떡지순례' 열풍 - https://www.trend-korea.co.kr/",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUMzR5b3Q1bmJBVFNNcTdWRUdWTFVzaG01QU1NUjVHNk1jaVp0YXlUYWdXWW8zSDd4TEExQ3JCZmJBdEdTX2JLWjNHU3gyOTQ0Y1FQTzBaTkhFd1UwT2Rydm5URWROUVRHcjdTMUZtTQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "CU 맛피아 감자스틱",
-   "name_zh": "CU Mattia洋芋條",
-   "brand": "CU",
-   "why_zh": "便利商店創紀錄單日銷售1億韓元",
-   "category": "food",
-   "keyword": "맛피아 감자스틱",
-   "news": [
+     "title": "제니가 골랐다 하면 '대박'…美서 난리 난 케이크 한국 온다 - 한국경제",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lMnBBMTlRLWZXQnc5aDc3YWc2YmNhNDl6bmtidU5PX0J5bUhJNFRwbHR4aXBsaDVnNHJHeUZlS0NXZWFVQ2tISDZGT0I2QUJ6a0JYYU5GRmc5dw?oc=5"
+    },
     {
-     "title": "CU 편의점 역대 최초로 하루 매출 1억…‘맛피아 감자스틱’ 도대체 뭐길래? - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kanNWN0N6Um1zamZtSGNEeXBNWHZzelZ5QWlFSVJIZkJqLVpteHdxYTVvSUpiemhranRrTlZsZTg0VjNWUGdzc3RpMVV2c004NExOUjVR?oc=5"
+     "title": "SNS서 화제 된 미국 케이크…파리바게뜨, 블랙초코 제품 국내 출시 - 중앙이코노미뉴스",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1tbXoxNnl5bWtZb0tlQUpWOHdFTGlEamNxVkhOejBuV21DQzI0XzUwMHN1VXpuYXM4SGZkbmh0NVFsM1htd1E0REY3bEhyNTZXQ1ExbTJ2ZEtSaEY4TnNZQkRTX3o2NE15RXRPSFkxaWEzUQ?oc=5"
     }
    ]
   },
   {
    "name_ko": "GS25 식물원 김밥",
-   "name_zh": "GS25植物園紫菜飯卷",
+   "name_zh": "GS25 植物園海苔飯捲",
    "brand": "GS25",
-   "why_zh": "一個月銷售100萬個，20-30代女性熱烈響應",
+   "why_zh": "一個月銷售100萬個，受2030女性熱烈歡迎",
    "category": "food",
-   "keyword": "식물원 김밥",
+   "keyword": "GS25 식물원 김밥",
    "news": [
     {
      "title": "GS25, '식물원 김밥' 한 달 만에 100만개 판매…\"2030 여성 뜨거운 호응\" - 비즈월드",
@@ -102,12 +82,56 @@
    ]
   },
   {
-   "name_ko": "에너지젤",
-   "name_zh": "能量膠",
-   "brand": "식품업계 (다양한 브랜드)",
-   "why_zh": "跑步風潮帶動，食品業爭相推出新產品",
+   "name_ko": "LG생활건강 피지 모락셀라 화이트머스크향 제품",
+   "name_zh": "LG生活健康 Fiji Mozzarella 白麝香香氛系列",
+   "brand": "LG생활건강",
+   "why_zh": "SNS爆紅的香氛，推出織物柔軟劑和除臭劑新品",
+   "category": "living",
+   "keyword": "피지 모락셀라 화이트머스크",
+   "news": [
+    {
+     "title": "LG생활건강, SNS 화제 ‘피지 연보라향’ 라인업 확대…섬유유연제·탈취제 출시 - 나눔경제뉴스",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jTG1rMXpFb2w1UV9FQXdMWk16aGFWbzNQdFdWYi1RaHBSR0RaX1Q4aWhKZWhQbEZlT2xtYVk4NkFYR09QZ0FkUkI4VFVxbVBLanBSV2NON1g3RHdfRnJxVThZUno0YkdNU2hybA?oc=5"
+    },
+    {
+     "title": "LG생활건강, ‘피지(FiJi) 모락셀라’ 화이트머스크향 섬유유연제·섬유탈취제 출시 - 퍼블릭뉴스통신",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZWWdsbTBnamY0VnpSa1NNaFZaS2RqRlJjZjlOaWgzdThzVVozQ05hNmhKTmo0N0JSYWRpNUlsX1ZkY2dXWnlVZVhZeE1GOUg1a2hVMmZrMi1jMHBLN1ltNC1DRFNBd0h1ZUJr?oc=5"
+    },
+    {
+     "title": "[생활] LG생활건강, ‘피지 모락셀라’ 화이트머스크향 신제품 2종 출시 - 리뷰타임스",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1neEFoZFN0ZUdTeXFYZ19Cd09pOFJ0SndDQXlFRjZYV051Ny0wRDlCbXIwQnJYUnlPdGZqTzRGZkpiR2g1cWxrM3hwUlVHcC1GenV2aVRIeEs0SF9WYlEtYThWbFljbmh5RHBDMWdRY3M?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "다이소 겨울 신상 도시형 아이젠",
+   "name_zh": "大創 冬季新品 都市用冰爪",
+   "brand": "Daiso",
+   "why_zh": "寒流來襲導致缺貨，年輕上班族搶購",
+   "category": "living",
+   "keyword": "다이소 아이젠",
+   "news": [
+    {
+     "title": "“다이소에 이런 것도 팔았어?”…갑자기 추워지자 동난 ‘도시형 아이젠’ - 매일경제",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvcWhiazYzUlYxNmNKbjQ0b3JhTlRPbmpsN2RsZE9WVWlROUxGYXA5elphVnZuNE1tRTBXMGlNSUZTM0cyWVh6cDVuOU1QNGJjWENiZXJn?oc=5"
+    },
+    {
+     "title": "다이소 일냈네…벌써 품절 뜬 2000원짜리 ‘겨울 신상’ 정체 - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tRXhhdjdMYVJQaG11VEl3VEtCSTZScVZGZlV6Q3g2UEhIS0M2ak8tb3V0SGQ1M1VtMjRSZE5sYVVQa2JPNnh3dzhKVW5nWGxwMWVEWlJR?oc=5"
+    },
+    {
+     "title": "비싸면 몇만 원 하는데…다이소가 최근 '단돈 2000원'에 내놓은 '신상품' 정체 - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMUJRMGNILU5uVDBXa0tJOUpUMUs2bjljbThsV1UxRkdFRHhBSUNQWDljek1qR0tsSThsTm5SS2JQbVZCbzZncEtlYWRBeFNtY0RBS1ExSV9hZzhHN1o1VmlseFNVcnpBbHphY0tjcHhQVmktaHFWcUNZYmFKVXdETEpielRsOE1DTEZ2dEJiNjgyUkRJSVNZQnFJc3ZsZGFCNW01NzR3?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "에너지젤 (스포츠 에너지 제품)",
+   "name_zh": "能量膠（運動能量產品）",
+   "brand": "Various",
+   "why_zh": "跑步風潮帶動銷售，食品業者爭相推出新產品",
    "category": "food",
-   "keyword": "에너지젤",
+   "keyword": "에너지젤 러닝",
    "news": [
     {
      "title": "러닝 열풍에 '에너지젤' 인기…식품업계 앞다퉈 신제품 출시 - 매일경제",
@@ -120,158 +144,130 @@
    ]
   },
   {
-   "name_ko": "피지(FiJi) 모락셀라 화이트머스크향",
-   "name_zh": "FiJi莫札瑞拉白麝香香氛系列",
-   "brand": "LG생활건강",
-   "why_zh": "SNS爆紅的\"淡淡人香\"洗潔精，擴展至衣物柔軟精和除臭劑",
-   "category": "living",
-   "keyword": "피지 화이트머스크",
-   "news": [
-    {
-     "title": "“SNS 화제 ‘은은한 살냄새 세제’, 유연제·탈취제로도 나온다” ‘피지 모락셀라’ 화이트머스크향 신제품 2종 출시 - 내외통신",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81ZWxiR3N4N09hdENpQlhHQXZKVjZtT2VIQmJUWVhyUjFVREhUVnY3RW1MUG8zUVZJbWw3Sl9mczgwdkNhX2dXdjhqdFFSU3FERUNXeThUMWhaTGlWMmtHbGlMWEI0WW1VOHIw?oc=5"
-    },
-    {
-     "title": "LG생활건강, SNS 화제 ‘피지 연보라향’ 라인업 확대…섬유유연제·탈취제 출시 - 나눔경제뉴스",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jTG1rMXpFb2w1UV9FQXdMWk16aGFWbzNQdFdWYi1RaHBSR0RaX1Q4aWhKZWhQbEZlT2xtYVk4NkFYR09QZ0FkUkI4VFVxbVBLanBSV2NON1g3RHdfRnJxVThZUno0YkdNU2hybA?oc=5"
-    },
-    {
-     "title": "LG생활건강, ′피지 모락셀라′ 화이트머스크향 유연제·탈취제 출시 - KPI뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tSTU3aXlEN2tkRmhnSHdsd25JelBzU1c1QlVscU9oYUJIekJrYThpSjVtQ3FQZzl4Tml0SVF1S0Y3RWtFNVhYRGVfNzNMSHpnamg40gFTQVVfeXFMT21JNTdpeUQ3a2RGaGdId2x3bkl6UHNTVzVCVWxxT2hhQkh6QmthOGlKNW1DcVBnOXhOaXRJUXVLRjdFa0U1WFhEZV83M0xIemdqaDg?oc=5"
-    },
-    {
-     "title": "LG생활건강, ‘피지(FiJi) 모락셀라’ 화이트머스크향 섬유유연제·섬유탈취제 출시 - 퍼블릭뉴스통신",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZWWdsbTBnamY0VnpSa1NNaFZaS2RqRlJjZjlOaWgzdThzVVozQ05hNmhKTmo0N0JSYWRpNUlsX1ZkY2dXWnlVZVhZeE1GOUg1a2hVMmZrMi1jMHBLN1ltNC1DRFNBd0h1ZUJr?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 크리스마스 블록",
-   "name_zh": "大創聖誕積木",
-   "brand": "다이소",
-   "why_zh": "8款聖誕主題積木迅速缺貨",
-   "category": "living",
-   "keyword": "다이소 크리스마스",
-   "news": [
-    {
-     "title": "품절도 속출, '피해자'도 속출…다이소표 크리스마스 [해시태그] - 이투데이",
-     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FdmxRcEFCTUJDODhEMTVCaWtWVEkzLTJ1c1JiOTlPTFp6SDJrbFVwRXl2VzdxU09ZRlFDTl9vZGQ2bG5KRmhCcTRyYlFseWNhOU5Mbg?oc=5"
-    },
-    {
-     "title": "다이소 크리스마스 블록 8종 품절…5천원 제품 재고 확인법 - https://www.diarypoint.com/",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BeGkzdmFtWHROUmZQeENlcGU0VHlZZlFueEZLNEVxVktwMWpzYUhRUWJFNWJ6cU43Q3o3SFRvRTY5Q3pxMGJqM3BYS0xmdnkxNnRYa21xbGJTOElXWmtnWGR6QmJCMncwRl84?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 도시형 아이젠",
-   "name_zh": "大創城市型冰爪",
-   "brand": "다이소",
-   "why_zh": "寒流來襲後迅速售罄，解決都市人滑冰問題",
-   "category": "living",
-   "keyword": "도시형 아이젠",
-   "news": [
-    {
-     "title": "“다이소에 이런 것도 팔았어?”…갑자기 추워지자 동난 ‘도시형 아이젠’ - 매일경제",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvcWhiazYzUlYxNmNKbjQ0b3JhTlRPbmpsN2RsZE9WVWlROUxGYXA5elphVnZuNE1tRTBXMGlNSUZTM0cyWVh6cDVuOU1QNGJjWENiZXJn?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "다이소 5000원 주방용품",
-   "name_zh": "大創5000韓元廚房必需品",
-   "brand": "다이소",
-   "why_zh": "廚房系列新品上市後持續缺貨，消費者排隊等待補貨",
-   "category": "living",
-   "keyword": "다이소 5000원",
-   "news": [
-    {
-     "title": "\"5000원짜리가 2만원?\"…다이소 갈 때마다 '품절' 뭐길래 - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zRXRZc0s2dldYcHpGQTJWYm9rR0xfYVFXNkliOGZxV1JXZWd5SnpnUXlOSG5MejNpYkJnazdPQUFNcGtxV3NwcGZlcERILUxLbFpWcXBKb0hWZw?oc=5"
-    },
-    {
-     "title": "\"재고 언제 풀리나\" 대기만 무려…난리 난 다이소 '5000원템' - 한국경제",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zY2ZPTmxtaTBJcUxDUC1QZzlscGVKVVREc3J0di13d183LTVNRDRlSTNBTVBGYTduMGROcXA0T3pqRzNlM2RlcXZuTy03OWhFVktHZUs2c0U0QQ?oc=5"
-    },
-    {
-     "title": "하나만 있어도 주방이 달라진다…다이소서 5000원에 선보인 싱크대 '필수템' - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92Wk9jS1djZWVmUTNEVGRULU1ZbUpHU0l2YXZFeFVLNDVSS2x4N3FFb3ZIRTlfMjJoX3l1Mm5KZExMT0RrNzJhZG04QUE1UHRlcE5vOGtR?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "비밀번호 수첩",
-   "name_zh": "密碼記錄本",
-   "brand": "일본 다이소",
-   "why_zh": "日本爆紅防駭客商品，各年齡層搶購，紙本記錄風潮回歸",
-   "category": "living",
-   "keyword": "비밀번호 수첩",
-   "news": [
-    {
-     "title": "\"60대만 찾던 물건인데\"…일본 품절 대란 '이 수첩' 뭐길래 - 머니투데이 - 머니투데이",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Sm5IbGxCd0Nqdng3MkR0VGZvOGJMMFpaUXlzUGsyNjJCcmxaUHoyWTEtQy11OWdvWXdyemV4MFc5bVVIczVhM19BREJyTnRUTGt6UWxxMzItUFRodDgwdXlaak9UY0pPU1BuczFR0gFuQVVfeXFMUHVKbkhsbEJ3Q2p2eDcyRHRUZm84YkwwWlpReXNQazI2MkJybFpQejJZMS1DLXU5Z29Zd3J6ZXgwVzltVUhzNWEzX0FEQnJOdFRMa3pRbHEzMi1QVGh0ODB1eVpqT1RjSk9TUG5zMVE?oc=5"
-    },
-    {
-     "title": "\"해킹에 털리느니 손으로 적는다\"…日서 '비밀번호 수첩' 품절 대란 - 뉴시스",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RTkRRZTdSUlZwTTk1X0YxSkFEbWY4ZTFENWctY210QlVVU2JOVnhPUWZCVmtLVXZzVmN4OTA4NkstUlRyeFpMaWNlWnBnWkxRUVMyb3NSeEdBcDVVWng1T9IBeEFVX3lxTFBzeVhaaFl0XzB4OXl5c1FBNzJKa29QWV9VLWFrMi1rWnFXZWxTeVdpUTRLcFRKODdKMTRkY0lxNHJZRm1zaEZSZFI4MW5zNWxKaDhYYlhuUFQyT3RJNFFNVk5laEEyZENQMmp4OHM2MEFoNWc1V0ZKcw?oc=5"
-    },
-    {
-     "title": "“내 개인정보 털릴라” 다이소서 품절된 뜻밖의 수첩…2030까지 몰렸다는 日 [이슈, 풀어주리] - 서울경제",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sQnl0bjBtaFZwVHdDZUQ2dmlTSm15ZW0tT0Y3c0I0SmVTN09nNlZxS05iZ2Z6TDdRMlA3eFRxX3pMS2RFRFdjNzdaNDNRcXl6anfSAVNBVV95cUxQY0dXUTk1eGNrdXpIYTBRVjZ1OUVwdVpLeGY2RDAyQzNHSHpueVVyeFNoc05ZMmJXQ1gwR3FrVHY1Sk8zYV9NV0ZaZjIyWE5kNEZCTQ?oc=5"
-    },
-    {
-     "title": "660엔 비밀번호 수첩 품절…일본서 종이 기록 다시 뜬 이유 - https://www.diarypoint.com/",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QbzZZeU1nWk92WE92dTF6Y2VFc0YzR1ZyR2Q2ZnZrWjF0UUpiN1V4ZVItX3BpMHFfbEN4dUFSWEZsYnMzbVNvQXJZSktyemIzb1huaHM3cVR5VHJJM1dNWDhRM3VFekVhejBj?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "배스킨라빈스 호빵맨 랜덤말랑이",
-   "name_zh": "31冰淇淋麵包超人聯名軟糖",
-   "brand": "배스킨라빈스",
-   "why_zh": "第二波聯名商品預售，受歡迎的麵包超人IP合作",
+   "name_ko": "떡 (떡픈런 / 떡지순례)",
+   "name_zh": "年糕（MZ代餐流行風潮）",
+   "brand": "Various",
+   "why_zh": "MZ世代流行的復古祖母美食，掀起年糕美食巡禮熱潮",
    "category": "food",
-   "keyword": "호빵맨 배스킨라빈스",
+   "keyword": "떡픈런 약과",
    "news": [
     {
-     "title": "배스킨라빈스, 호빵맨 협업 두 번째 굿즈 '랜덤말랑이' 사전예약 - 위키트리",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTejJLbEE5Y0VYQm5PbkNZWERZaGJrYU5uNS1zYVpCaTgwMEZNb0tXeWJlVHhIUXJ6MjhzS3EyVnVTck53S3BQYVNuWVBJamJ5QkJUdWVB?oc=5"
+     "title": "전북 2030도 빠졌다⋯‘떡지순례’, ‘떡픈런’ 열풍 - 전북도민일보",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VUGFfT2hkbllDemNPejVJV1BvQVVpSkZab215aWduazlYUFhERXE3cXBheHJPeGtQSWRaaVB0dmtleVlGcmtDTmV1dVJfdWlPVlFpMVVGcXh4cnY0WnFxakM0SjBzR0tVR3c?oc=5"
+    },
+    {
+     "title": "[트렌드PICK] 할매 간식인 줄 알았더니 요즘 대세…MZ '떡픈런' 열풍 - 우리뉴스(민영뉴스통신사)",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETFpsTENsZ0JVMHJEcXllZ2NwQXJyNFpKZjNWck9nbGJ5RF9KYW9FaU9WQnFtRHlHdHEyeEU0RWN4SWhTUnRWWmtvTkhiS21NTHNJOXRkbzBkMkhJQmJyeTVmcU1rZ0VodDdJU9IBcEFVX3lxTE42dS1ydTByZWk5TTg0Y2NGZEJwYkFKZ2dkSVlGYTJxOWNBdFlVWG10UGVESjlSVXA4LTB6akk0Umt3dHpyOTRmbzB4b1M3X2kzaG01cE9Wc3A3c2tjWkRQdWhGN3ZMMlA5MkVBQ3d3MUs?oc=5"
+    },
+    {
+     "title": "“할매 입맛에 미쳤다” … 약과에 반하고 떡에 줄 선 MZ들 - 농촌여성신문",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SSFFNSE9QeURMeWNQc0tqUjBjRnJMUlkxTUl4a1Yzb3QzXzBpQ0pGbDlzYWV3UGt0QUh3MU56WU83MDVvVnJFRGlMYTVSeTgtRDF2VjF6eDZvOEhIQi1Bbm40WklzejQwcnfSAWpBVV95cUxNUkhRTUhPUHlETHljUHNLalIwY0ZyTFJZMU1JeGtWM290M18waUNKRmw5c2Fld1BrdEFIdzFOellPNzA1b1ZyRURpTGE1Unk4LUQxdlYxeng2bzhISEItQW5uNFpJc3o0MHJ3?oc=5"
+    },
+    {
+     "title": "김장조끼 입고 뜨개질? … MZ 취향 된 할매 감성 - 농촌여성신문",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFbVAwNm5lTHdaRkhPcjhLMzB2cUxMSEpPV1pSd2I0Yi1CZUhrYmVqQjhmZ2o5S3NINHlzaFllakpTMUNKN1I2NjJrdGxtX3pJcW1hSWhFVWFFekY1LWpRd0R2S3Jad9IBakFVX3lxTE5BbERlQnpDTDNabVZ4bVhSejBvc0xybFMzUUgxREY3ek9wdGxHQmdUT2o3TzFZOUl5UXJIS1dmVC0zZWRneXVIR0ZMMkZuU0t4ZjFUUUpWR0tCblk5c19kTWdYUjBSQXJhU3c?oc=5"
     }
    ]
   },
   {
-   "name_ko": "세븐일레븐 프리미엄 케이크",
-   "name_zh": "7-11精選蛋糕",
-   "brand": "세븐일레븐",
-   "why_zh": "與飯店、IP合作推出年末1-2人份精選蛋糕",
-   "category": "food",
-   "keyword": "세븐일레븐 케이크",
-   "news": [
-    {
-     "title": "세븐일레븐, 연말 1~2인 가구 위한 프리미엄 케이크 선봬 - 이투데이",
-     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wdW5ZVXBkVi1qb3ctUEtxTlVuWXdpNnVpaU13MWlJRmJtdllUcERla1BZUkdONHlCTFNKUmRuYTFmRnpSZGh5eldvNTB3b2hZVXk0VQ?oc=5"
-    },
-    {
-     "title": "세븐일레븐, 연말 맞이 소용량 프리미엄 케이크 출시…호텔·IP 협업 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NcHFHY1BVdXA0blhPcVRLZF9HbllMZmJKS20waXpFT0VKbmJBSEk2M29iLW1UUXBsSVV0OENGNE1BR3RCdDk4a3JBWUlrUQ?oc=5"
-    },
-    {
-     "title": "세븐일레븐, 크리스마스 케이크 출시…헬로키티·롯데호텔 콜라보 - 중앙이코노미뉴스",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBybEU2RDhGOTJaM3Zha21YWEJScjRLZnpCaDdHM0FuYWhyZjJBTm92MmF5LU1wM1h5ZFRWNnl4T1loNy1EVmZSRUg4TVZGT1lqWlpWSXdMTlQwLWNiZmctcE03ZFZqWXhEakhjWkpjbUFHQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "name_ko": "쇼트트랙 패딩",
-   "name_zh": "短款羽絨外套",
-   "brand": "다양한 패션브랜드",
-   "why_zh": "寒冷天氣帶動短款、中款羽絨外套熱銷，明星效應推波助瀾",
+   "name_ko": "샘스클럽 저가 패딩",
+   "name_zh": "Sam's Club 低價羽絨服",
+   "brand": "Sam's Club",
+   "why_zh": "8萬元台幣的平價羽絨服品牌缺貨，中國也掀起低價羽絨服風潮",
    "category": "fashion",
-   "keyword": "숏 미드 다운",
+   "keyword": "샘스클럽 패딩",
    "news": [
     {
-     "title": "영하권 한파에 숏·미드 다운 점퍼 열풍…김지원 효과 톡톡 - https://www.2news.co.kr/",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSnA1SkxxYnNRUzVUR2VmeW8zUWFTOGE1U2lSN0JxUENZZy1SWGxfOTdzRXhDcDdXVklFSmR3Z1hnNF9Pbml2Q2FTa3F1ZnJtLXZjbDMzeGg1Y1lMbTQyX1NfeUYweXNh?oc=5"
+     "title": "중국도 저가 패딩 열풍…샘스클럽 8만원대 제품 품절 대란 - 뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VWW1ScWxOUExYS2p4RkI0UVMwelhoT1U0alFnRnJxRmhpd3lGV0diLTV0WnA0a1pCbnN4elBhaXMwTjVyUVYxNkhpOUlCaEc5SjVlNS12MDFhRThWMW9TV9IBeEFVX3lxTE05WEJ3WTNRbTNyb1U2TXY0ZkFzeENkbHNadzNjU192TEs2WE9kdzV0N2w2Qmlta21HYXhfcS15d2dTQkxVT0VzaW5mLWVfY29IOE1ocHpfWFFudGhZVDJJSWFPb2l6ZWZnRkRlZ0g5RVROUENWaWphWg?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "룩옵티컬 메탈안경",
+   "name_zh": "Look Optical 金屬眼鏡",
+   "brand": "Look Optical",
+   "why_zh": "2萬元台幣高CP值新款金屬眼鏡推出，掀起風潮",
+   "category": "fashion",
+   "keyword": "룩옵티컬 메탈안경",
+   "news": [
+    {
+     "title": "룩옵티컬, 메탈안경 2만원대 갓성비 열풍타고 ‘NEW 루키’ 전격 출시 - 한국안경신문",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfOVM3TXFqSWNEQjh3QzNJODA2Q0h5Sk1sNFEtNl93TWhpdnZTUmp0VjVMSWIwM1BLSDdWVDFOZm1JS004aXQ0T1NPNk1nenZzOVVLdEN1UnBsb1VJMnVIVzdHVmw5bjFKQjFvTdIBcEFVX3lxTE5VLWdZT3p4WWhIZDVnR3NCX0UyZUVOdC11dGhkcG9aWXpmalhCNURrQ2U2RkItX3FJaW52RU1DaGpXRUkyWmlZeE5uVlpvVm1HUTNyT21KSmdWN3gtTjREZlhmS0NkRHl4Mkhkc096NDQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "프로스펙스 플러버 라이트 3 워킹화",
+   "name_zh": "Prospecs Pluber Light 3 健走鞋",
+   "brand": "Prospecs",
+   "why_zh": "跑步風潮帶動專業運動鞋市場，推出新款健走鞋",
+   "category": "fashion",
+   "keyword": "프로스펙스 플러버 라이트",
+   "news": [
+    {
+     "title": "러닝 열풍에 전문화되는 스포츠화 시장…프로스펙스, 워킹화 '플러버 라이트 3' 출시 - 스타뉴스",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GVnBKQVUxbzEzT0FTZ2NlR3poOWdJQTBER2w3ZUI2cWZVNDJpZHUtYlpxaEMxd3FQam5qbjcyOUtQaUpmcnlLQ1pRcHRQOUVVX1B0RXhBNTlFMlV2MDZCTnUwb1E4QVdqb2dUdm9XckxUd1hVX0dlaTE2YTBRbVk?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "보다나 에어 볼륨스타일러",
+   "name_zh": "Bodana Air 蓬鬆造型器",
+   "brand": "Bodana",
+   "why_zh": "搭載氣流功能的新型造型器在Olive Young受好評",
+   "category": "beauty",
+   "keyword": "보다나 볼륨스타일러",
+   "news": [
+    {
+     "title": "보다나, 에어 기능 탑재한 볼륨스타일러로 올리브영서 호응 - 위키트리",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZTERUQnBMNUZONTFES2szcGFJZzhPcEdKZS02RW9oWXRRVnhFMV8tbHNTSjNIMzViSW1oTlItTzNzdnFhazgzeDJ0Ni1hRGtkMk96X2NR?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "더샘 X 먼작귀 콜라보레이션",
+   "name_zh": "The Saem X 冬季檔案 聯名款",
+   "brand": "The Saem",
+   "why_zh": "預約販售即將開始，預期推出限量聯名美妝商品",
+   "category": "beauty",
+   "keyword": "더샘 먼작귀",
+   "news": [
+    {
+     "title": "더샘 THE SAEM on Instagram: \"[더샘 X 먼작귀 예약 판매 공지] ※예약 판매 일정 및 판매처※ 판매처｜더샘 네이버 스토어 (프로필 링크 확인) 예약 일정｜2026년 12월 2일(수) 오전 00시 배송 시점｜2027년 1월 말 이후 순차 배송 ※예약 판매 대상 품목※ 먼작귀 에 - Howl.Link",
+     "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE0tMVMxZm8xY2pXalNqcXNsMjhEdExWMmc2OFBfenlHZFFCS2tVV3ZQM0dfWDJrN21QN2FN?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "시크(SEEC) 하이체어 '씨티'",
+   "name_zh": "Seec 高腳椅 'City'",
+   "brand": "Seec",
+   "why_zh": "育兒用品初回物量售完，開始第二次預約販售",
+   "category": "kids",
+   "keyword": "시크 하이체어",
+   "news": [
+    {
+     "title": "시크(SEEC), 하이체어 ‘씨티’ 초도 물량 이어 1차 예약판매까지 완판… 2차 예약판매 돌입 - 베이비뉴스",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zdy1EWWUxZ3g3NkFnMTloLVlRSnhweVpaX2xFNWY2a1NyMDE4MXBLNHNlNTFXQ3piMWkxRXAweWNhOGNrTTNYcHA5SVU0dllMckVES2k5UUV0R005NVF0dnNXWVN4MTFOOG1oaQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name_ko": "초저가 붕어빵",
+   "name_zh": "超低價鯛魚燒",
+   "brand": "Various",
+   "why_zh": "1個售價為正常價格四分之一，SNS口碑傳播成為美食聖地",
+   "category": "food",
+   "keyword": "초저가 붕어빵",
+   "news": [
+    {
+     "title": "\"1개 살 돈으로 4개 산다\" 입소문에 북새통…초저가 붕어빵 성지 어디[지금사는방식] - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zb1dpdkhYd29DaVhYWDBFZzA2Q3V2UFljaHZ1RVZhNll6VVhPLU5BUzBUMlN4T3MzbkRZdzFDaTZRaTRFSWtZVWF3M0c0UVZQUExaM2kxVEVOanZ3bmJERw?oc=5"
+    },
+    {
+     "title": "\"4분의 1 가격\" SNS 입소문에 전국서 우르르…초저가 붕어빵 성지 어디[지금사는방식] - 아시아경제",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHMHA2SkF4OEhaZWNBZ1JZclUteFlKeGxHMDYxQlpEd3EwR3R4R2UwalVfQlI3dTdpLWZVUUw1R0lSVEhvNG9Gd0htODVoeXNvNmM2ZVZuRmFPQ1pSc3NEWDV5Tml0YlQ1R2hBU3QzUllyN1RW?oc=5"
     }
    ]
   }
